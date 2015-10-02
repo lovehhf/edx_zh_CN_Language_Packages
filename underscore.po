@@ -1,0 +1,1813 @@
+# edX translation file
+# Copyright (C) 2015 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# Bill <power_free@126.com>, 2015
+# Changyue Wang <peterwang.dut@gmail.com>, 2015
+# CharlotteDing <kikyoru@hotmail.com>, 2015
+# jsgang <jsgang9@gmail.com>, 2014-2015
+# Lionel Chen <chenlinchuan@me.com>, 2014
+# LIU NIAN <lauraqq@gmail.com>, 2015
+# Rom, 2015
+# louyihua <supermouselyh@hotmail.com>, 2014-2015
+# viztor <viztor@outlook.com>, 2015
+# 张逸涵 <jeanzhang970128@gmail.com>, 2014
+# 成羽丰 <onetwogoo@gmail.com>, 2015
+# 汤和果 <hgtang93@163.com>, 2015
+# 胡超威 <chadennishu@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2015-09-21 14:29+0000\n"
+"PO-Revision-Date: 2015-09-22 15:14+0000\n"
+"Last-Translator: louyihua <supermouselyh@hotmail.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/open-edx/edx-platform/language/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/templates/js/add-xblock-component-menu-problem.underscore
+#: cms/templates/js/add-xblock-component-menu.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/course_info_update.underscore
+#: cms/templates/js/edit-textbook.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/section-name-edit.underscore
+#: cms/templates/js/signatory-actions.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: common/static/common/templates/discussion/new-post.underscore
+#: common/static/common/templates/discussion/response-comment-edit.underscore
+#: common/static/common/templates/discussion/thread-edit.underscore
+#: common/static/common/templates/discussion/thread-response-edit.underscore
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Cancel"
+msgstr "取消"
+
+#: cms/templates/js/asset-library.underscore
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Type"
+msgstr "类型"
+
+#: cms/templates/js/asset-library.underscore
+#: cms/templates/js/basic-modal.underscore
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
+msgid "Actions"
+msgstr "操作"
+
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/content-group-details.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-details.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: common/static/common/templates/discussion/forum-action-edit.underscore
+msgid "Edit"
+msgstr "编辑"
+
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-details.underscore
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-details.underscore
+#: cms/templates/js/content-group-details.underscore
+#: cms/templates/js/content-group-details.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course-outline.underscore
+#: cms/templates/js/course_grade_policy.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-details.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/show-textbook.underscore
+#: cms/templates/js/signatory-editor.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: cms/templates/js/xblock-outline.underscore
+#: common/static/common/templates/discussion/forum-action-delete.underscore
+msgid "Delete"
+msgstr "删除"
+
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Description"
+msgstr "描述"
+
+#: cms/templates/js/certificate-editor.underscore
+#: cms/templates/js/content-group-editor.underscore
+#: cms/templates/js/course_info_handouts.underscore
+#: cms/templates/js/edit-textbook.underscore
+#: cms/templates/js/group-configuration-editor.underscore
+#: cms/templates/js/section-name-edit.underscore
+#: cms/templates/js/signatory-actions.underscore
+#: cms/templates/js/xblock-string-field-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-course-wide.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Save"
+msgstr "保存"
+
+#: cms/templates/js/course-outline.underscore
+#: lms/templates/ccx/schedule.underscore
+msgid "Due Date"
+msgstr "截止日期"
+
+#: cms/templates/js/paging-header.underscore
+#: common/static/common/templates/components/paging-footer.underscore
+#: common/static/common/templates/discussion/pagination.underscore
+msgid "Previous"
+msgstr "上一个"
+
+#: cms/templates/js/paging-header.underscore
+#: common/static/common/templates/components/paging-footer.underscore
+#: common/static/common/templates/discussion/pagination.underscore
+msgid "Next"
+msgstr "下一个"
+
+#: cms/templates/js/previous-video-upload-list.underscore
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "Status"
+msgstr "状态"
+
+#: cms/templates/js/signatory-details.underscore
+#: cms/templates/js/signatory-editor.underscore
+#: common/static/common/templates/discussion/new-post.underscore
+#: common/static/common/templates/discussion/thread-edit.underscore
+msgid "Title"
+msgstr "标题"
+
+#: cms/templates/js/video/metadata-translations-item.underscore
+#: lms/djangoapps/teams/static/teams/templates/edit-team-member.underscore
+msgid "Remove"
+msgstr "删除"
+
+#: common/static/common/templates/image-modal.underscore
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: common/static/common/templates/image-modal.underscore
+msgid "Large"
+msgstr "大"
+
+#: common/static/common/templates/image-modal.underscore
+#: common/static/common/templates/discussion/forum-action-close.underscore
+#: common/static/common/templates/discussion/forum-action-close.underscore
+msgid "Close"
+msgstr "关闭"
+
+#: common/static/common/templates/image-modal.underscore
+msgid "Zoom In"
+msgstr "放大"
+
+#: common/static/common/templates/image-modal.underscore
+msgid "Zoom Out"
+msgstr "缩小"
+
+#: common/static/common/templates/components/paging-footer.underscore
+msgid "Page number"
+msgstr "页码"
+
+#: common/static/common/templates/components/paging-footer.underscore
+msgid "Enter the page number you'd like to quickly navigate to."
+msgstr "输入您需要快速导航的页码."
+
+#: common/static/common/templates/components/paging-header.underscore
+msgid "Sorted by"
+msgstr "排序字段"
+
+#: common/static/common/templates/components/search-field.underscore
+msgid "Clear search"
+msgstr "清空搜索结果"
+
+#: common/static/common/templates/components/search-field.underscore
+#: common/static/common/templates/components/search-field.underscore
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
+msgid "Search"
+msgstr "搜索"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "DISCUSSION HOME:"
+msgstr "讨论区主页："
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+#: lms/templates/commerce/provider.underscore
+#: lms/templates/commerce/provider.underscore
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/discovery/course_card.underscore
+msgid "gettext("
+msgstr "gettext("
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Find discussions"
+msgstr "搜索讨论帖"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Focus in on specific topics"
+msgstr "关注特定话题"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Search for specific posts"
+msgstr "搜索指定帖子"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Sort by date, vote, or comments"
+msgstr "按照日期，投票或评论排序"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Engage with posts"
+msgstr "参与讨论"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Upvote posts and good responses"
+msgstr "投票支持优秀讨论帖及回复贴"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Report Forum Misuse"
+msgstr "举报不恰当论坛讨论帖"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Follow posts for updates"
+msgstr "关注讨论帖更新"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Receive updates"
+msgstr "接收更新"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid "Toggle Notifications Setting"
+msgstr "切换通知设置"
+
+#: common/static/common/templates/discussion/discussion-home.underscore
+msgid ""
+"Check this box to receive an email digest once a day notifying you about "
+"new, unread activity from posts you are following."
+msgstr "勾选此选项，每天接收一封提醒邮件，以摘要方式通知你所关注的讨论帖的更新情况。"
+
+#: common/static/common/templates/discussion/forum-action-answer.underscore
+#: common/static/common/templates/discussion/forum-action-answer.underscore
+msgid "Mark as Answer"
+msgstr "作为答案标记"
+
+#: common/static/common/templates/discussion/forum-action-answer.underscore
+msgid "Unmark as Answer"
+msgstr "取消标记为问题"
+
+#: common/static/common/templates/discussion/forum-action-close.underscore
+msgid "Open"
+msgstr "打开"
+
+#: common/static/common/templates/discussion/forum-action-endorse.underscore
+#: common/static/common/templates/discussion/forum-action-endorse.underscore
+msgid "Endorse"
+msgstr "赞同"
+
+#: common/static/common/templates/discussion/forum-action-endorse.underscore
+msgid "Unendorse"
+msgstr "不赞同"
+
+#: common/static/common/templates/discussion/forum-action-follow.underscore
+#: common/static/common/templates/discussion/forum-action-follow.underscore
+msgid "Follow"
+msgstr "关注"
+
+#: common/static/common/templates/discussion/forum-action-follow.underscore
+msgid "Unfollow"
+msgstr "取消关注"
+
+#: common/static/common/templates/discussion/forum-action-pin.underscore
+#: common/static/common/templates/discussion/forum-action-pin.underscore
+msgid "Pin"
+msgstr "处理"
+
+#: common/static/common/templates/discussion/forum-action-pin.underscore
+msgid "Unpin"
+msgstr "不做处理"
+
+#: common/static/common/templates/discussion/forum-action-report.underscore
+msgid "Report abuse"
+msgstr "报告滥用"
+
+#: common/static/common/templates/discussion/forum-action-report.underscore
+msgid "Report"
+msgstr "报告"
+
+#: common/static/common/templates/discussion/forum-action-report.underscore
+msgid "Unreport"
+msgstr "取消报告"
+
+#: common/static/common/templates/discussion/forum-action-vote.underscore
+msgid "Vote for this post,"
+msgstr "为该文章投票"
+
+#: common/static/common/templates/discussion/forum-actions.underscore
+#: lms/templates/discovery/facet.underscore
+#: lms/templates/edxnotes/note-item.underscore
+msgid "More"
+msgstr "更多"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "Visible To:"
+msgstr "公开可见对"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "All Groups"
+msgstr "所有分组"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid ""
+"Discussion admins, moderators, and TAs can make their posts visible to all "
+"students or specify a single cohort."
+msgstr "讨论区管理员、版主以及助教可以将它们的帖子设置为对所有学生可见或者仅对某个群组可见。"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "Title:"
+msgstr "标题"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "Add a clear and descriptive title to encourage participation."
+msgstr "添加一个清晰并且具有描述性的标题来鼓励参与"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "Enter your question or comment"
+msgstr "请输入您的问题或者评论"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "follow this post"
+msgstr "关注这个帖子"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "post anonymously"
+msgstr "匿名发帖"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "post anonymously to classmates"
+msgstr "向同学匿名发帖"
+
+#: common/static/common/templates/discussion/new-post.underscore
+msgid "Add Post"
+msgstr "新增帖子"
+
+#: common/static/common/templates/discussion/pagination.underscore
+#: common/static/common/templates/discussion/pagination.underscore
+msgid "…"
+msgstr "…"
+
+#: common/static/common/templates/discussion/post-user-display.underscore
+msgid "Community TA"
+msgstr "社区助教"
+
+#: common/static/common/templates/discussion/post-user-display.underscore
+msgid "Staff"
+msgstr "教员"
+
+#: common/static/common/templates/discussion/post-user-display.underscore
+#: common/static/common/templates/discussion/profile-thread.underscore
+msgid "anonymous"
+msgstr "匿名"
+
+#: common/static/common/templates/discussion/profile-thread.underscore
+#: common/static/common/templates/discussion/thread.underscore
+msgid "This thread is closed."
+msgstr "这个帖子已经关闭。"
+
+#: common/static/common/templates/discussion/profile-thread.underscore
+msgid "View discussion"
+msgstr "查看讨论"
+
+#: common/static/common/templates/discussion/response-comment-edit.underscore
+msgid "Editing comment"
+msgstr "编辑注释"
+
+#: common/static/common/templates/discussion/response-comment-edit.underscore
+msgid "Update comment"
+msgstr "更新注释"
+
+#: common/static/common/templates/discussion/response-comment-show.underscore
+msgid "posted %(time_ago)s by %(author)s"
+msgstr "%(time_ago)s之前由%(author)s提交"
+
+#: common/static/common/templates/discussion/response-comment-show.underscore
+#: common/static/common/templates/discussion/thread-response-show.underscore
+#: common/static/common/templates/discussion/thread-show.underscore
+msgid "Reported"
+msgstr "已报告"
+
+#: common/static/common/templates/discussion/thread-edit.underscore
+msgid "Editing post"
+msgstr "编辑讨论帖"
+
+#: common/static/common/templates/discussion/thread-edit.underscore
+msgid "Edit post title"
+msgstr "编辑帖子标题"
+
+#: common/static/common/templates/discussion/thread-edit.underscore
+msgid "Update post"
+msgstr "更新讨论帖"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "discussion"
+msgstr "讨论"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "answered question"
+msgstr "问题答案"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "unanswered question"
+msgstr "待回复的问题"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+#: common/static/common/templates/discussion/thread-show.underscore
+msgid "Pinned"
+msgstr "已固定"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "Following"
+msgstr "关注"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "By: Staff"
+msgstr "由：教员"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "By: Community TA"
+msgstr "以：社区助教"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+#: common/static/common/templates/discussion/thread-list-item.underscore
+#: common/static/common/templates/discussion/thread-response-show.underscore
+msgid "fmt"
+msgstr ""
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid ""
+"%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s "
+"unread comments)%(span_close)s"
+msgstr ""
+"%(comments_count)s %(span_sr_open)s评论 (%(unread_comments_count)s "
+"未读评论)%(span_close)s"
+
+#: common/static/common/templates/discussion/thread-list-item.underscore
+msgid "%(comments_count)s %(span_sr_open)scomments %(span_close)s"
+msgstr "%(comments_count)s %(span_sr_open)s评论 %(span_close)s"
+
+#: common/static/common/templates/discussion/thread-response-edit.underscore
+msgid "Editing response"
+msgstr "编辑回复"
+
+#: common/static/common/templates/discussion/thread-response-edit.underscore
+msgid "Update response"
+msgstr "更新回复"
+
+#: common/static/common/templates/discussion/thread-response-show.underscore
+msgid "marked as answer %(time_ago)s by %(user)s"
+msgstr "%(time_ago)s 前已被%(user)s标记为答案"
+
+#: common/static/common/templates/discussion/thread-response-show.underscore
+msgid "marked as answer %(time_ago)s"
+msgstr "%(time_ago)s之前，已标记为答案 "
+
+#: common/static/common/templates/discussion/thread-response-show.underscore
+msgid "endorsed %(time_ago)s by %(user)s"
+msgstr "允许%(user)s在%(time_ago)s 之前"
+
+#: common/static/common/templates/discussion/thread-response-show.underscore
+msgid "endorsed %(time_ago)s"
+msgstr "允许 %(time_ago)s之前"
+
+#: common/static/common/templates/discussion/thread-response.underscore
+msgid "fmts"
+msgstr ""
+
+#: common/static/common/templates/discussion/thread-response.underscore
+#: common/static/common/templates/discussion/thread-response.underscore
+msgid "Add a comment"
+msgstr "添加评论"
+
+#: common/static/common/templates/discussion/thread-response.underscore
+#: common/static/common/templates/discussion/thread.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Submit"
+msgstr "提交"
+
+#: common/static/common/templates/discussion/thread-show.underscore
+msgid "This post is visible only to %(group_name)s."
+msgstr "此帖只对%(group_name)s组可见。"
+
+#: common/static/common/templates/discussion/thread-show.underscore
+msgid "This post is visible to everyone."
+msgstr "此帖对所有人可见。"
+
+#: common/static/common/templates/discussion/thread-show.underscore
+msgid "%(post_type)s posted %(time_ago)s by %(author)s"
+msgstr "由%(author)s发表于%(time_ago)s的%(post_type)s"
+
+#: common/static/common/templates/discussion/thread-show.underscore
+msgid "Closed"
+msgstr "已关闭"
+
+#: common/static/common/templates/discussion/thread-show.underscore
+msgid "Related to: %(courseware_title_linked)s"
+msgstr "与%(courseware_title_linked)s相关"
+
+#: common/static/common/templates/discussion/thread-type.underscore
+#: common/static/common/templates/discussion/thread-type.underscore
+msgid "Post type:"
+msgstr "帖子类型"
+
+#: common/static/common/templates/discussion/thread-type.underscore
+msgid "Question"
+msgstr "问题"
+
+#: common/static/common/templates/discussion/thread-type.underscore
+msgid "Discussion"
+msgstr "讨论"
+
+#: common/static/common/templates/discussion/thread-type.underscore
+msgid ""
+"Questions raise issues that need answers. Discussions share ideas and start "
+"conversations."
+msgstr "“问题”提出需要答案的议题，“讨论”分享想法并开始会话。"
+
+#: common/static/common/templates/discussion/thread.underscore
+msgid "Add a Response"
+msgstr "添加回复"
+
+#: common/static/common/templates/discussion/thread.underscore
+msgid "Post a response:"
+msgstr "回复："
+
+#: common/static/common/templates/discussion/thread.underscore
+msgid "Expand discussion"
+msgstr "展开讨论"
+
+#: common/static/common/templates/discussion/thread.underscore
+msgid "Collapse discussion"
+msgstr "折叠讨论"
+
+#: common/static/common/templates/discussion/topic.underscore
+msgid "Topic Area:"
+msgstr "主题范围"
+
+#: common/static/common/templates/discussion/topic.underscore
+msgid "Discussion topics; current selection is:"
+msgstr "讨论主题，当前的选择是："
+
+#: common/static/common/templates/discussion/topic.underscore
+#: common/static/common/templates/discussion/topic.underscore
+msgid "Filter topics"
+msgstr "过滤主题"
+
+#: common/static/common/templates/discussion/topic.underscore
+msgid "Add your post to a relevant topic to help others find it."
+msgstr "把你的帖子发布到相应的主题里帮助别人快速找到他。"
+
+#: common/static/common/templates/discussion/user-profile.underscore
+msgid "Active Threads"
+msgstr "活动的帖子"
+
+#: lms/djangoapps/support/static/support/templates/certificates.underscore
+msgid "username or email"
+msgstr "用户名称/电子邮件"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "No results"
+msgstr "没有结果"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Course Key"
+msgstr "课程标识"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Download URL"
+msgstr "下载 URL"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Grade"
+msgstr "成绩"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Last Updated"
+msgstr "最近更新"
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Download the user's certificate"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Not available"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Regenerate"
+msgstr ""
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Regenerate the user's certificate"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid "Your team could not be created."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid "Your team could not be updated."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid ""
+"Enter information to describe your team. You cannot change these details "
+"after you create the team."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid "Optional Characteristics"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid ""
+"Help other learners decide whether to join your team by specifying some "
+"characteristics for your team. Choose carefully, because fewer people might "
+"be interested in joining your team if it seems too restrictive."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid "Create team."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid "Update team."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid "Cancel team creating."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/edit-team.underscore
+msgid "Cancel team updating."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
+msgid "Instructor tools"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
+msgid "Delete Team"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/instructor-tools.underscore
+msgid "Edit Membership"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-actions.underscore
+msgid "Are you having trouble finding a team to join?"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore
+msgid "Join Team"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore
+msgid "Edit Team"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "New Post"
+msgstr "新讨论帖"
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team Details"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "You are a member of this team."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team member profiles"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Team capacity"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "The country that team members primarily identify with."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "country"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid ""
+"The language that team members primarily use to communicate with each other."
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "language"
+msgstr ""
+
+#: lms/djangoapps/teams/static/teams/templates/team-profile.underscore
+msgid "Leave Team"
+msgstr ""
+
+#: lms/static/js/fixtures/donation.underscore
+#: lms/templates/dashboard/donation.underscore
+msgid "Donate"
+msgstr "捐助"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Expand All"
+msgstr ""
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Collapse All"
+msgstr ""
+
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+msgid "Unit"
+msgstr "单元"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Start Date"
+msgstr "开始日期"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "remove all"
+msgstr "全部移除"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "toggle chapter"
+msgstr ""
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Section"
+msgstr "章"
+
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+msgid "Click to change"
+msgstr ""
+
+#: lms/templates/ccx/schedule.underscore lms/templates/ccx/schedule.underscore
+#: lms/templates/ccx/schedule.underscore
+msgid "remove"
+msgstr "移除"
+
+#: lms/templates/ccx/schedule.underscore
+msgid "toggle subsection"
+msgstr ""
+
+#: lms/templates/ccx/schedule.underscore
+msgid "Subsection"
+msgstr "节"
+
+#: lms/templates/commerce/provider.underscore
+msgid "<img src='%s' alt='%s'></image>"
+msgstr ""
+
+#: lms/templates/commerce/provider.underscore
+msgid ""
+"<button data-provider=\"%s\" data-course-key=\"%s\" data-username=\"%s\" "
+"class=\"complete-course\" onClick=completeOrder(this)>%s</button>"
+msgstr ""
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"Please print this page for your records; it serves as your receipt. You will"
+" also receive an email with the same information."
+msgstr "请打印此页留作纪录，这就是你的收据；你也会收到一封有相同信息的电子邮件。"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Order No."
+msgstr "订单号："
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Date"
+msgstr "日期"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Amount"
+msgstr "金额"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Total"
+msgstr "总计"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Please Note"
+msgstr "请注意"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Crossed out items have been refunded."
+msgstr "划掉的项目已退款。"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Billed to"
+msgstr "账单寄给"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "No receipt available"
+msgstr "没有可用的收据。"
+
+#: lms/templates/commerce/receipt.underscore
+msgid "Go to Dashboard"
+msgstr "前往课程面板"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"If you don't verify your identity now, you can still explore your course "
+"from your dashboard. You will receive periodic reminders from "
+"%(platformName)s to verify your identity."
+msgstr "如果你现在不验证你的身份，你仍可以通过课程面板浏览课程。但你会定期从%(platformName)s收到身份验证提醒。"
+
+#: lms/templates/commerce/receipt.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Want to confirm your identity later?"
+msgstr "希望以后再验证你的身份？"
+
+#: lms/templates/commerce/receipt.underscore
+msgid "Verify Now"
+msgstr "现在认证"
+
+#: lms/templates/courseware/proctored-exam-controls.underscore
+msgid "Mark Exam As Completed"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "timed"
+msgstr ""
+
+#: lms/templates/courseware/proctored-exam-status.underscore
+msgid "End My Exam"
+msgstr ""
+
+#: lms/templates/discovery/course_card.underscore
+msgid "LEARN MORE"
+msgstr "学习更多"
+
+#: lms/templates/discovery/course_card.underscore
+msgid "Starts"
+msgstr ""
+
+#: lms/templates/discovery/facet.underscore
+#: lms/templates/edxnotes/note-item.underscore
+msgid "Less"
+msgstr "收起"
+
+#: lms/templates/discovery/filter_bar.underscore
+msgid "Clear All"
+msgstr ""
+
+#: lms/templates/edxnotes/note-item.underscore
+msgid "Highlighted text"
+msgstr "高亮文本"
+
+#: lms/templates/edxnotes/note-item.underscore
+msgid "Note"
+msgstr "笔记"
+
+#: lms/templates/edxnotes/note-item.underscore
+msgid "You commented..."
+msgstr "你评论的…"
+
+#: lms/templates/edxnotes/note-item.underscore
+msgid "Noted in:"
+msgstr "标记于："
+
+#: lms/templates/edxnotes/note-item.underscore
+msgid "Last Edited:"
+msgstr "最后修改："
+
+#: lms/templates/edxnotes/note-item.underscore
+msgid "Tags:"
+msgstr "标签："
+
+#: lms/templates/edxnotes/tab-item.underscore
+msgid "name"
+msgstr "名称"
+
+#: lms/templates/edxnotes/tab-item.underscore
+msgid "Clear search results"
+msgstr "清空搜索结果"
+
+#: lms/templates/fields/field_dropdown.underscore
+#: lms/templates/fields/field_textarea.underscore
+msgid "Click to edit"
+msgstr "点击以编辑"
+
+#: lms/templates/fields/field_text.underscore
+msgid "title"
+msgstr "title"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-course-wide.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "Specify whether discussion topics are divided by cohort"
+msgstr "指定是否由群组对讨论主题进行划分。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-course-wide.underscore
+msgid "Course-Wide Discussion Topics"
+msgstr "全课程范围内的讨论主题"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-course-wide.underscore
+msgid ""
+"Select the course-wide discussion topics that you want to divide by cohort."
+msgstr "选择您希望由群组划分的全课程范围内的讨论主题。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
+msgid "Content-Specific Discussion Topics"
+msgstr "特定于内容的讨论主题"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
+msgid ""
+"Specify whether content-specific discussion topics are divided by cohort."
+msgstr "指定是否要由群组对特定于内容的讨论主题进行划分。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
+msgid "Always cohort content-specific discussion topics"
+msgstr "总是群组化特定于内容的讨论主题"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
+msgid "Cohort selected content-specific discussion topics"
+msgstr "群组化所选的特定于内容的讨论主题"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
+msgid "No content-specific discussion topics exist."
+msgstr "不存在特定于内容的讨论主题。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-subcategory.underscore
+msgid "Cohorted"
+msgstr "已群组化"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Selected tab"
+msgstr "选中的标签"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Manage Students"
+msgstr "管理学生"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Settings"
+msgstr "设置"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Add students to this cohort"
+msgstr "将学生加入到该群组中"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"Note: Students can be in only one cohort. Adding students to this group "
+"overrides any previous group assignment."
+msgstr "注意：每个学生只能加入一个群组，将学生加入该组会覆盖之前对该学生所有的群组分配。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"Enter email addresses and/or usernames, separated by new lines or commas, "
+"for the students you want to add. *"
+msgstr "请输入要添加的学生的电子地址和／或用户名，每行一个或用逗号隔开。*"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "(Required Field)"
+msgstr "(必填字段)"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
+msgstr "例如：johndoe@example.com, JaneDoe, joeydoe@example.com"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid ""
+"You will not receive notification for emails that bounce, so double-check "
+"your spelling."
+msgstr "您不会收到邮件未送达的通知，因此请仔细检查以确保拼写无误。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
+msgid "Add Students"
+msgstr "添加学生"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Add a New Cohort"
+msgstr "添加新群组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Enter the name of the cohort"
+msgstr "请输入群组的名字"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Cohort Name"
+msgstr "群组名"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Cohort Assignment Method"
+msgstr "分配群组的方法"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Automatic"
+msgstr "自动"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Manual"
+msgstr "手动"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid ""
+"There must be one cohort to which students can automatically be assigned."
+msgstr "必须存在一个可以将学生自动分配进去的群组。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Associated Content Group"
+msgstr "已关联的内容组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "No Content Group"
+msgstr "没有内容组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Select a Content Group"
+msgstr "选择一个内容组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Choose a content group to associate"
+msgstr "选择一个内容组来关联"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Not selected"
+msgstr "未选择"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Deleted Content Group"
+msgstr "删除内容组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
+msgid "Create a content group"
+msgstr "创建一个内容组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+msgid "(contains %(student_count)s student)"
+msgid_plural "(contains %(student_count)s students)"
+msgstr[0] "(包含 %(student_count)s名学生)"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+msgid ""
+"Students are added to this cohort only when you provide their email "
+"addresses or usernames on this page."
+msgstr "只有当你在本页面提供了学生们的邮件地址或用户名，他们才会被添加到该群组中。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+msgid "What does this mean?"
+msgstr "这是什么意思？"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
+msgid "Students are added to this cohort automatically."
+msgstr "学生们已被自动添加到该群组中。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
+msgid "Select a cohort"
+msgstr "选择一个群组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
+msgid "%(cohort_name)s (%(user_count)s)"
+msgstr "%(cohort_name)s (%(user_count)s)"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "Enable Cohorts"
+msgstr "启用群组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "Select a cohort to manage"
+msgstr "选择要管理的群组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "View Cohort"
+msgstr "查看群组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "Add Cohort"
+msgstr "添加群组"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid "Assign students to cohorts by uploading a CSV file"
+msgstr "通过上传一个CSV文件来将学生们分配到群组中。"
+
+#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
+msgid ""
+"To review student cohort assignments or see the results of uploading a CSV "
+"file, download course profile information or cohort results on "
+"%(link_start)s the Data Download page. %(link_end)s"
+msgstr ""
+"要检查为学生分配群组的结果，或者查看上传CSV文件的结果，请通过%(link_start)s数据下载页面%(link_end)s下载课程档案信息或群组分配结果。"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
+msgid "Code"
+msgstr "代码"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
+msgid "Used"
+msgstr "已使用"
+
+#: lms/templates/instructor/instructor_dashboard_2/enrollment-code-lookup-links.underscore
+msgid "Valid"
+msgstr "有效"
+
+#: lms/templates/search/course_search_item.underscore
+#: lms/templates/search/dashboard_search_item.underscore
+msgid "View"
+msgstr "视图"
+
+#: lms/templates/search/course_search_results.underscore
+#: lms/templates/search/dashboard_search_results.underscore
+msgid "Search Results"
+msgstr "搜索结果"
+
+#: lms/templates/search/course_search_results.underscore
+#: lms/templates/search/dashboard_search_results.underscore
+msgid "Load next %(num_items)s result"
+msgid_plural "Load next %(num_items)s results"
+msgstr[0] "加载下%(num_items)s项结果"
+
+#: lms/templates/search/course_search_results.underscore
+#: lms/templates/search/dashboard_search_results.underscore
+msgid "Sorry, no results were found."
+msgstr "对不起，未找到搜索结果。"
+
+#: lms/templates/search/dashboard_search_results.underscore
+msgid "Back to Dashboard"
+msgstr "回到课程面板"
+
+#: lms/templates/search/search_error.underscore
+msgid "There was an error, try searching again."
+msgstr "出错了，请尝试重新搜素。"
+
+#: lms/templates/search/search_loading.underscore
+#: lms/templates/student_account/account_settings.underscore
+msgid "Loading"
+msgstr "正在加载"
+
+#: lms/templates/student_account/account.underscore
+msgid "New Address"
+msgstr "新地址"
+
+#: lms/templates/student_account/account.underscore
+msgid "Password"
+msgstr "密码"
+
+#: lms/templates/student_account/account.underscore
+msgid "Change My Email Address"
+msgstr "更改我的电子邮件地址"
+
+#: lms/templates/student_account/account.underscore
+msgid "Reset Password"
+msgstr "重设密码"
+
+#: lms/templates/student_account/account_settings.underscore
+msgid "Account Settings"
+msgstr "账户设置"
+
+#: lms/templates/student_account/account_settings.underscore
+msgid ""
+"These settings include basic information about your account. You can also "
+"specify additional information and see your linked social accounts on this "
+"page."
+msgstr "这些设置包含了关于你账户的基本信息，你也可以在本页中给出额外的信息并查看已连接的社交网络账户。"
+
+#: lms/templates/student_account/account_settings.underscore
+msgid "section.title"
+msgstr "section.title"
+
+#: lms/templates/student_account/account_settings.underscore
+#: lms/templates/student_profile/learner_profile.underscore
+msgid "An error occurred. Please reload the page."
+msgstr "发生了一个未知错误，请重新加载该页。"
+
+#: lms/templates/student_account/form_field.underscore
+msgid "Forgot password?"
+msgstr "忘记密码？"
+
+#: lms/templates/student_account/hinted_login.underscore
+#: lms/templates/student_account/login.underscore
+#: lms/templates/student_account/login.underscore
+#: lms/templates/student_account/register.underscore
+msgid "Sign in"
+msgstr "登录"
+
+#: lms/templates/student_account/hinted_login.underscore
+msgid "Would you like to sign in using your %(providerName)s credentials?"
+msgstr ""
+
+#: lms/templates/student_account/hinted_login.underscore
+msgid "Sign in using %(providerName)s"
+msgstr ""
+
+#: lms/templates/student_account/hinted_login.underscore
+#: lms/templates/student_account/institution_login.underscore
+#: lms/templates/student_account/institution_register.underscore
+msgid "or"
+msgstr "或者"
+
+#: lms/templates/student_account/hinted_login.underscore
+msgid "Show me other ways to sign in or register"
+msgstr ""
+
+#: lms/templates/student_account/institution_login.underscore
+msgid "Sign in with Institution/Campus Credentials"
+msgstr ""
+
+#: lms/templates/student_account/institution_login.underscore
+#: lms/templates/student_account/institution_register.underscore
+msgid "Choose your institution from the list below:"
+msgstr ""
+
+#: lms/templates/student_account/institution_login.underscore
+msgid "Back to sign in"
+msgstr "返回登陆"
+
+#: lms/templates/student_account/institution_register.underscore
+msgid "Register with Institution/Campus Credentials"
+msgstr ""
+
+#: lms/templates/student_account/institution_register.underscore
+msgid "Register through edX"
+msgstr "通过edX注册"
+
+#: lms/templates/student_account/login.underscore
+msgid ""
+"You have successfully signed into %(currentProvider)s, but your "
+"%(currentProvider)s account does not have a linked %(platformName)s account."
+" To link your accounts, sign in now using your %(platformName)s password."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid "Password Reset Email Sent"
+msgstr "密码重置邮件已发送"
+
+#: lms/templates/student_account/login.underscore
+msgid ""
+"We've sent instructions for resetting your password to the email address you"
+" provided."
+msgstr "我们已经向你提供的电子邮件地址发送了重置密码的说明。"
+
+#: lms/templates/student_account/login.underscore
+msgid "We couldn't sign you in."
+msgstr "我们无法让您登录。"
+
+#: lms/templates/student_account/login.underscore
+msgid "An error occurred when signing you in to %(platformName)s."
+msgstr "你在%(platformName)s注册时发生错误了。"
+
+#: lms/templates/student_account/login.underscore
+msgid ""
+"Sign in here using your email address and password, or use one of the "
+"providers listed below."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid "Sign in here using your email address and password."
+msgstr "在这里使用你的E-mail和密码登陆。"
+
+#: lms/templates/student_account/login.underscore
+msgid "If you do not yet have an account, use the button below to register."
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid "or sign in with"
+msgstr "或者通过以下方式登录"
+
+#: lms/templates/student_account/login.underscore
+msgid "Sign in with %(providerName)s"
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+#: lms/templates/student_account/register.underscore
+msgid "Use my institution/campus credentials"
+msgstr ""
+
+#: lms/templates/student_account/login.underscore
+msgid "New to %(platformName)s?"
+msgstr "刚刚接触%(platformName)s？"
+
+#: lms/templates/student_account/login.underscore
+msgid "Create an account"
+msgstr "创建账户"
+
+#: lms/templates/student_account/password_reset.underscore
+#: lms/templates/student_account/register.underscore
+msgid "An error occurred."
+msgstr "发生了一个错误。"
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "Password assistance"
+msgstr "密码取回帮助"
+
+#: lms/templates/student_account/password_reset.underscore
+msgid ""
+"Please enter your email address below and we will send you instructions for "
+"setting a new password."
+msgstr "请在下面输入你的电子邮件地址以便我们给你发送如何设置新密码的说明。"
+
+#: lms/templates/student_account/password_reset.underscore
+msgid "Reset my password"
+msgstr "重设我的密码"
+
+#: lms/templates/student_account/register.underscore
+msgid "We couldn't create your account."
+msgstr "我们无法创建你的账户。"
+
+#: lms/templates/student_account/register.underscore
+msgid "You've successfully signed into %(currentProvider)s."
+msgstr "您已成功登录%(currentProvider)s。"
+
+#: lms/templates/student_account/register.underscore
+msgid ""
+"We just need a little more information before you start learning with "
+"%(platformName)s."
+msgstr "你只需再多提供一点信息就可以开始在%(platformName)s学习了。"
+
+#: lms/templates/student_account/register.underscore
+msgid "Create an account using"
+msgstr "使用以下方式创建账户"
+
+#: lms/templates/student_account/register.underscore
+msgid "Create account using %(providerName)s."
+msgstr ""
+
+#: lms/templates/student_account/register.underscore
+msgid "or create a new one here"
+msgstr "或在此创建一个新账户"
+
+#: lms/templates/student_account/register.underscore
+msgid "Create a new account"
+msgstr "创建新账户"
+
+#: lms/templates/student_account/register.underscore
+msgid "Create your account"
+msgstr "创建你的账户"
+
+#: lms/templates/student_account/register.underscore
+msgid "Required field"
+msgstr "必填字段"
+
+#: lms/templates/student_account/register.underscore
+msgid "Already have an account?"
+msgstr "已经有账户了？"
+
+#: lms/templates/student_profile/learner_profile.underscore
+msgid "You are currently sharing a limited profile."
+msgstr "你正在共享一个受限的配置。"
+
+#: lms/templates/student_profile/learner_profile.underscore
+msgid "This edX learner is currently sharing a limited profile."
+msgstr "该 edX 学习者正在共享一个受限的配置。"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "Congratulations! You are now verified on %(platformName)s!"
+msgstr "恭喜！你已经在%(platformName)s上认证成功！"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "You are now enrolled as a verified student for:"
+msgstr "你现在正以已认证学生的身份选修："
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "A list of courses you have just enrolled in as a verified student"
+msgstr "你以已认证学生的身份选修的课程列表"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "Course"
+msgstr "课程"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "Starts: %(start)s"
+msgstr "开始于： %(start)s"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "Explore your course!"
+msgstr "探索你的课程！"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "Go to your Dashboard"
+msgstr "前往你的课程面板"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid "Verified Status"
+msgstr "验证状态"
+
+#: lms/templates/verify_student/enrollment_confirmation_step.underscore
+msgid ""
+"Thank you for submitting your photos. We will review them shortly. You can "
+"now sign up for any %(platformName)s course that offers verified "
+"certificates. Verification is good for one year. After one year, you must "
+"submit photos for verification again."
+msgstr ""
+"感谢你提交照片，我们将于稍后进行审核。你现在就可以注册%(platformName)s上任意提供认证证书的课程。认证只在一年内有效，一年后，你必须要提交照片重新认证。"
+
+#: lms/templates/verify_student/error.underscore
+msgid "Error:"
+msgstr "错误："
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid "What You Need for Verification"
+msgstr "你的验证所需"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Webcam"
+msgstr "摄像头"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid ""
+"You need a computer that has a webcam. When you receive a browser prompt, "
+"make sure that you allow access to the camera."
+msgstr "你需要一个具有网络摄像头的计算机。当你收到浏览器弹窗时，确保你有权限访问那个摄像头。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid "Photo Identification"
+msgstr "照片识别"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid ""
+"You need a driver's license, passport, or other government-issued ID that "
+"has your name and photo."
+msgstr "你需要驾照、护照或者其他由政府签发的带有你姓名和照片的身份证件。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Take Your Photo"
+msgstr "给自己拍照"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid ""
+"When your face is in position, use the camera button %(icon)s below to take "
+"your photo."
+msgstr "当你的脸就位后，请用下方的相机按钮%(icon)s来拍照。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid "To take a successful photo, make sure that:"
+msgstr "为了成功照相，请确保："
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid "Your face is well-lit."
+msgstr "你的面部光照很好。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid "Your entire face fits inside the frame."
+msgstr "你的整张脸都在方框以内。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid "The photo of your face matches the photo on your ID."
+msgstr "你身份证件上的照片与你的面部照片相符。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+msgid ""
+"To use the current photo, select the camera button %(icon)s. To take another"
+" photo, select the retake button %(icon)s."
+msgstr "若使用当前相片，选择相机按钮%(icon)s。若再照一张，选择重写照相按钮%(icon)s。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Frequently Asked Questions"
+msgstr "常见问题"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Why does %(platformName)s need my photo?"
+msgstr "为什么%(platformName)s需要我的照片？"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid ""
+"As part of the verification process, you take a photo of both your face and "
+"a government-issued photo ID. Our authorization service confirms your "
+"identity by comparing the photo you take with the photo on your ID."
+msgstr ""
+"作为认证过程中一部分，你需要拍摄两张照片：一张你的面部照片，以及一张身份证件的照片（该证件须由政府签发且有你的照片）。我们的授权服务将通过对比你拍摄的照片和你身份证件上的照片来确认你的身份。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "What does %(platformName)s do with this photo?"
+msgstr "%(platformName)s用这些照片做什么？"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid ""
+"We use the highest levels of security available to encrypt your photo and "
+"send it to our authorization service for review. Your photo and information "
+"are not saved or visible anywhere on %(platformName)s after the verification"
+" process is complete."
+msgstr ""
+"我们会采用最高级别的安全技术来加密你的照片并发送到我们的授权服务用于审核目的；一旦完成了认证过程，%(platformName)s不会继续保存这些照片和信息。"
+
+#: lms/templates/verify_student/face_photo_step.underscore
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Next: %(nextStepTitle)s"
+msgstr "下一步：%(nextStepTitle)s"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+msgid "Take a Photo of Your ID"
+msgstr "拍摄一张你身份证件的照片"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+msgid ""
+"Use your webcam to take a photo of your ID. We will match this photo with "
+"the photo of your face and the name on your account."
+msgstr "请用摄像头拍摄一张你身份证件的照片，我们将用该照片与你的面部照片及你在账户中填写的姓名进行匹配。"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+msgid ""
+"You need an ID with your name and photo. A driver's license, passport, or "
+"other government-issued IDs are all acceptable."
+msgstr "你需要一份带有你姓名和照片的证件，我们可以接受驾照、护照以及其他由政府签发的身份证件。"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Tips on taking a successful photo"
+msgstr "成功拍摄的小技巧"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+msgid "Ensure that you can see your photo and read your name"
+msgstr "请确保你的照片和名字清晰可见"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+msgid "Make sure your ID is well-lit"
+msgstr "请确保你的身份证件光线充足"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+msgid "Once in position, use the camera button %(icon)s to capture your ID"
+msgstr "一旦你将身份证件摆放妥当，请用相机按钮%(icon)s来拍照"
+
+#: lms/templates/verify_student/id_photo_step.underscore
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Use the retake photo button if you are not pleased with your photo"
+msgstr "如果你对照片不满意，请使用重拍按钮重新拍一张照片"
+
+#: lms/templates/verify_student/image_input.underscore
+msgid "Preview of uploaded image"
+msgstr "预览已上传的图片"
+
+#: lms/templates/verify_student/image_input.underscore
+msgid "Upload an image or capture one with your web or phone camera."
+msgstr "上传照片或通过使用你的网络／手机摄像头拍照上传。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid ""
+"Use your webcam to take a photo of your face. We will match this photo with "
+"the photo on your ID."
+msgstr "请用摄像头拍摄一张你的面部照片，我们将用该照片与你身份证件上的照片进行匹配。"
+
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Make sure your face is well-lit"
+msgstr "请确保你的面部光线充足"
+
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Be sure your entire face is inside the frame"
+msgstr "请确保你的整张脸都在方框以内"
+
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Once in position, use the camera button %(icon)s to capture your photo"
+msgstr "一但你已经就位，请用相机按钮%(icon)s来拍照"
+
+#: lms/templates/verify_student/incourse_reverify.underscore
+msgid "Can we match the photo you took with the one on your ID?"
+msgstr "我们能否将你拍的照片与你身份证件上的照片进行比对？"
+
+#: lms/templates/verify_student/intro_step.underscore
+msgid "Thanks for returning to verify your ID in: %(courseName)s"
+msgstr "感谢你回来为%(courseName)s验证你的身份证件"
+
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"You need to activate your account before you can enroll in courses. Check "
+"your inbox for an activation email. After you complete activation you can "
+"return and refresh this page."
+msgstr "在选课之前你需要先激活你的账户，请检查收件箱中的激活邮件。当你完成激活后，你可以返回并刷新本页面。"
+
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Activate Your Account"
+msgstr "激活你的账户"
+
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid "Check Your Email"
+msgstr "检查你的电子邮件"
+
+#: lms/templates/verify_student/intro_step.underscore
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Photo ID"
+msgstr "有照片的身份证件"
+
+#: lms/templates/verify_student/intro_step.underscore
+msgid ""
+"A driver's license, passport, or other government-issued ID with your name "
+"and photo"
+msgstr "驾照、护照或者其他由政府签发的带有你姓名和照片的身份证件"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid "You are enrolling in: %(courseName)s"
+msgstr "你即将选修：%(courseName)s"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid "You are upgrading your enrollment for: %(courseName)s"
+msgstr "你正在为%(courseName)s升级你的选课类型"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"You can now enter your payment information and complete your enrollment."
+msgstr "你可以现在就输入支付信息并完成选课。"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these by %(date)s to qualify to earn a Verified "
+"Certificate."
+msgstr "即使你没有满足下面这些要求，你也可以现在就付款；但是你只有在%(date)s之前满足这些要求才有资格获得一份已认证的证书。"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"You can pay now even if you don't have the following items available, but "
+"you will need to have these to qualify to earn a Verified Certificate."
+msgstr "即使你没有满足下面这些要求，你也可以现在就付款；但是你只有满足了这些要求才有资格获得一份已认证的证书。"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid "Government-Issued Photo ID"
+msgstr "政府签发的带有照片的身份证件"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"ID-Verification is not required for this Professional Education course."
+msgstr "该专业教育课程不强制要求验证身份证件。"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid ""
+"All professional education courses are fee-based, and require payment to "
+"complete the enrollment process."
+msgstr "所有的专业教育课程都是收费的，必须成功交费才能完成选课过程。"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid "You have already verified your ID!"
+msgstr "您已经成功验证了您的身份证件！"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid "Your verification status is good until %(verificationGoodUntil)s."
+msgstr "在%(verificationGoodUntil)s之前您的验证状态都有效。"
+
+#: lms/templates/verify_student/make_payment_step.underscore
+msgid "price"
+msgstr "价格"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Thank you! We have received your payment for %(courseName)s."
+msgstr "谢谢！我们已经收到你对%(courseName)s的付款。"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Next Step: Confirm your identity"
+msgstr "下一步：确认你的身份"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid "Check your email"
+msgstr "查收你的邮件"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"You need to activate your account before you can enroll in courses. Check "
+"your inbox for an activation email."
+msgstr "在选课之前你需要先激活你的账户，请检查收件箱中的激活邮件。"
+
+#: lms/templates/verify_student/payment_confirmation_step.underscore
+msgid ""
+"A driver's license, passport, or government-issued ID with your name and "
+"photo."
+msgstr "驾照、护照或者由政府签发的带有你姓名和照片的身份证件。"
+
+#: lms/templates/verify_student/reverify_success_step.underscore
+msgid "Identity Verification In Progress"
+msgstr ""
+
+#: lms/templates/verify_student/reverify_success_step.underscore
+msgid ""
+"We have received your information and are verifying your identity. You will "
+"see a message on your dashboard when the verification process is complete "
+"(usually within 1-2 days). In the meantime, you can still access all "
+"available course content."
+msgstr ""
+
+#: lms/templates/verify_student/reverify_success_step.underscore
+msgid "Return to Your Dashboard"
+msgstr "返回你的控制面板"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Review Your Photos"
+msgstr "复核你的照片"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid ""
+"Make sure we can verify your identity with the photos and information you "
+"have provided."
+msgstr "请确保我们可以通过你提供的照片及信息来验证你的身份。"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Photo of %(fullName)s"
+msgstr "%(fullName)s的照片"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Photo of %(fullName)s's ID"
+msgstr "%(fullName)s的身份证件照片"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Photo requirements:"
+msgstr "照片要求："
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Does the photo of you show your whole face?"
+msgstr "这张照片中有你的整张脸吗？"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Does the photo of you match your ID photo?"
+msgstr "这张照片和你身份证件上的照片相匹配吗？"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Is your name on your ID readable?"
+msgstr "你身份证件上的名字是清晰的吗？"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Does the name on your ID match your account name: %(fullName)s?"
+msgstr "你身份证件上的姓名和你在账户中填写的姓名“%(fullName)s”相符吗？"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Edit Your Name"
+msgstr "编辑你的名字"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid ""
+"Make sure that the full name on your account matches the name on your ID."
+msgstr "请确保你在账户中填写的全名和你身份证件中的名字相一致。"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Photos don't meet the requirements?"
+msgstr "照片不符合要求？"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Retake Your Photos"
+msgstr "重拍你的照片"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Before proceeding, please confirm that your details match"
+msgstr "在进行下一步之前，请确认你提供的信息之间相符"
+
+#: lms/templates/verify_student/review_photos_step.underscore
+msgid "Confirm"
+msgstr "确认"
+
+#: lms/templates/verify_student/webcam_photo.underscore
+msgid ""
+"Don't see your picture? Make sure to allow your browser to use your camera "
+"when it asks for permission."
+msgstr "没有看到你自己？请确认当浏览器请求使用摄像头权限的时候你允许了该请求。"
+
+#: lms/templates/verify_student/webcam_photo.underscore
+msgid "Live view of webcam"
+msgstr "摄像头的实时画面"
+
+#: lms/templates/verify_student/webcam_photo.underscore
+msgid "Retake Photo"
+msgstr "重新拍照"
+
+#: lms/templates/verify_student/webcam_photo.underscore
+msgid "Take Photo"
+msgstr "拍照"

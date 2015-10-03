@@ -296,7 +296,7 @@ msgstr "谢谢您激活账户。"
 #: cms/templates/registration/activation_complete.html
 #: lms/templates/registration/activation_complete.html
 msgid "This account has already been activated."
-msgstr "本账户已经被激活"
+msgstr "此账户已激活"
 
 #: cms/templates/registration/activation_complete.html
 #: lms/templates/registration/activation_complete.html
@@ -412,7 +412,7 @@ msgstr "{b_start}官方:{b_end} 获取带有机构徽章和导师签名的证书
 msgid ""
 "{b_start}Easily shareable:{b_end} Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
-msgstr "{b_start}容易分享的:{b_end} 在你的简历中加入这份证书，或者直接将它传至领英Linkedln"
+msgstr "{b_start}容易分享的:{b_end} 在你的简历中加入这份证书，或者直接将它传至领英"
 
 #: common/templates/course_modes/choose.html
 #: common/templates/course_modes/choose.html
@@ -479,7 +479,7 @@ msgstr "团队"
 
 #: lms/templates/admin_dashboard.html
 msgid "{platform_name}-wide Summary"
-msgstr "{platform_name}范围内的摘要"
+msgstr "{platform_name}－摘要"
 
 #: lms/templates/annotatable.html lms/templates/imageannotation.html
 #: lms/templates/textannotation.html lms/templates/videoannotation.html
@@ -523,7 +523,7 @@ msgstr "当前课程"
 
 #: lms/templates/dashboard.html
 msgid "Looks like you haven't enrolled in any courses yet."
-msgstr "您尚未选修任课程"
+msgstr "似乎您还没有选修任何课程"
 
 #: lms/templates/dashboard.html
 msgid "Find courses now!"
@@ -535,7 +535,7 @@ msgstr "课程加载错误"
 
 #: lms/templates/dashboard.html
 msgid "Search Your Courses"
-msgstr "查找课程"
+msgstr "搜索课程"
 
 #: lms/templates/dashboard.html lms/templates/courseware/courses.html
 #: lms/templates/discussion/_thread_list_template.html
@@ -620,7 +620,7 @@ msgstr "邮件变更失败"
 
 #: lms/templates/email_change_failed.html
 msgid "We were unable to send a confirmation email to {email}"
-msgstr "我们无法向 {email}发送确认邮件"
+msgstr "我们无法向{email}发送确认邮件"
 
 #: lms/templates/email_change_failed.html lms/templates/email_exists.html
 #: lms/templates/invalid_email_key.html
@@ -692,7 +692,7 @@ msgstr "您还没有成功达到 {goal_level}级别。"
 
 #: lms/templates/folditbasic.html
 msgid "Completed puzzles"
-msgstr "完成的难题"
+msgstr "完成的题目"
 
 #: lms/templates/folditbasic.html
 msgid "Level"
@@ -725,7 +725,7 @@ msgstr "关于 edX"
 
 #: lms/templates/footer-edx-v3.html lms/templates/footer.html
 msgid "Legal"
-msgstr "合法"
+msgstr "法律"
 
 #: lms/templates/footer.html lms/templates/static_templates/about.html
 #: lms/templates/static_templates/about.html
@@ -735,7 +735,7 @@ msgstr "关于我们"
 #: lms/templates/forgot_password_modal.html
 #: lms/templates/forgot_password_modal.html
 msgid "Password Reset"
-msgstr "密码重置"
+msgstr "重置密码"
 
 #: lms/templates/forgot_password_modal.html
 msgid ""
@@ -1110,7 +1110,7 @@ msgstr "在新窗口中查看资源"
 #: lms/templates/lti.html
 msgid ""
 "Please provide launch_url. Click \"Edit\", and fill in the required fields."
-msgstr "请提供运行链接 launch_url，点击”编辑“，并填写需要的项。"
+msgstr "请提供运行链接，点击”编辑“，并填写需要的项。"
 
 #: lms/templates/lti.html
 msgid "Feedback on your work from the grader:"

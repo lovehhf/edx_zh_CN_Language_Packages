@@ -1176,7 +1176,7 @@ msgstr "运行中"
 #: lms/templates/module-error.html
 #: lms/templates/courseware/courseware-error.html
 msgid "There has been an error on the {platform_name} servers"
-msgstr "{platform_name} 平台的服务器发生了错误"
+msgstr "{platform_name} 的服务器发生了错误"
 
 #: lms/templates/module-error.html
 msgid ""
@@ -1184,7 +1184,7 @@ msgid ""
 " fix it as soon as possible. Please email us at {tech_support_email} to "
 "report any problems or downtime."
 msgstr ""
-"非常抱歉，该模块暂时无法使用，我们的教员正在努力尽修复问题。要报告您发现的任何问题或遇到网站停摆，请向{tech_support_email}发送邮件"
+"非常抱歉，该模块暂时无法使用，程序猿和攻城狮正在努力尽修复。要报告您发现的任何问题，请给{tech_support_email}发送邮件"
 
 #: lms/templates/module-error.html
 msgid "Raw data:"
@@ -1205,7 +1205,7 @@ msgstr "查找课程"
 
 #: lms/templates/navigation-edx.html
 msgid "Schools & Partners"
-msgstr "学校 & 伙伴"
+msgstr "学校&合作伙伴"
 
 #: lms/templates/navigation-edx.html lms/templates/navigation.html
 msgid "Dashboard for:"
@@ -1213,7 +1213,7 @@ msgstr "课程面板："
 
 #: lms/templates/navigation-edx.html lms/templates/navigation.html
 msgid "More options dropdown"
-msgstr "更多选择下拉列表"
+msgstr "更多下拉列表"
 
 #: lms/templates/navigation-edx.html lms/templates/navigation.html
 msgid "Profile"
@@ -1239,7 +1239,7 @@ msgstr "注册"
 msgid ""
 "<strong>Warning:</strong> Your browser is not fully supported. We strongly "
 "recommend using {chrome_link} or {ff_link}."
-msgstr "<strong>警告：</strong>您的浏览器不支持全部功能，我们强烈推荐您使用 {chrome_link}或 {ff_link}。"
+msgstr "<strong>警告：</strong>您的浏览器不支持全部功能，我们强烈推荐您使用 {chrome_link}或{ff_link}。"
 
 #: lms/templates/navigation.html
 msgid "Global"
@@ -1304,7 +1304,7 @@ msgid ""
 "Your username, email, and full name will be sent to {destination}, where the"
 " collection and use of this information will be governed by their terms of "
 "service and privacy policy."
-msgstr "您的用户名、邮箱地址及全名将发送到 {destination}，并保证在服务和隐私保护条款的监管下收集和使用这些信息。"
+msgstr "您的用户名、邮箱地址及全名将发送到{destination}，我们保证在服务和隐私保护条款的监管下收集和使用这些信息。"
 
 #: lms/templates/provider_login.html
 msgid "Return To %s"
@@ -1349,7 +1349,7 @@ msgstr "将会在您参加的任何讨论或论坛上显示（之后将无法更
 
 #: lms/templates/register-shib.html lms/templates/register.html
 msgid "Account Acknowledgements"
-msgstr "账户致谢"
+msgstr "账户确认"
 
 #: lms/templates/register-shib.html lms/templates/register.html
 #: lms/templates/signup_modal.html
@@ -1387,12 +1387,12 @@ msgid ""
 "future free courses. Not ready to take a course just yet? Registering puts "
 "you on our mailing list - we will update you as courses are added."
 msgstr ""
-"在 {platform_name} 注册之后, "
+"在注册 {platform_name} 之后, "
 "您可以访问我们现有和将来所有的免费课程。现在还不想加入课程？注册后您将加入我们的邮件列表，您将通过邮件收到新课程的通知。"
 
 #: lms/templates/register-sidebar.html
 msgid "Next Steps"
-msgstr "下面的步骤"
+msgstr "下一步"
 
 #: lms/templates/register-sidebar.html
 msgid ""
@@ -1411,7 +1411,7 @@ msgid ""
 "spam'.  At {platform_name}, we communicate mostly through email."
 msgstr ""
 "注册 {platform_name} "
-"的过程中，您将会收到一封激活邮件。您必须点击激活链接才能完成注册过程。如果没有看见邮件，请检查垃圾邮件夹并把来自{platform_name}的邮件标记为”非垃圾邮件“。在"
+"的过程中，您将会收到一封激活邮件。您必须点击激活链接才能完成注册过程。如果没有看见邮件，请检查垃圾邮件夹并把来自{platform_name}的邮件标记为“非垃圾邮件”。在"
 " {platform_name}，我们主要通过电子邮件联系。"
 
 #: lms/templates/register-sidebar.html
@@ -1426,11 +1426,11 @@ msgstr "查看我们的FAQ来获得常见问题的解答。"
 msgid ""
 "Once registered, most questions can be answered in the course specific "
 "discussion forums or through the FAQs."
-msgstr "注册成功后，大部分问题均可在具体课程讨论论坛或FAQ中得到解决。"
+msgstr "注册成功后，大部分问题均可在具体课程讨论区或FAQ中得到解决。"
 
 #: lms/templates/register.html
 msgid "Register for {platform_name}"
-msgstr "{platform_name}注册"
+msgstr "注册{platform_name}"
 
 #: lms/templates/register.html
 msgid "Create My {platform_name} Account"
@@ -1442,17 +1442,17 @@ msgstr "欢迎！"
 
 #: lms/templates/register.html
 msgid "Register below to create your {platform_name} account"
-msgstr "注册以创建你在 {platform_name}的账户"
+msgstr "注册以创建你在{platform_name}的账户"
 
 #. Translators: provider_name is the name of an external, third-party user
 #. authentication service (like Google or LinkedIn).
 #: lms/templates/register.html
 msgid "Sign up with {provider_name}"
-msgstr "使用 {provider_name} 帐号登录"
+msgstr "使用{provider_name}帐号登录"
 
 #: lms/templates/register.html
 msgid "Create your own {platform_name} account below"
-msgstr "在下面创建你的 {platform_name} 帐号"
+msgstr "在下面创建你的{platform_name}帐号"
 
 #. Translators: selected_provider is the name of an external, third-party user
 #. authentication service (like Google or LinkedIn).

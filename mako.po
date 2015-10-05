@@ -1559,19 +1559,19 @@ msgstr "下一个"
 
 #: lms/templates/signup_modal.html
 msgid "Sign Up for {platform_name}"
-msgstr "注册为{platform_name}平台的会员"
+msgstr "注册{platform_name}"
 
 #: lms/templates/signup_modal.html lms/templates/signup_modal.html
 msgid "e.g. yourname@domain.com"
-msgstr "例如 yourname@domain.com"
+msgstr "例 yourname@domain.com"
 
 #: lms/templates/signup_modal.html lms/templates/signup_modal.html
 msgid "e.g. yourname (shown on forums)"
-msgstr "例如：昵称(在论坛上显示的名称)"
+msgstr "例：昵称(在论坛上显示的名称)"
 
 #: lms/templates/signup_modal.html lms/templates/signup_modal.html
 msgid "e.g. Your Name (for certificates)"
-msgstr "例如：姓名(用于证书)"
+msgstr "例：姓名(用于证书)"
 
 #: lms/templates/signup_modal.html
 msgid "<i>Welcome</i> {name}"
@@ -1599,7 +1599,7 @@ msgstr "注册加入{platform_name}的目标"
 
 #: lms/templates/signup_modal.html
 msgid "Already have an account?"
-msgstr "已经有账户了？"
+msgstr "已有账户？"
 
 #: lms/templates/signup_modal.html
 msgid "Login."
@@ -1635,9 +1635,6 @@ msgstr "{platform_name} 内容质量评估"
 msgid "Comment"
 msgstr "注释"
 
-#: lms/templates/staff_problem_info.html
-msgid "comment"
-msgstr "注释"
 
 #: lms/templates/staff_problem_info.html
 msgid "Tag"
@@ -1662,7 +1659,7 @@ msgstr "工作人员调试"
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Actions"
-msgstr "动作"
+msgstr "操作"
 
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
@@ -1682,7 +1679,7 @@ msgstr "删除学生状态"
 #: lms/templates/staff_problem_info.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Rescore Student Submission"
-msgstr "对学生的提交记录重新评分"
+msgstr "对学生的提交重新评分"
 
 #: lms/templates/staff_problem_info.html lms/templates/staff_problem_info.html
 msgid "Module Fields"
@@ -1766,7 +1763,7 @@ msgstr "创建用户"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download list of all users (csv file)"
-msgstr "下载所有用户列表 (csv 格式)"
+msgstr "下载所有用户列表 (.csv 文件)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Check and repair external authentication map"
@@ -1784,7 +1781,7 @@ msgstr "管理课程教员与主讲教师"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download staff and instructor list (csv file)"
-msgstr "下载教员与主讲教师列名单(csv 格式)"
+msgstr "下载教员与主讲教师列名单(.csv 问价)"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Administer Courses"
@@ -1824,11 +1821,11 @@ msgstr "平台版本"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "previous"
-msgstr "上一项"
+msgstr "上一个"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "Page {current_page} of {total_pages}"
-msgstr "第 {current_page} 页/ {total_pages}"
+msgstr "第 {current_page} 页/，总 {total_pages} 页"
 
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "next"
@@ -1857,17 +1854,17 @@ msgstr "课程编号"
 #. Translators: Git is a version-control system; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "Git Action"
-msgstr "Git动作"
+msgstr "Git操作"
 
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "No git import logs have been recorded."
-msgstr "没有git导入日志被记录。"
+msgstr "没有git导入日志记录。"
 
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 msgid "No git import logs have been recorded for this course."
-msgstr "此课程没有git导入日志被记录。"
+msgstr "此课程没有git导入日志记录。"
 
 #: lms/templates/textannotation.html
 msgid "Source:"
@@ -1875,7 +1872,7 @@ msgstr "源"
 
 #: lms/templates/tracking_log.html
 msgid "Tracking Log"
-msgstr "追踪记录"
+msgstr "追踪日志"
 
 #: lms/templates/tracking_log.html
 msgid "datetime"
@@ -1911,7 +1908,7 @@ msgstr ""
 
 #: lms/templates/using.html
 msgid "Using the system"
-msgstr "使用系统"
+msgstr "使用此系统"
 
 #: lms/templates/using.html
 msgid ""
@@ -1953,11 +1950,11 @@ msgstr "未找到可播放的视频源。"
 
 #: lms/templates/video.html
 msgid "Skip to end of transcript."
-msgstr "跳到字幕结尾。"
+msgstr "跳到视频结尾。"
 
 #: lms/templates/video.html
 msgid "Go back to start of transcript."
-msgstr "回到字幕起始点。"
+msgstr "回到字幕起始位置。"
 
 #: lms/templates/video.html
 msgid "Download video"
@@ -2027,7 +2024,7 @@ msgstr "不要在表达式中使用空格。"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "For constants, indicate multiplication explicitly (example: 5*c)."
-msgstr "为常数,表明乘法明确(例如:5 * c)。"
+msgstr "对于常数,明确指定乘法(例如:5 * c)。"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "For affixes, type the number and affix without a space (example: 5c)."
@@ -2041,7 +2038,7 @@ msgstr "对于函数，输入函数的名字，然后在括号中输入表达式
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "To Use"
-msgstr "使用者"
+msgstr "使用"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Type"
@@ -2079,7 +2076,7 @@ msgstr "+ - * /  (加，减，乘，除)"
 #. Translators: Please do not translate mathematical symbols.
 #: lms/templates/calculator/toggle_calculator.html
 msgid "^ (raise to a power)"
-msgstr "^ (自乘)"
+msgstr "^ (乘方)"
 
 #. Translators: Please do not translate mathematical symbols.
 #: lms/templates/calculator/toggle_calculator.html

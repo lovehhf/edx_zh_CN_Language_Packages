@@ -1954,7 +1954,7 @@ msgstr "跳到视频结尾。"
 
 #: lms/templates/video.html
 msgid "Go back to start of transcript."
-msgstr "回到字幕起始位置。"
+msgstr "回到视频起始位置。"
 
 #: lms/templates/video.html
 msgid "Download video"

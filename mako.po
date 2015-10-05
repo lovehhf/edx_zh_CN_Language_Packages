@@ -2089,7 +2089,7 @@ msgstr "希腊字母"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Name of letter"
-msgstr "信件名称"
+msgstr "字母名称"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Constants"

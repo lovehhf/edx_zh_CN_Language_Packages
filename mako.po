@@ -2097,7 +2097,7 @@ msgstr "常量"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Affixes"
-msgstr "签署"
+msgstr "词缀"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Percent sign (%) and metric affixes (d, c, m, u, n, p, k, M, G, T)"

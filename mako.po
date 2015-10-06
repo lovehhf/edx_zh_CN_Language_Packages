@@ -2125,7 +2125,7 @@ msgstr "10^和指数"
 #. http://en.wikipedia.org/wiki/Scientific_notation#E_notation
 #: lms/templates/calculator/toggle_calculator.html
 msgid "e notation"
-msgstr "e符号"
+msgstr "e标记符"
 
 #. Translators: 1e is a mathematical symbol. Please do not translate.
 #: lms/templates/calculator/toggle_calculator.html
@@ -2177,14 +2177,14 @@ msgstr "批量选课"
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Email Addresses/Usernames"
-msgstr "电子邮箱地址／用户名"
+msgstr "邮箱地址／用户名"
 
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "Enter email addresses and/or usernames separated by new lines or commas."
-msgstr "输入电子邮箱地址 与／或 用户名，以逗号分割或重启一行。"
+msgstr "输入邮箱地址 与／或 用户名，以逗号分割或重启一行。"
 
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -2245,7 +2245,7 @@ msgstr "管理学生列表"
 
 #: lms/templates/ccx/enrollment.html
 msgid "CCX student list management response message"
-msgstr ""
+msgstr "CCX学生列表管理回复信息"
 
 #: lms/templates/ccx/enrollment.html
 msgid "Revoke access"

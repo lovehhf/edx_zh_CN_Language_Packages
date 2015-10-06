@@ -2300,7 +2300,7 @@ msgstr "你还有未保存的更改。"
 
 #: lms/templates/ccx/schedule.html
 msgid "There was an error saving changes."
-msgstr "保存更改时发生了错误。"
+msgstr "保存更改时发生错误。"
 
 #: lms/templates/ccx/schedule.html
 msgid "Schedule a Unit"
@@ -2332,7 +2332,7 @@ msgstr "截止日期"
 
 #: lms/templates/ccx/schedule.html
 msgid "(Optional)"
-msgstr "(可选的)"
+msgstr "(可选)"
 
 #. Translators: This explains to people using a screen reader how to interpret
 #. the format of HH:MM
@@ -2354,7 +2354,7 @@ msgstr "所有单元已经添加。"
 
 #: lms/templates/ccx/student_admin.html
 msgid "Student Grades"
-msgstr "学生评分"
+msgstr "学生分数"
 
 #: lms/templates/ccx/student_admin.html
 msgid "View gradebook"
@@ -2362,7 +2362,7 @@ msgstr "查看记分册"
 
 #: lms/templates/ccx/student_admin.html
 msgid "Download student grades"
-msgstr "下载学生评分"
+msgstr "下载学生分数"
 
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print or share your certificate:"
@@ -2410,7 +2410,7 @@ msgstr "被标记"
 
 #: lms/templates/certificates/_accomplishment-rendering.html
 msgid "Supported by the following organizations"
-msgstr "被以下的组织支持"
+msgstr "由以下的组织支持"
 
 #: lms/templates/certificates/invalid.html
 msgid "This is an invalid certificate number"
@@ -2439,7 +2439,7 @@ msgstr "请确保此处的ID号码完全对应于你所指的PDF 或者打印版
 msgid ""
 "If you are trying to validate a certificate with this ID number, it may be a"
 " forgery."
-msgstr "如果你想用这个ID号注册证书的话，则有可能是一个伪造"
+msgstr "如果你想用这个ID号注册证书的话，则有可能是一个伪造证书"
 
 #: lms/templates/chat/toggle_chat.html
 msgid "Open Chat"
@@ -2588,7 +2588,7 @@ msgstr "跳过后继评阅"
 #: lms/templates/combinedopenended/openended/open_ended_combined_rubric.html
 msgid "{num} point: {explanatory_text}"
 msgid_plural "{num} points: {explanatory_text}"
-msgstr[0] "{num} 点数: {explanatory_text}"
+msgstr[0] "{num} 分: {explanatory_text}"
 
 #: lms/templates/combinedopenended/openended/open_ended_error.html
 msgid "There was an error with your submission.  Please contact course staff."
@@ -2658,7 +2658,7 @@ msgid ""
 " register button again. Please visit the {start_help_tag}help page{end_tag} "
 "for a possible solution."
 msgstr ""
-"当前登录的用户账户没有选修此课程的权限，建议您{start_logout_tag}登出{end_tag}后尝试重新注册，请访问{start_help_tag}帮助页面{end_tag}查找解决方法。"
+"当前登录的账户没有选修此课程的权限，建议您{start_logout_tag}退出{end_tag}后尝试重新注册，请访问{start_help_tag}帮助页面{end_tag}查找解决方法。"
 
 #: lms/templates/courseware/course_about.html
 msgid "You are registered for this course"
@@ -2670,7 +2670,7 @@ msgstr "进入课程页面"
 
 #: lms/templates/courseware/course_about.html
 msgid "This course is in your <a href=\"{cart_link}\">cart</a>."
-msgstr "这个课程已经进入您的 <a href=\"{cart_link}\">购物车</a>。"
+msgstr "此课程已加入您的 <a href=\"{cart_link}\">购物车</a>。"
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
@@ -2771,7 +2771,7 @@ msgstr "选修"
 
 #: lms/templates/courseware/course_navigation.html
 msgid "Course View"
-msgstr "课程内容查看"
+msgstr "查看课程内容"
 
 #: lms/templates/courseware/course_navigation.html
 msgid "View this course as:"
@@ -2854,11 +2854,11 @@ msgid ""
 " fix it as soon as possible. Please email us at {tech_support_email}' to "
 "report any problems or downtime."
 msgstr ""
-"非常抱歉，该模块暂时无法使用，我们的教员正在努力尽修复问题。要报告您发现的任何问题或遇到网站停摆，请向{tech_support_email}发送邮件"
+"非常抱歉，该模块暂时无法使用，我们的程序猿和攻城狮正在努力修复问题。要报告您发现的任何问题或bug，请向{tech_support_email}发送邮件"
 
 #: lms/templates/courseware/courseware.html
 msgid "Course Search"
-msgstr "搜索课程"
+msgstr "课程搜索"
 
 #: lms/templates/courseware/courseware.html
 msgid "search"
@@ -2872,11 +2872,11 @@ msgstr "本课程未添加新内容"
 msgid ""
 "To access course materials, you must score {required_score}% or higher on "
 "this                 exam. Your current score is {current_score}%."
-msgstr "你的测试分数必须达到或高于 {required_score}% o才能访问课程及材料。你当前分数为{current_score}%."
+msgstr "你当前分数为{current_score}%,测试分数必须达到或高于 {required_score}% 才能访问课程及材料。"
 
 #: lms/templates/courseware/courseware.html
 msgid "Your score is {current_score}%. You have passed the entrance exam."
-msgstr "你的分数为 {current_score}%，通过了入门测试"
+msgstr "你的分数为 {current_score}%，通过了入学考试"
 
 #: lms/templates/courseware/error-message.html
 msgid ""
@@ -3023,7 +3023,7 @@ msgstr "这门课程的作业必须与存储在成绩单上的保持一致，否
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Gradebook name:"
-msgstr "成绩单姓名："
+msgstr "成绩单名称："
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "Assignment name:"
@@ -3032,7 +3032,7 @@ msgstr "作业名称："
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Course-specific grade adjustment"
-msgstr "调整特定课程的分数"
+msgstr "特定课程的分数调整"
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/courseware/legacy_instructor_dashboard.html
@@ -3188,7 +3188,7 @@ msgstr "在职员界面查看成绩"
 
 #: lms/templates/courseware/progress.html
 msgid "Course Progress for Student '{username}' ({email})"
-msgstr "学生“{username}”({email})的学习进度"
+msgstr "学生{username}({email})的学习进度"
 
 #: lms/templates/courseware/progress.html
 msgid "Your certificate is available"
@@ -3295,7 +3295,7 @@ msgstr "实践得分："
 
 #: lms/templates/courseware/progress.html
 msgid "No problem scores in this section"
-msgstr "本章没有回答问题得分"
+msgstr "本章没有测验得分"
 
 #: lms/templates/courseware/syllabus.html
 msgid "{course.display_number_with_default} Course Info"
@@ -3330,7 +3330,7 @@ msgid ""
 "Course credit can help you get a jump start on your university degree, "
 "finish a degree already started, or fulfill requirements at a different "
 "academic institution."
-msgstr "课程学分可以帮助你得到一个提升开始你的大学学位,完成学位已经开始，或满足不同的学术机构的需求。"
+msgstr "课程学分可以帮助你在得到你的大学学位上得到一个提升，或满足不同的学术机构的需求。"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html
 msgid ""

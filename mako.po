@@ -3345,7 +3345,7 @@ msgstr ""
 msgid ""
 "We hope you enjoyed the course, and we hope to see you in future "
 "{platform_name} courses!"
-msgstr "我们希望你稀罕这门课程，勇士也希望在未来的{platform_name}课程中见到你。"
+msgstr "我们希望你喜欢这门课程，我们也希望在未来的{platform_name}课程中见到你。"
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html
 #: lms/templates/emails/activation_email.txt

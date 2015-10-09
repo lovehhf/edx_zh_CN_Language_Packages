@@ -4467,7 +4467,7 @@ msgstr "日期: {date}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Invoice No: {invoice_number}"
-msgstr "发票号码: {invoice_number}"
+msgstr "发票编号: {invoice_number}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Terms: Due Upon Receipt"
@@ -4746,7 +4746,7 @@ msgstr "以下优惠券编码的登陆信息"
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Coupon Code"
-msgstr "优惠券编码"
+msgstr "优惠券编号"
 
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
 msgid "Discount Percentage"
@@ -5055,7 +5055,7 @@ msgstr "下面所列的作答分布报告由后台程序定期自动生成。报
 msgid ""
 "<b>Note</b>: To keep student data secure, you cannot save or email these "
 "links for direct access. Copies of links expire within 5 minutes."
-msgstr "<b>注意</b>：为了确保学生数据的安全，您不能保存或邮寄这些链接以便将来直接访问，因为这些链接5分钟之后会失效。"
+msgstr "<b>注意</b>：为了确保学生数据的安全，您不能保存这些链接以便将来直接访问，因为这些链接5分钟之后会失效。"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Enrollment Codes"
@@ -5120,7 +5120,7 @@ msgstr "编辑价格"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Course Seat Purchases"
-msgstr "下载一个。csv文件的注册码用于本课程。"
+msgstr "下载一个.csv文件的注册码用于本课程。"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Total Credit Card Purchases: "
@@ -5130,7 +5130,7 @@ msgstr "所有的信用卡订单："
 msgid ""
 "Download a .csv file for all credit card purchases or for all invoices, "
 "regardless of status."
-msgstr "下载一个.csv文件为所有信用卡购买或发票,无论地位。"
+msgstr "下载一个.csv文件为所有信用卡购买或发票,无论。"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Download All Invoices"
@@ -5183,7 +5183,7 @@ msgid ""
 "The following reports are available for download. Reports are not deleted. A"
 " link to every report remains available on this page, identified by the date"
 " and time (in UTC) that the report was generated."
-msgstr "下面的报告是可以下载的。报告不删除。每一个报告的链接仍然可以在这个页面,确定的日期和时间(UTC),生成报"
+msgstr "下面的报告是可以下载的。报告不会删除。每一个报告的链接仍然可以在这个页面,确定的日期和时间(UTC),生成报"
 
 #. Translators: a table of URL links to report files appears after this
 #. sentence.
@@ -5192,7 +5192,7 @@ msgid ""
 "<b>Note</b>: To help protect learner data, links to these reports that you "
 "save outside of this page or that you send or receive in email expire after "
 "five minutes."
-msgstr "<b>请注意</b>: 帮助保护学习者数据,这些报告的链接保存以外的这个页面,或者你发送或接收电子邮件五分钟后过期。"
+msgstr "<b>请注意</b>: 为了保护学习者的数据,这些报告的链接或者你发送或接收到电子邮件的链接将于五分钟后过期。"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Coupon Code List"
@@ -5467,13 +5467,13 @@ msgstr "在这可以查看{platform_name}的邮件地址以及学生的用户名
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student Email or Username"
-msgstr "学生e-mail或者用户名"
+msgstr "学生email或者用户名"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 msgid "Choose the graded unit:"
-msgstr "请选择等级单元"
+msgstr "请选择评分单元"
 
 #. Translators: "format_string" is the string MM/DD/YYYY HH:MM, as that is the
 #. format the system requires.
@@ -5536,7 +5536,7 @@ msgstr "生成形态上的注册码"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 msgid "* Required Information"
-msgstr "* 必填信息"
+msgstr "* 为必填信息"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html

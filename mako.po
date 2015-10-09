@@ -3413,11 +3413,11 @@ msgstr "点击此链接打开或下载PDF文件"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr "下载 {cert_name_short} (PDF)"
+msgstr "下载 {cert_name_short}证书 (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "下载认证{cert_name_short}(PDF)"
+msgstr "下载认证{cert_name_short}证书 (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
@@ -3427,7 +3427,7 @@ msgstr "此链接会打开或下载您验证过的PDF{cert_name_long}证书。"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "下载你的已认证的 {cert_name_short} (PDF)"
+msgstr "下载你的已认证的 {cert_name_short}证书 (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
@@ -3447,7 +3447,7 @@ msgid ""
 "{cert_name_long} was generated, we could not grant you a verified "
 "{cert_name_short}. An honor code {cert_name_short} has been granted instead."
 msgstr ""
-"由于在生成你的{cert_name_long}时我们没有一组你的有效的身份认证照片，因此无法授予你已认证的{cert_name_short}；作为替代，我们已授予你一份诚信准则{cert_name_short}"
+"由于在生成你的{cert_name_long}证书时我们没有一组你的有效的身份认证照片，因此无法授予你已认证的{cert_name_short}证书；作为替代，我们已授予你一份{cert_name_short}荣誉证书"
 " 。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -3477,7 +3477,7 @@ msgstr "即将上线"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Starts - {start_date}"
-msgstr "自: {start_date}"
+msgstr "开始: {start_date}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -3602,7 +3602,7 @@ msgstr "在{date}之前您的验证状态都有效"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Your verification will expire soon!"
-msgstr "您的验证将马上过期"
+msgstr "您的验证将即将过期"
 
 #. Translators: start_link and end_link will be replaced with HTML tags;
 #. please do not translate these.
@@ -3612,7 +3612,7 @@ msgid ""
 "this course. {start_link}Re-verify your identity now{end_link} using a "
 "webcam and a government-issued ID."
 msgstr ""
-"您的当前认证将在此课程的认证结束日期前过期。{start_link}立即重认证您的身份{end_link}，通过摄像头和政府签发的身份证件。"
+"您当前的认证将在此课程的认证结束日期前过期。{start_link}立即重新认证您的身份{end_link}，通过视频和政府颁发的有效的身份证件。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Challenge Yourself!"
@@ -3629,8 +3629,7 @@ msgid ""
 "your achievement. {link_start}Learn more about the verified "
 "{cert_name_long}{link_end}."
 msgstr ""
-"您依然可以为本课程注册已认证的{cert_name_long} "
-"。如果您计划完成整个课程，这将是一种体现您学习成果的极佳方式。点击{link_start}了解更多关于已认证的{cert_name_long}的信息{link_end}。"
+"您依然可以为本课程注册已认证的{cert_name_long}证书。如果您计划完成整个课程，这将是一种体现您学习成果的极佳方式。点击{link_start}了解更多关于已认证的{cert_name_long}证书的信息{link_end}。"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "ID Verified Ribbon/Badge"
@@ -3656,7 +3655,7 @@ msgstr "本次交易出错了。联系{support_email}寻求帮助。"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid "You are now eligible for credit. <b>Congratulations!</b>"
-msgstr "你现在合格的获得了证书。<b>祝贺!</b>"
+msgstr "你现在获得了合格证书。<b>祝贺!</b>"
 
 #: lms/templates/dashboard/_dashboard_credit_info.html
 msgid "Get credit"
@@ -3765,7 +3764,7 @@ msgstr "无法连接主账户"
 msgid ""
 "The {provider_name} account you selected is already linked to another "
 "{platform_name} account."
-msgstr "你选择的账户 {provider_name}已经和{platform_name}的账户相关联。"
+msgstr "你选择的账户{provider_name}已经和{platform_name}的账户相关联。"
 
 #: lms/templates/debug/run_python_form.html
 msgid "Results:"
@@ -3775,7 +3774,7 @@ msgstr "结果："
 msgid ""
 "Sorry! We can't find anything matching your search. Please try another "
 "search."
-msgstr "抱歉，没有找不到您的查询内容。请尝试其他查询。"
+msgstr "抱歉，没有找不到您的搜索内容。请尝试其他搜索。"
 
 #: lms/templates/discussion/_blank_slate.html
 msgid "There are no posts here yet. Be the first one to post!"
@@ -4205,7 +4204,7 @@ msgstr "诚挚的问候，<br> {platform_name} 团队"
 #. template for course teams to use.
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Dear [[Name]]"
-msgstr "亲爱的[[名字]]"
+msgstr "亲爱的[[Name]]"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid ""
@@ -4217,7 +4216,7 @@ msgstr "参加{course_names}我们为你提供了一个注册的URL。请按照�
 #. template for course teams to use.
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Your redeem url is: [[Enter Redeem URL here from the attached CSV]]"
-msgstr "你的赎回链接是：[[在此输入从附件CSV中找到的赎回链接]]"
+msgstr "你的兑换码链接是：[[Enter Redeem URL here from the attached CSV]]"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "(1) Register for an account at {site_name}"
@@ -4396,13 +4395,13 @@ msgstr "{platform_name}团队"
 
 #: lms/templates/emails/registration_codes_sale_email.txt
 msgid "Thank you for purchasing enrollments in {course_name}."
-msgstr "感谢您购买入学率在{course_name}。"
+msgstr "感谢您购买并注册{course_name}。"
 
 #: lms/templates/emails/registration_codes_sale_email.txt
 msgid ""
 "An invoice for {currency_symbol}{total_price} is attached. Payment is due "
 "upon receipt. You can find information about payment methods on the invoice."
-msgstr "发票为{currency_symbol} {total_price}附呈。将在收到付款。你可以找到关于发票上付款方式信息。"
+msgstr "发票为{currency_symbol} {total_price}附呈。你可以在付款后找到关于发票上付款方式信息。"
 
 #: lms/templates/emails/registration_codes_sale_email.txt
 msgid ""
@@ -4472,7 +4471,7 @@ msgstr "发票号码: {invoice_number}"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Terms: Due Upon Receipt"
-msgstr "条款：马上到期"
+msgstr "条款：即将到期"
 
 #: lms/templates/emails/registration_codes_sale_invoice_attachment.txt
 msgid "Due Date: {date}"

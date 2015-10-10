@@ -1,7 +1,7 @@
 # edX translation file.
 # Copyright (C) 2015 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-# 
+#
 # Translators:
 # vingte <411029240@qq.com>, 2014
 # Alfred <alfredhuang211@qq.com>, 2015
@@ -223,7 +223,7 @@ msgstr "价格"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Upgrade Deadline"
-msgstr ""
+msgstr "升级截止日期"
 
 #: common/djangoapps/course_modes/models.py
 msgid ""
@@ -241,7 +241,7 @@ msgstr "可选：这是外部电子商业服务中该模式的SKU(库存单元)�
 
 #: common/djangoapps/course_modes/models.py
 msgid "Honor Code Certificate"
-msgstr "诚信准则证书"
+msgstr "荣誉证书"
 
 #: common/djangoapps/course_modes/models.py
 msgid ""
@@ -251,7 +251,7 @@ msgstr "专业的教育模式不允许有过期的日期时间设置。"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Your verification is pending"
-msgstr "您的验证正在挂起"
+msgstr "您的验证正在判定"
 
 #: common/djangoapps/course_modes/models.py
 msgid "Verified: Pending Verification"
@@ -259,7 +259,7 @@ msgstr "验证：等待验证"
 
 #: common/djangoapps/course_modes/models.py
 msgid "ID verification pending"
-msgstr "身份证件验证挂起"
+msgstr "身份证件正在验证中"
 
 #: common/djangoapps/course_modes/models.py
 msgid "You're enrolled as a verified student"
@@ -276,7 +276,7 @@ msgstr "身份证件已验证时的色带／徽章"
 #: common/djangoapps/course_modes/models.py
 #: common/djangoapps/course_modes/models.py
 msgid "You're enrolled as an honor code student"
-msgstr "您已作为诚信准则学员选修"
+msgstr "您已作为诚信学员选修"
 
 #: common/djangoapps/course_modes/models.py
 #: common/djangoapps/course_modes/models.py lms/djangoapps/branding/api.py

@@ -2484,7 +2484,7 @@ msgstr "团队查找"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Showing results for \"%(searchString)s\""
-msgstr "显示 \"%(searchString)s\ 的查询结果"
+msgstr "显示 \"%(searchString)s\" 的查询结果"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Create a New Team"

@@ -409,7 +409,7 @@ msgstr "你的合法名字必须至少包含两个字符的长度"
 msgid ""
 "Usernames must contain only letters, numbers, underscores (_), and hyphens "
 "(-)."
-msgstr ""
+msgstr "用户名只能包含字母，数字，下划线(_),和连字符(-)"
 
 #: common/djangoapps/student/forms.py
 msgid "Username cannot be more than %(limit_value)s characters long"
@@ -457,7 +457,7 @@ msgstr "您必须遵循诚信准则才能选修。"
 
 #: common/djangoapps/student/forms.py
 msgid "You are missing one or more required fields"
-msgstr "您遗漏了一个或多个必须填写字段"
+msgstr "您遗漏了一个或多个必填字段"
 
 #: common/djangoapps/student/forms.py
 msgid "Username and password fields cannot match"
@@ -471,7 +471,7 @@ msgstr "密码: "
 msgid ""
 "Your account has been disabled. If you believe this was done in error, "
 "please contact us at {support_email}"
-msgstr "您的账户已经被禁用。如果您有任何疑问请联系我们{support_email}"
+msgstr "您的账户已经被禁用。如果您有任何疑问请通过{support_email}联系我们"
 
 #: common/djangoapps/student/middleware.py
 msgid "Disabled Account"
@@ -541,7 +541,7 @@ msgstr "{platform_name}专业证书{course_name}"
 msgid ""
 "The company identifier for the LinkedIn Add-to-Profile button e.g "
 "0_0dPSPyS070e0HsE9HNz_13_d11_"
-msgstr "LinkedIn“添加到配置文件”按钮的公司标识符，例如0_0dPSPyS070e0HsE9HNz_13_d11_"
+msgstr "领英“添加到配置文件”按钮的公司标识符，例如0_0dPSPyS070e0HsE9HNz_13_d11_"
 
 #: common/djangoapps/student/models.py
 msgid ""
@@ -1188,7 +1188,7 @@ msgstr "与受限词字典中的词语过于相似。"
 
 #: common/djangoapps/xblock_django/models.py
 msgid "Space-separated list of XBlocks which should not render."
-msgstr ""
+msgstr "空间分离XBlock列表不应该渲染"
 
 #: common/lib/capa/capa/capa_problem.py
 msgid "Cannot rescore problems with possible file submissions"
@@ -1226,11 +1226,11 @@ msgstr "这是不正确的"
 
 #: common/lib/capa/capa/inputtypes.py common/lib/capa/capa/inputtypes.py
 msgid "This is unanswered."
-msgstr ""
+msgstr "这个问题未被回答"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "This is being processed."
-msgstr ""
+msgstr "这个问题正在处理中"
 
 #. Translators: 'ChoiceGroup' is an input type and should not be translated.
 #: common/lib/capa/capa/inputtypes.py
@@ -1251,7 +1251,7 @@ msgstr "期望一个<choice>或 <compoundhint>标签，获得一个 {given_tag}�
 msgid ""
 "Your files have been submitted. As soon as your submission is graded, this "
 "message will be replaced with the grader's feedback."
-msgstr "你的文件已经被提交。当评定完成后，此消息将被评定者的反馈所替代。"
+msgstr "你的文件已经提交。当评定完成后，此消息将被评定者的反馈所替代。"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid ""
@@ -1263,7 +1263,7 @@ msgstr "你的答案已经发布。当评定完成，此消息将被显示评定
 msgid ""
 "Submitted. As soon as a response is returned, this message will be replaced "
 "by that feedback."
-msgstr "发布。当响应返回，该消息将被反馈信息所替代。"
+msgstr "发布。当响应返回时，该消息将被反馈信息所替代。"
 
 #: common/lib/capa/capa/inputtypes.py
 msgid "No response from Xqueue within {xqueue_timeout} seconds. Aborted."
@@ -1320,7 +1320,7 @@ msgstr "(源代码不可用 )"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "See XML source line {sourcenum}."
-msgstr "参见 XML 源文件中的行{sourcenum}。"
+msgstr "参见 XML 源文件中的{sourcenum}行。"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "JavaScript Input"
@@ -1374,7 +1374,7 @@ msgstr "数值输入"
 
 #: common/lib/capa/capa/responsetypes.py common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
-msgstr "工作人员对这个问题的答案有问题。"
+msgstr "教员对这个问题的答案出现了问题。"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{student_answer}' as a number."
@@ -1403,7 +1403,7 @@ msgstr "范围公差类型的问题不可以使用复数"
 #: common/lib/capa/capa/responsetypes.py
 msgid ""
 "There was a problem with the staff answer to this problem: complex boundary."
-msgstr "工作人员对此问题的解答存在问题：复杂边界。"
+msgstr "教员对此问题的解答出现问题：复杂边界。"
 
 #. Translators: This is an error message for a math problem. If the instructor
 #. did not provide
@@ -1411,7 +1411,7 @@ msgstr "工作人员对此问题的解答存在问题：复杂边界。"
 #: common/lib/capa/capa/responsetypes.py
 msgid ""
 "There was a problem with the staff answer to this problem: empty boundary."
-msgstr "工作人员对此问题的解答存在问题：边界未设置。"
+msgstr "教员对此问题的解答出现问题：边界未设置。"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Text Input"
@@ -1463,7 +1463,7 @@ msgstr "未提供答案。"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Error: No grader has been set up for this problem."
-msgstr "错误：未设立对该问题的分级"
+msgstr "错误：未设立对该问题的评分者"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid ""
@@ -1479,7 +1479,7 @@ msgstr "无法将您的提交发送给评分者 (原因：{error_msg})。 请稍
 #: common/lib/capa/capa/responsetypes.py
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Invalid grader reply. Please contact the course staff."
-msgstr "无效评定回复。请联系课程工作人员。"
+msgstr "无效评分回复。请联系课程工作人员。"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "External Grader"
@@ -1519,7 +1519,7 @@ msgstr "评估SchematicResponse出错。错误为： {error_msg}"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Image Mapped Input"
-msgstr "热点图片输入"
+msgstr "图像映射输入"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "error grading {image_input_id} (input={user_input})"
@@ -1536,7 +1536,7 @@ msgstr "批注输入"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Checkboxes With Text Input"
-msgstr "文本输入单项选择"
+msgstr "带文本输入的单项选择"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Answer not provided for {input_type}"
@@ -1544,7 +1544,7 @@ msgstr "未提供 {input_type}的解决方案"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "The Staff answer could not be interpreted as a number."
-msgstr "工作人员的大幅无法被解析为一个数字。"
+msgstr "教员的答案无法被解析为一个数字。"
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{given_answer}' as a number."
@@ -1609,7 +1609,7 @@ msgstr "问题的截至日期为"
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Amount of time after the due date that submissions will be accepted"
-msgstr "超过期限后允许作业提交作业的时间间隔"
+msgstr "超过结束时间后允许作业提交作业的时间间隔"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
@@ -1713,7 +1713,7 @@ msgstr "学生是否已经回答问题"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Random seed for this student"
-msgstr "该学生的随机名次"
+msgstr "该学生的随机种子"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Last submission time"
@@ -1727,7 +1727,7 @@ msgstr "解题倒计时间"
 msgid ""
 "Seconds a student must wait between submissions for a problem with multiple "
 "attempts."
-msgstr "一个学生必须等待若干秒以完成对一个问题提交的多次尝试"
+msgstr "学生必须等待秒后才能提交对一个问题提交的多次尝试"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -1744,7 +1744,7 @@ msgstr "设置每个问题的分值。如果不设置，那么问题中的每空
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Markdown source of this module"
-msgstr "减记该模块资源"
+msgstr "减去该模块资源"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
@@ -1782,7 +1782,7 @@ msgstr "警告：这个问题已经被重置为其初始状态！"
 msgid ""
 "The problem's state was corrupted by an invalid submission. The submission "
 "consisted of:"
-msgstr "该问题的描述被一个无效的发布损坏。该发布包含："
+msgstr "该问题的描述被一个无效的提交损坏。该提交包含："
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "If this error persists, please contact the course staff."
@@ -1796,7 +1796,7 @@ msgstr "提示"
 #. hints.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Hint ({hint_num} of {hints_count}): "
-msgstr ""
+msgstr "提示({hint_num}次，共{hints_count}次)"
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
@@ -1812,7 +1812,7 @@ msgstr "在检查问题之前必须把它重新设置"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "You must wait at least {wait} seconds between submissions."
-msgstr "在两次发布之间你至少需要等待{wait}秒。"
+msgstr "在两次提交之间你至少间隔{wait}秒。"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
@@ -1867,7 +1867,7 @@ msgstr "你的答案已经保存但尚未得分，点击检查看分数"
 #. page before they can reset it.
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Refresh the page and make an attempt before resetting."
-msgstr "在重置之前请刷新页面并做一次尝试回答。"
+msgstr "在重置之前请刷新页面并做一次尝试。"
 
 #: common/lib/xmodule/xmodule/capa_module.py
 msgid ""
@@ -1883,7 +1883,7 @@ msgstr "该问题的描述在你加载本页面之后已经发生变化了。请
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Open Response Assessment"
-msgstr "开放式评价"
+msgstr "开放式回答评估"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "Current task that the student is on."
@@ -1895,7 +1895,7 @@ msgid ""
 "This field is only populated if the instructor changes tasks after the "
 "module is created and students have attempted it (for example, if a self "
 "assessed problem is changed to self and peer assessed)."
-msgstr ""
+msgstr "一个状态字典列表对于学生的状态保存了,此区域仅在中间如果教师改变任务在这个模板被创建之后学生可以尝试它(比如，如果一个自我评估问题改变成自我和同伴评估)"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 msgid "List of state dictionaries of each task within this module."
@@ -1905,7 +1905,7 @@ msgstr "这个模块的每个任务的状态字典的列表"
 msgid "Which step within the current task that the student is on."
 msgstr "当前任务中学生所处的阶段。"
 
-#: common/lib/xmodule/xmodule/combined_open_ended_module.py
+#: common不能、 /lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/peer_grading_module.py
 msgid "Graded"
 msgstr "已评分"
@@ -2001,7 +2001,7 @@ msgid ""
 " have the requisite number of graders, but ONLY WHEN all submissions they "
 "are eligible to grade already have enough graders.  This is intended for use"
 " when settings for `Required Peer Grading` > `Peer Graders per Response`"
-msgstr ""
+msgstr "试验特性. 允许学生提交已有要求评分数量的同伴评分,但是他们的评分已经有了足够的分数。这表明使用设置`Required Peer Grading` > `Peer Graders per Response`"
 
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
 #: common/lib/xmodule/xmodule/peer_grading_module.py
@@ -2029,7 +2029,7 @@ msgstr "以下列格式输入课程 LTI 工具的通行证：“id:client_key:cl
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "List of pairs of (title, url) for textbooks used in this course"
-msgstr ""
+msgstr "本课程中使用的教材列表(标题、url)"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Slug that points to the wiki for this course"

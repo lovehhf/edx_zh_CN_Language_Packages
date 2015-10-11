@@ -240,7 +240,7 @@ msgstr "显示答案"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "Answer hidden"
-msgstr "答案隐藏"
+msgstr "隐藏的答案"
 
 #: common/lib/xmodule/xmodule/js/src/capa/display.js
 msgid "Status: unsubmitted"
@@ -282,7 +282,7 @@ msgstr "您的回复已被提交，请稍候再查看您的成绩。"
 #. an evaluator's assessment
 #: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
 msgid "Submit post-assessment"
-msgstr "提交评估"
+msgstr "提交后评估"
 
 #: common/lib/xmodule/xmodule/js/src/combinedopenended/display.js
 msgid "Answer saved, but not yet submitted."
@@ -433,7 +433,7 @@ msgstr "背景色"
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: lms/static/js/Markdown.Editor.js
 msgid "Blockquote"
-msgstr "引用"
+msgstr "块引用"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -758,7 +758,7 @@ msgstr "字号"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Footer"
-msgstr "表注"
+msgstr "脚注"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1125,7 +1125,7 @@ msgstr "分页符"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 msgid "Paste as text"
-msgstr "粘贴为文本"
+msgstr "粘贴文本"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1234,7 +1234,7 @@ msgstr "恢复上一版草稿"
 msgid ""
 "Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press "
 "ALT-0 for help"
-msgstr "丰富文本区域。按 ALT-F9 打开菜单，按 ALT-F10 打开工具栏，按 ALT-0 查看帮助"
+msgstr "富文本区域。按 ALT-F9 打开菜单，按 ALT-F10 打开工具栏，按 ALT-0 查看帮助"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1594,7 +1594,7 @@ msgstr ""
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
 "SequenceModule. Please contact the course staff."
-msgstr "序列错误！ 无法导航到当前序列模块中的%(tab_name)s，请联系课程工作人员。"
+msgstr "序列错误！ 无法导航到当前序列模块中的%(tab_name)s，请联系课程教员。"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/09_play_pause_control.js
@@ -1628,7 +1628,7 @@ msgstr "退出全屏浏览器"
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 #: common/lib/xmodule/xmodule/js/src/video/04_video_full_screen.js
 msgid "Fill browser"
-msgstr "全屏显示"
+msgstr "填充浏览器"
 
 #: common/lib/xmodule/xmodule/js/src/video/00_i18n.js
 #: common/lib/xmodule/xmodule/js/src/video/08_video_speed_control.js
@@ -1903,7 +1903,7 @@ msgstr "载入更多的主题"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 msgid "We had some trouble loading more threads. Please try again."
-msgstr "载入主题遇到问题，请重试。"
+msgstr "载入更多主题时遇到问题，请重试。"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 msgid "%(unread_count)s new comment"
@@ -1944,7 +1944,7 @@ msgstr "你选中的主题已被删除，请选择其他主题。"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 msgid "We had some trouble loading responses. Please reload the page."
-msgstr "载入回复时遇到麻烦，请重试。"
+msgstr "载入回复时遇到麻烦，请重新加载页面。"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 msgid "We had some trouble loading more responses. Please try again."
@@ -1953,7 +1953,7 @@ msgstr "载入回复时遇到麻烦，请重试。"
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 msgid "%(numResponses)s other response"
 msgid_plural "%(numResponses)s other responses"
-msgstr[0] "其他回复数%(numResponses)s"
+msgstr[0] "%(numResponses)s 条其他回复"
 
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
 msgid "%(numResponses)s response"
@@ -2019,15 +2019,15 @@ msgstr "此字段的内容不能包含空格或特殊字符。"
 
 #: common/static/common/js/components/views/paging_header.js
 msgid "Showing %(first_index)s out of %(num_items)s total"
-msgstr ""
+msgstr "从 %(num_items)s 总数中显示 %(first_index)s"
 
 #: common/static/common/js/components/views/paging_header.js
 msgid "Showing %(first_index)s-%(last_index)s out of %(num_items)s total"
-msgstr ""
+msgstr "从 %(num_items)s 总数中显示 %(first_index)s-%(last_index)s"
 
 #: common/static/js/capa/drag_and_drop/base_image.js
 msgid "Drop target image"
-msgstr "拖放的目标图像"
+msgstr "拖放目标图像"
 
 #: common/static/js/capa/drag_and_drop/draggable_events.js
 msgid "dragging out of slider"
@@ -2247,11 +2247,11 @@ msgstr "异常错误发生，请重试。"
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js
 msgid "last activity"
-msgstr ""
+msgstr "最近活动"
 
 #: lms/djangoapps/teams/static/teams/js/collections/team.js
 msgid "open slots"
-msgstr ""
+msgstr "开放槽"
 
 #: lms/djangoapps/teams/static/teams/js/collections/topic.js
 msgid "name"
@@ -2273,21 +2273,21 @@ msgstr "更新"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Name (Required) *"
-msgstr ""
+msgstr "团队名称（必需）"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "A name that identifies your team (maximum 255 characters)."
-msgstr ""
+msgstr "鉴别你的团队的名称（最多255个字符）"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team Description (Required) *"
-msgstr ""
+msgstr "团队描述（必需）"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid ""
 "A short description of the team to help other learners understand the goals "
 "or direction of the team (maximum 300 characters)."
-msgstr ""
+msgstr "团队的简短描述以帮助其他学习者明白团队的目标或方向（最多300个字符）"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -2297,7 +2297,7 @@ msgstr "语言"
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid ""
 "The language that team members primarily use to communicate with each other."
-msgstr ""
+msgstr "团队成员互相通信的首选语言"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/student_profile/views/learner_profile_factory.js
@@ -2315,53 +2315,53 @@ msgstr "发生了一个未知错误，请重试。"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Check the highlighted fields below and try again."
-msgstr ""
+msgstr "检查下面的高亮字段然后重试"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Enter team name."
-msgstr ""
+msgstr "输入团队名称"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team name cannot have more than 255 characters."
-msgstr ""
+msgstr "团队名称不能超过255个字符"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Enter team description."
-msgstr ""
+msgstr "输入团队描述"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid "Team description cannot have more than 300 characters."
-msgstr ""
+msgstr "团队描述不能超过300个字符"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "An error occurred while removing the member from the team. Try again."
-msgstr ""
+msgstr "从团队移除成员时出错，请重试"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "This team does not have any members."
-msgstr ""
+msgstr "这个团队没有任何成员"
 
 #. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
 #. https://github.com/rmm5t/jquery-timeago)
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "Joined %(date)s"
-msgstr ""
+msgstr "加入于 %(date)s"
 
 #. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
 #. https://github.com/rmm5t/jquery-timeago)
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "Last Activity %(date)s"
-msgstr ""
+msgstr "最近的活动于 %(date)s"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid "Remove this team member?"
-msgstr ""
+msgstr "确定要移除这个团队成员？"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 msgid ""
 "This learner will be removed from the team, allowing another learner to take"
 " the available spot."
-msgstr ""
+msgstr "这个学习者将从团队中移除，以让其他学习者取得可使用点"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js
 #: lms/static/js/views/image_field.js
@@ -2370,33 +2370,33 @@ msgstr "删除"
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid "Delete this team?"
-msgstr ""
+msgstr "确定删除这个团队？"
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid ""
 "Deleting a team is permanent and cannot be undone. All members are removed "
 "from the team, and team discussions can no longer be accessed."
-msgstr ""
+msgstr "删除团队是永久性的并不能撤消。所有的成员将从团队移除，团队讨论区将不能被访问"
 
 #: lms/djangoapps/teams/static/teams/js/views/instructor_tools.js
 msgid "Team \"%(team)s\" successfully deleted."
-msgstr ""
+msgstr "\"%(team)s\" 团队成功删除"
 
 #: lms/djangoapps/teams/static/teams/js/views/my_teams.js
 msgid "You are not currently a member of any team."
-msgstr ""
+msgstr "当前你不是任何团队的成员"
 
 #. Translators: "and others" refers to fact that additional members of a team
 #. exist that are not displayed.
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "and others"
-msgstr ""
+msgstr "和其他"
 
 #. Translators: 'date' is a placeholder for a fuzzy, relative timestamp (see:
 #. http://momentjs.com/)
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "Last activity %(date)s"
-msgstr ""
+msgstr "最后的活动于 %(date)s"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_card.js
 msgid "View %(span_start)s %(team_name)s %(span_end)s"
@@ -2405,17 +2405,17 @@ msgstr "查看%(span_start)s %(team_name)s %(span_end)s"
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "An error occurred. Try again."
-msgstr ""
+msgstr "发生错误，请重试"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid "Leave this team?"
-msgstr ""
+msgstr "确定离开这个团队？"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 msgid ""
 "If you leave, you can no longer post in this team's discussions. Your place "
 "will be available to another learner."
-msgstr ""
+msgstr "如果你离开，将不能再这个团队讨论区中发帖。你的位置会被其他学习者占用"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js
 #: lms/static/js/verify_student/views/reverify_view.js
@@ -2424,24 +2424,24 @@ msgstr "确认"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "You already belong to another team."
-msgstr ""
+msgstr "你已经属于其他团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile_header_actions.js
 msgid "This team is full."
-msgstr ""
+msgstr "这个团队已满"
 
 #: lms/djangoapps/teams/static/teams/js/views/team_utils.js
 msgid "%(memberCount)s / %(maxMemberCount)s Member"
 msgid_plural "%(memberCount)s / %(maxMemberCount)s Members"
-msgstr[0] ""
+msgstr[0] "%(memberCount)s / %(maxMemberCount)s 成员"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams.js
 msgid "All teams"
-msgstr ""
+msgstr "所有团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Topics"
-msgstr ""
+msgstr "主题"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Teams"
@@ -2455,7 +2455,7 @@ msgstr "在你的课程中查看以主题组织的所有团队。加入一个团
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "My Team"
-msgstr ""
+msgstr "我的团队"
 
 #. Translators: sr_start and sr_end surround text meant only for screen
 #. readers.
@@ -2464,11 +2464,11 @@ msgstr ""
 #. screenreader, and "Browse" otherwise.
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Browse %(sr_start)s teams %(sr_end)s"
-msgstr ""
+msgstr "浏览 %(sr_start)s 团队 %(sr_end)s"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Your request could not be completed. Reload the page and try again."
-msgstr ""
+msgstr "你的请求不能完成，请重新加载页面并重试"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
@@ -2476,52 +2476,53 @@ msgid ""
 " and try again. If the issue persists, click the Help tab to report the "
 "problem."
 msgstr ""
+"你的请求由于服务器问题不能完成。重载页面将重试。如果还有问题，点击帮助标签以报告这个问题"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Team Search"
-msgstr ""
+msgstr "团队查找"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Showing results for \"%(searchString)s\""
-msgstr ""
+msgstr "显示 \"%(searchString)s\ 的查询结果"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Create a New Team"
-msgstr ""
+msgstr "创建一个新团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "Create a new team if you can't find an existing team to join, or if you "
 "would like to learn with friends you know."
-msgstr ""
+msgstr "如果你不能找到已有的团队并加入，或者你只想与你认识的朋友一起学习，就创建一个新团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Edit Team"
-msgstr ""
+msgstr "编辑团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "If you make significant changes, make sure you notify members of the team "
 "before making these changes."
-msgstr ""
+msgstr "如果你做出重大更改，确保你在做出这些更改之前提醒团队的所有成员"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Membership"
-msgstr "会员资格"
+msgstr "成员资格"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid ""
 "You can remove members from this team, especially if they have not "
 "participated in the team's activity."
-msgstr ""
+msgstr "你可以从这个团队中移除成员，特别是那些没有参与到团队活动中的成员"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "Search teams"
-msgstr ""
+msgstr "查找团队"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "All Topics"
-msgstr ""
+msgstr "所有主题"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "The page \"%(route)s\" could not be found."
@@ -2533,7 +2534,7 @@ msgstr "主题“%(topic)s”无法找到。"
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js
 msgid "The team \"%(team)s\" could not be found."
-msgstr ""
+msgstr "团队“%(team)s”无法找到"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "%(team_count)s Team"
@@ -2542,7 +2543,7 @@ msgstr[0] "%(team_count)s位队员"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "Topic"
-msgstr ""
+msgstr "主题"
 
 #: lms/djangoapps/teams/static/teams/js/views/topic_card.js
 msgid "View Teams in the %(topic_name)s Topic"
@@ -2563,10 +2564,13 @@ msgid ""
 "find a team to join, {create_span_start}create a new team in this "
 "topic{span_end}."
 msgstr ""
+"{browse_span_start}浏览其他主题的团队{span_end}或"
+"{search_span_start}查找团队{span_end}，在这个主题中。如果你仍然找不到一个团队加入，"
+"{create_span_start}创建一个新的团队，在这个主题中{span_end}"
 
 #: lms/djangoapps/teams/static/teams/js/views/topics.js
 msgid "All topics"
-msgstr ""
+msgstr "所有主题"
 
 #: lms/static/coffee/src/calculator.js
 msgid "Open Calculator"
@@ -2582,7 +2586,7 @@ msgstr "帖子内容"
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error generating proctored exam results. Please try again."
-msgstr ""
+msgstr "生成监督测试结果错误，请重试"
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error generating student profile information. Please try again."
@@ -2610,7 +2614,7 @@ msgstr "生成评分结果错误，请重试。"
 
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error generating problem grade report. Please try again."
-msgstr "生成评分结果错误，请重试。"
+msgstr "生成问题评分报告错误，请重试。"
 
 #: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
 msgid "Unavailable metric display."
@@ -3103,7 +3107,7 @@ msgstr "获取邮件发生错误，请稍后重试。如问题持续发生，请
 
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Subject"
-msgstr "科目"
+msgstr "邮件主题"
 
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Sent By"
@@ -3123,7 +3127,7 @@ msgstr "复制邮件至编辑器"
 
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Subject:"
-msgstr "科目"
+msgstr "邮件主题"
 
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Sent By:"
@@ -3251,7 +3255,7 @@ msgstr "超链接(Ctrl+L)"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Blockquote (Ctrl+Q)"
-msgstr "引用(Ctrl+Q)"
+msgstr "块引用(Ctrl+Q)"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Code Sample (Ctrl+K)"
@@ -3263,11 +3267,11 @@ msgstr "图片(Ctrl+G)"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Numbered List (Ctrl+O)"
-msgstr "有序列表(Ctrl+O)"
+msgstr "编号列表(Ctrl+O)"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Bulleted List (Ctrl+U)"
-msgstr "符号列表(Ctrl+U)"
+msgstr "项目符号列表(Ctrl+U)"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "Heading (Ctrl+H)"
@@ -3291,11 +3295,11 @@ msgstr "重做(Ctrl+Shift+Z)"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "strong text"
-msgstr "加粗文字"
+msgstr "加粗文本"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "emphasized text"
-msgstr "强调文字"
+msgstr "强调文本"
 
 #: lms/static/js/Markdown.Editor.js
 msgid "enter image description here"
@@ -3363,7 +3367,7 @@ msgstr "所有单元"
 
 #: lms/static/js/ccx/schedule.js lms/static/js/ccx/schedule.js.c
 msgid "Click to change"
-msgstr ""
+msgstr "点击以更改"
 
 #: lms/static/js/ccx/schedule.js
 msgid "Select a chapter"
@@ -3375,11 +3379,11 @@ msgstr "保存修改"
 
 #: lms/static/js/ccx/schedule.js
 msgid "Enter Due Date and Time"
-msgstr ""
+msgstr "输入到期日期和时间"
 
 #: lms/static/js/ccx/schedule.js
 msgid "Enter Start Date and Time"
-msgstr ""
+msgstr "输入开始日期和时间"
 
 #: lms/static/js/courseware/credit_progress.js
 msgid "Less"
@@ -3391,7 +3395,7 @@ msgstr "请输入一个有效的捐助金额。"
 
 #: lms/static/js/dashboard/donation.js
 msgid "Your donation could not be submitted."
-msgstr "您的捐款无法提交。"
+msgstr "您的捐助无法提交。"
 
 #: lms/static/js/dashboard/legacy.js
 msgid "An error occurred. Please try again later."
@@ -3602,7 +3606,7 @@ msgstr "生成证书期间出现错误，请重试。"
 msgid ""
 "There was a problem creating the report. Select \"Create Executive Summary\""
 " to try again."
-msgstr "创建报告时发生问题，请选择“创建摘要”重新尝试。"
+msgstr "创建报告时发生问题，请选择“创建执行摘要”重新尝试。"
 
 #: lms/static/js/instructor_dashboard/ecommerce.js
 msgid "Enter the enrollment code."
@@ -3657,7 +3661,7 @@ msgstr "正在保存你的电子邮件偏好"
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Enrolling you in the selected course"
-msgstr ""
+msgstr "正在所选择的课程中对你进行登记"
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Adding the selected course to your cart"
@@ -3669,7 +3673,7 @@ msgstr "正在加载你的课程"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Basic Account Information (required)"
-msgstr "账户信息 (必填)"
+msgstr "基本账户信息 (必填)"
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
@@ -3756,7 +3760,7 @@ msgstr "关联 {accountName} 账户"
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid "We've sent a confirmation message to {new_email_address}. "
-msgstr "我们已向 {new_email_address}.发送了一封确认邮件。 "
+msgstr "我们已向 {new_email_address} 发送了一封确认邮件。 "
 
 #: lms/static/js/student_account/views/account_settings_fields.js
 msgid ""
@@ -3853,7 +3857,7 @@ msgstr "请验证你已上传了一张有效的图片(PNG或JPEG格式)。"
 #: lms/static/js/verify_student/views/incourse_reverify_view.js
 #: lms/static/js/verify_student/views/review_photos_step_view.js
 msgid "An error has occurred. Please try again later."
-msgstr "发生了一个未知错误，请稍后重试。"
+msgstr "发生了一个错误，请稍后重试。"
 
 #: lms/static/js/verify_student/views/incourse_reverify_view.js
 #: lms/static/js/verify_student/views/review_photos_step_view.js
@@ -3892,7 +3896,7 @@ msgstr "使用{processor}付款"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "An error has occurred. Please try again."
-msgstr "发生了一个未知错误，请重试。"
+msgstr "发生了一个错误，请重试。"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Could not submit order"
@@ -3922,15 +3926,15 @@ msgstr "视频捕获失败"
 msgid ""
 "Please verify that your webcam is connected and that you have allowed your "
 "browser to access it."
-msgstr "请检查你的摄像头已连接并且你的浏览器可以访问。"
+msgstr "请检查你的网络摄像头已连接并且你的浏览器可以访问。"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "No Webcam Detected"
-msgstr "没有检测到摄像头"
+msgstr "没有检测到网络摄像头"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "You don't seem to have a webcam connected."
-msgstr "貌似你还没有一个可使用的摄像头。"
+msgstr "貌似你还没有一个可使用的网络摄像头。"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "Double-check that your webcam is connected and working to continue."
@@ -3988,15 +3992,15 @@ msgstr "移除中"
 
 #: lms/static/js/views/image_field.js
 msgid "An error has occurred. Refresh the page, and then try again."
-msgstr "发生了一个未知错误，请刷新页面后重试。"
+msgstr "发生了一个错误，请刷新页面后重试。"
 
 #: lms/static/js/views/image_field.js
 msgid "The file must be at least {size} in size."
-msgstr "文件必须大于 {size}"
+msgstr "文件大小必须大于 {size}"
 
 #: lms/static/js/views/image_field.js
 msgid "The file must be smaller than {size} in size."
-msgstr "文件必须小于 {size} "
+msgstr "文件大小必须小于 {size} "
 
 #: lms/static/js/views/image_field.js
 msgid ""
@@ -4025,7 +4029,7 @@ msgstr "MB"
 #: lms/templates/class_dashboard/all_section_metrics.js
 #: lms/templates/class_dashboard/all_section_metrics.js
 msgid "Unable to retrieve data, please try again later."
-msgstr "无法读取数据，请稍后再试试。"
+msgstr "无法检索数据，请稍后再试试。"
 
 #: lms/templates/class_dashboard/d3_stacked_bar_graph.js
 msgid "%(num_students)s student opened Subsection"

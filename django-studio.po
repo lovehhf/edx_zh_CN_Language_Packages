@@ -110,7 +110,7 @@ msgstr "无法找到分支，源正处于分离HEAD模式。"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to update or clone git repository."
-msgstr "无法更新或者复制Git源。"
+msgstr "无法更新或者克隆Git源。"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Unable to export course to xml."
@@ -138,11 +138,11 @@ msgstr "提供了错误的课程地址"
 
 #: cms/djangoapps/contentstore/git_export_utils.py
 msgid "Missing branch on fresh clone"
-msgstr "在最近的复制中，丢失一些分支"
+msgstr "在最近的复制中，丢失了一些分支"
 
 #: cms/djangoapps/contentstore/utils.py
 msgid "Deleted group"
-msgstr ""
+msgstr "删除组"
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py
 msgid ""
@@ -166,11 +166,11 @@ msgstr "上传完成"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "must have name of the certificate"
-msgstr "证书必有有名称"
+msgstr "必需有证书的名称"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr "证书字典{0}确实数值'{1}'"
+msgstr "证书字典{0}丢失键值'{1}'"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 #: cms/djangoapps/contentstore/views/certificates.py
@@ -201,7 +201,7 @@ msgstr "尚未计划"
 msgid ""
 "Special characters not allowed in organization, course number, and course "
 "run."
-msgstr "在机构、课程编号和开课时间中，不允许使用特殊字符。"
+msgstr "在机构、课程编号和课程运行中，不允许使用特殊字符。"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid ""
@@ -231,7 +231,7 @@ msgstr "先修课程标识无效"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "An error occurred while trying to save your tabs"
-msgstr "当你尝试保存书签时发生错误"
+msgstr "尝试保存你的书签时发生错误"
 
 #: cms/djangoapps/contentstore/views/course.py
 msgid "Tabs Exception"
@@ -247,7 +247,7 @@ msgstr "不能删除正在使用中的内容组。"
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py
 msgid "Entrance Exam - Subsection"
-msgstr "入学考试—节"
+msgstr "入学考试 - 节"
 
 #: cms/djangoapps/contentstore/views/entrance_exam.py
 msgid "Completed Course Entrance Exam"
@@ -267,11 +267,11 @@ msgstr "空白页"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "We only support uploading a .tar.gz file."
-msgstr "仅支持上次后缀为.tar.gz的文件"
+msgstr "仅支持上传后缀为.tar.gz的文件"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "File upload corrupted. Please try again"
-msgstr "文件上次错误,请重试"
+msgstr "文件上传错误,请重试"
 
 #: cms/djangoapps/contentstore/views/import_export.py
 msgid "Could not find the {0} file in the package."
@@ -313,7 +313,7 @@ msgstr "{section_or_subsection}“{display_name}”"
 
 #: cms/djangoapps/contentstore/views/library.py
 msgid "Unable to create library - missing required field '{field}'"
-msgstr "无法创建知识库—缺少必填字段“{field}”"
+msgstr "无法创建知识库 — 缺少必填字段“{field}”"
 
 #: cms/djangoapps/contentstore/views/library.py
 msgid ""
@@ -342,7 +342,7 @@ msgstr "定位器无法找到它们。"
 
 #: cms/djangoapps/contentstore/views/transcripts_ajax.py
 msgid "Transcripts are supported only for \"video\" modules."
-msgstr "字幕只支持视频模块。"
+msgstr "字幕只支持“视频”模块。"
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Insufficient permissions"
@@ -362,7 +362,7 @@ msgstr "“角色”未指定。"
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Invalid `role` specified."
-msgstr "指定的“角色”无效。"
+msgstr "指定“角色”无效。"
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "You may not remove the last Admin. Add another Admin first."
@@ -421,7 +421,7 @@ msgstr "长度"
 
 #: cms/djangoapps/contentstore/views/videos.py
 msgid "Date Added"
-msgstr "添加日期"
+msgstr "日期已添加"
 
 #. Translators: This is listed as the duration for a video that has not
 #. yet reached the point in its processing by the servers where its

@@ -57,7 +57,7 @@ msgstr "此情况可能由于服务器错误或者您的网络连接错误导致
 
 #: cms/static/coffee/src/main.js
 msgid "Studio's having trouble saving your work"
-msgstr "Studio 保存您工作时遇到问题"
+msgstr "Studio 无法保存你的工作"
 
 #: cms/static/coffee/src/views/tabs.js
 msgid "Delete Page Confirmation"
@@ -98,7 +98,7 @@ msgstr "证书名必须填写。"
 
 #: cms/static/js/certificates/models/certificate.js
 msgid "Signatory field(s) has invalid data."
-msgstr "印章输入框(s)无效的数据。"
+msgstr "印章输入框(s)数据无效。"
 
 #: cms/static/js/certificates/models/signatory.js
 msgid "Signatory name should not be more than 40 characters long."
@@ -351,7 +351,7 @@ msgstr "所有的组的名字必须是唯一的。"
 msgid ""
 "Only <%= fileTypes %> files can be uploaded. Please select a file ending in "
 "<%= fileExtensions %> to upload."
-msgstr "只有 <%= fileTypes %> 格式的文件可以上传。请选择一个以 <%= fileExtensions %> 结尾的文件上传。"
+msgstr "只有 <%= fileTypes %> 格式的文件可以上传。请选择一个以 <%= fileExtensions %> 为扩展名的文件上传。"
 
 #: cms/static/js/models/uploads.js
 msgid "or"
@@ -444,7 +444,7 @@ msgstr "您的文件已经被删除"
 
 #: cms/static/js/views/assets.js
 msgid "Date Added"
-msgstr "添加日期"
+msgstr "日期已添加"
 
 #: cms/static/js/views/assets.js
 msgid "Type"
@@ -452,7 +452,7 @@ msgstr "类型"
 
 #: cms/static/js/views/assets.js
 msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
-msgstr "文件 {filename} 的大小超过了 {maxFileSizeInMBs} MB 的限制"
+msgstr "文件 {filename} 的大小超过了 {maxFileSizeInMBs} MB 的最大限制"
 
 #: cms/static/js/views/assets.js
 msgid ""
@@ -617,7 +617,7 @@ msgstr "允许其他人自由复制、散布、展示及演出本作品-以及�
 
 #: cms/static/js/views/license.js
 msgid "No Derivatives"
-msgstr "无相关派生"
+msgstr "禁止改作"
 
 #: cms/static/js/views/license.js
 msgid ""
@@ -719,7 +719,7 @@ msgstr "尚未评分"
 
 #: cms/static/js/views/paged_container.js
 msgid "Date added"
-msgstr "添加日期"
+msgstr "日期已添加"
 
 #. Translators: sample result:
 #. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
@@ -794,7 +794,7 @@ msgstr "很抱歉，出现错误"
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes"
-msgstr "您已更改"
+msgstr "您已做出更改"
 
 #: cms/static/js/views/validation.js
 msgid "Your changes will not take effect until you save your progress."
@@ -802,7 +802,7 @@ msgstr "您所作变更在保存后才能生效。"
 
 #: cms/static/js/views/validation.js
 msgid "You've made some changes, but there are some errors"
-msgstr "您所作变更存在错误"
+msgstr "您已做更改，但存在错误"
 
 #: cms/static/js/views/validation.js
 msgid ""
@@ -991,7 +991,7 @@ msgstr "文件必须是JPEG或者PNG格式。"
 msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%=limit%> characters."
-msgstr "机构、课程编号和开课时间字段合在一起不能超过 <%=limit%> 个字符。"
+msgstr "机构、课程编号和课程运行字段合在一起不能超过 <%=limit%> 个字符。"
 
 #: cms/static/js/views/utils/create_library_utils.js
 msgid ""

@@ -290,11 +290,11 @@ msgstr "取消关注"
 #: common/static/common/templates/discussion/forum-action-pin.underscore
 #: common/static/common/templates/discussion/forum-action-pin.underscore
 msgid "Pin"
-msgstr "处理"
+msgstr "固定"
 
 #: common/static/common/templates/discussion/forum-action-pin.underscore
 msgid "Unpin"
-msgstr "不做处理"
+msgstr "取消固定"
 
 #: common/static/common/templates/discussion/forum-action-report.underscore
 msgid "Report abuse"
@@ -310,7 +310,7 @@ msgstr "取消报告"
 
 #: common/static/common/templates/discussion/forum-action-vote.underscore
 msgid "Vote for this post,"
-msgstr "为该文章投票"
+msgstr "为该贴投票"
 
 #: common/static/common/templates/discussion/forum-actions.underscore
 #: lms/templates/discovery/facet.underscore
@@ -444,13 +444,13 @@ msgstr "由：教员"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 msgid "By: Community TA"
-msgstr "以：社区助教"
+msgstr "由：社区助教"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-list-item.underscore
 #: common/static/common/templates/discussion/thread-response-show.underscore
 msgid "fmt"
-msgstr ""
+msgstr "格式"
 
 #: common/static/common/templates/discussion/thread-list-item.underscore
 msgid ""
@@ -482,15 +482,15 @@ msgstr "%(time_ago)s之前，已标记为答案 "
 
 #: common/static/common/templates/discussion/thread-response-show.underscore
 msgid "endorsed %(time_ago)s by %(user)s"
-msgstr "允许%(user)s在%(time_ago)s 之前"
+msgstr "在%(time_ago)s 之前被%(user)s赞同"
 
 #: common/static/common/templates/discussion/thread-response-show.underscore
 msgid "endorsed %(time_ago)s"
-msgstr "允许 %(time_ago)s之前"
+msgstr "%(time_ago)s之前已被赞同"
 
 #: common/static/common/templates/discussion/thread-response.underscore
 msgid "fmts"
-msgstr ""
+msgstr "格式"
 
 #: common/static/common/templates/discussion/thread-response.underscore
 #: common/static/common/templates/discussion/thread-response.underscore

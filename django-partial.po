@@ -2053,7 +2053,7 @@ msgstr "该课程结束的日期"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Cosmetic Course Display Price"
-msgstr "掩饰课程显示价格"
+msgstr "美化的课程显示价格"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2093,12 +2093,12 @@ msgstr "显示计算器"
 msgid ""
 "Enter true or false. When true, students can see the calculator in the "
 "course."
-msgstr "输入对或错。当输入为对时，学生可以造课程中看到计算器。"
+msgstr "输入true或false。当输入为true时，学生可以在课程中看到计算器。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the name of the course as it should appear in the edX.org course list."
-msgstr "输入应当出现在 edX.org 课程列表中的课程名称。"
+msgstr "输入应当出现在课程列表中的课程名称。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Display Name"
@@ -2220,7 +2220,7 @@ msgstr "手机端可见的课程"
 msgid ""
 "Enter true or false. If true, the course will be available to mobile "
 "devices."
-msgstr "请输入真或者假,如果为真,这门课程将支持移动设备上学习"
+msgstr "请输入true或者false,如果为真,这门课程将支持移动设备上学习"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Video Upload Credentials"
@@ -2311,7 +2311,7 @@ msgstr "允许匿名讨论帖"
 msgid ""
 "Enter true or false. If true, students can create discussion posts that are "
 "anonymous to all users."
-msgstr "输入真或假。如果是真的，学生可以匿名创建讨论的帖子。"
+msgstr "输入 true 或者 false。如果输入为 true ，学生可以匿名创建讨论的帖子。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Allow Anonymous Discussion Posts to Peers"
@@ -2373,7 +2373,7 @@ msgstr "起草课程评分策略"
 msgid ""
 "Set up your assignment types and grading policy even if you haven't created "
 "all your assignments."
-msgstr "即使尚未创建所有的作业，也请您先设置作业类型和评分准则。"
+msgstr "即使尚未创建完所有的作业，也请您先设置作业类型和评分准则。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Edit Grading Settings"
@@ -2399,7 +2399,7 @@ msgstr "创建首个章节和小节"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Use your course outline to build your first Section and Subsection."
-msgstr "根据课程大纲来创建第一个章节和小节。"
+msgstr "根据课程大纲来创建第一个章和小节。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 #: common/lib/xmodule/xmodule/course_module.py
@@ -2608,7 +2608,7 @@ msgstr "课程结束前可下载证书"
 msgid ""
 "Enter true or false. If true, students can download certificates before the "
 "course ends, if they've met certificate requirements."
-msgstr "输入真或假。如果是真的，学生遇到下载证书的要求，可以在课程结束前下载证书。"
+msgstr "输入true或false。如果输入的是true，当学生遇到下载证书的要求，可以在课程结束前下载证书。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Certificates Display Behavior"
@@ -2753,7 +2753,7 @@ msgid ""
 "setting overrides the course number that you entered when you created the "
 "course. To use the course number that you entered when you created the "
 "course, enter null."
-msgstr "输入你想在课件中出现的课程编号。当你完成课程时，此设计会覆盖你进入的课程编号。当你创建课程时，在你进入的课程编码中输入空。"
+msgstr "输入你想在课件中出现的课程编号。当你完成课程时，此设置会覆盖你进入的课程编号。当你创建课程时，在你进入的课程编码中输入空。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Maximum Student Enrollment"
@@ -2781,7 +2781,7 @@ msgstr "仅限受邀者"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr ""
+msgstr "是否限制选课者只能是教员邀请的"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
@@ -2883,7 +2883,7 @@ msgstr "团队配置"
 msgid ""
 "Enter configuration for the teams feature. Expects two entries: "
 "max_team_size and topics, where topics is a list of topics."
-msgstr "输入团队特性的配置。期望两个定义：max_team_size 和 topics，其中 topics 是主题列表。"
+msgstr "输入团队特性的配置。期望有两项：max_team_size 和 topics，其中 topics 是主题列表。"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Enable Proctored Exams"
@@ -3063,7 +3063,7 @@ msgstr "批注工具模式"
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid ""
 "Type in number corresponding to following modes:  'instructor' or 'everyone'"
-msgstr "类型对应以下模式：“导师”或“大家”"
+msgstr "类型对应以下模式：“教师”或“所有人”"
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3284,7 +3284,7 @@ msgstr "分数保存在xblock KVS中——已公布分数的分本存储在djang
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Comment as returned from grader, LTI2.0 spec"
-msgstr ""
+msgstr "提交评分，LTI2.0说明 "
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Hide External Tool"
@@ -3304,7 +3304,7 @@ msgstr "需要用户名"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's username."
-msgstr ""
+msgstr "设置需要用户名为True"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Request user's email"
@@ -3312,7 +3312,7 @@ msgstr "需要用户邮箱"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Select True to request the user's email address."
-msgstr ""
+msgstr "设置需要email为True"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "LTI Application Information"
@@ -3336,7 +3336,7 @@ msgstr "输入按钮上的文字用于加载第三方应用。"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid "Accept grades past deadline"
-msgstr ""
+msgstr "接受过去成绩的最后期限"
 
 #: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
@@ -3549,7 +3549,7 @@ msgstr "该内容实验可能影响内容可见性。"
 
 #: common/lib/xmodule/xmodule/tabs.py common/lib/xmodule/xmodule/tabs.py
 msgid "External Discussion"
-msgstr ""
+msgstr "外部论坛"
 
 #: common/lib/xmodule/xmodule/textannotation_module.py
 msgid "Text Annotation"

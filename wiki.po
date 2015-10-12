@@ -95,7 +95,7 @@ msgid ""
 "alphanumeric characters and - or _. Note that you cannot change the slug "
 "after creating the article."
 msgstr ""
-"这个地址将用于定位你的文档。请使用由数字、字母、－（减号）、_（下划线）组成的字符串。注意：一旦文档创建完毕将不能再对此固定链接地址进行修改。"
+"这个地址将用于定位你的文档。请使用由数字、字母、-（连字符）、_（下划线）组成的字符串。注意：一旦文档创建完毕将不能再对此固定链接地址进行修改。"
 
 #: wiki/forms.py
 msgid "Write a brief message for the article's history log."
@@ -126,7 +126,7 @@ msgid ""
 "Purge the article: Completely remove it (and all its contents) with no undo."
 " Purging is a good idea if you want to free the slug such that users can "
 "create new articles in its place."
-msgstr "清除文档：完全删除它(以及其中的内容)且无法恢复。当你需要释放该固定链接地址以便可以创建一个新文档继承使用该固定链接地址时选择清除操作。"
+msgstr "清除文档：完全删除它(以及其中的内容)且无法恢复。当你需要释放该固定链接地址以便用户可以创建一个新文档继承使用该固定链接地址时选择清除操作。"
 
 #: wiki/forms.py wiki/plugins/attachments/forms.py
 #: wiki/plugins/images/forms.py
@@ -208,7 +208,7 @@ msgstr "当前版本"
 msgid ""
 "The revision being displayed for this article. If you need to do a roll-"
 "back, simply change the value of this field."
-msgstr "显示该文档的对应版本。如果你需要回滚到历史版本，请修改空格里的值。"
+msgstr "显示该文档的对应版本。如果你需要回滚到历史版本，请修改这个字段的值。"
 
 #: wiki/models/article.py
 msgid "modified"
@@ -436,7 +436,7 @@ msgstr "你的文件无法被保存：%s"
 msgid ""
 "Your file could not be saved, probably because of a permission error on the "
 "web server."
-msgstr "你的文件无法被保存，可能是由于或者Web服务器的权限异常。"
+msgstr "你的文件无法被保存，可能是由于Web服务器的权限错误。"
 
 #: wiki/plugins/attachments/views.py
 msgid "%s uploaded and replaces old attachment."
@@ -450,7 +450,7 @@ msgstr "你的新文件将被自动重命名以匹配已经存在的文件。不
 
 #: wiki/plugins/attachments/views.py
 msgid "Current revision changed for %s."
-msgstr "对%s当前修订版本的变更。"
+msgstr "为%s当前修订版本已变更。"
 
 #: wiki/plugins/attachments/views.py
 msgid "Added a reference to \"%(att)s\" from \"%(art)s\"."
@@ -484,7 +484,7 @@ msgstr "帮助"
 msgid ""
 "New image %s was successfully uploaded. You can use it by selecting it from "
 "the list of available images."
-msgstr "新图片%s已经成功上传，您可以从图片库中选择使用它。"
+msgstr "新图片%s已经成功上传，您可以从可用图片列表中选择使用它。"
 
 #: wiki/plugins/images/forms.py
 msgid "Are you sure?"
@@ -568,7 +568,7 @@ msgstr "你的通知设置没有变更，因此无需保存。"
 
 #: wiki/plugins/notifications/models.py
 msgid "%(user)s subscribing to %(article)s (%(type)s)"
-msgstr "%(user)s订阅%(article)s(%(type)s)"
+msgstr "%(user)s订阅%(article)s (%(type)s)"
 
 #: wiki/plugins/notifications/models.py
 msgid "Article deleted: %s"
@@ -628,7 +628,7 @@ msgstr "您的更改已被保存。"
 
 #: wiki/views/article.py
 msgid "A new revision of the article was succesfully added."
-msgstr "成功添加了这篇文章的新的版本"
+msgstr "成功添加了这篇文章的新的修订版本"
 
 #: wiki/views/article.py
 msgid "Restoring article"
@@ -640,7 +640,7 @@ msgstr "文档“%s”及其子链接已经被恢复。"
 
 #: wiki/views/article.py
 msgid "The article %s is now set to display revision #%d"
-msgstr "文档%s当前被设置为显示修订版本#%d"
+msgstr "文档%s当前被设置为显示修订版本 #%d"
 
 #: wiki/views/article.py
 msgid "New title"
@@ -648,10 +648,10 @@ msgstr "新标题"
 
 #: wiki/views/article.py
 msgid "Merge between Revision #%(r1)d and Revision #%(r2)d"
-msgstr "合并修订版本#%(r1)d与#%(r2)d"
+msgstr "合并修订版本 #%(r1)d 与 #%(r2)d"
 
 #: wiki/views/article.py
 msgid ""
 "A new revision was created: Merge between Revision #%(r1)d and Revision "
 "#%(r2)d"
-msgstr "产生新的修订版本：合并修订版本#%(r1)d与#%(r2)d"
+msgstr "创建了新的修订版本：合并修订版本 #%(r1)d 与 #%(r2)d"

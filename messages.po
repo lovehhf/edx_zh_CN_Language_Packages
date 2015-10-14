@@ -21,4 +21,4 @@ msgstr ""
 
 # empty
 msgid "This is a key string."
-msgstr "这是一个关键字字符串。"
+msgstr "这是一个关键字字符串。 "

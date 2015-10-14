@@ -39,12 +39,12 @@ msgstr "状态"
 
 #: cms/templates/js/add-xblock-component-button.underscore
 msgid "Add Component:"
-msgstr ""
+msgstr "添加组件："
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 #: cms/templates/js/add-xblock-component-menu.underscore
 msgid "%(type)s Component Template Menu"
-msgstr ""
+msgstr "%(type)s组件模板菜单"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Common Problem Types"
@@ -152,12 +152,12 @@ msgstr "认证细则"
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Course Title"
-msgstr ""
+msgstr "课程标题"
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
 msgid "Course Title Override"
-msgstr ""
+msgstr "课程标题覆盖"
 
 #: cms/templates/js/certificate-details.underscore
 #: cms/templates/js/certificate-editor.underscore
@@ -169,7 +169,7 @@ msgstr "证书签名"
 #: cms/templates/js/edit-textbook.underscore
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "error.message"
-msgstr "error.message"
+msgstr "错误.消息"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Certificate Information"
@@ -197,15 +197,15 @@ msgstr "课程标题"
 msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
-msgstr ""
+msgstr "指定一个在证书上显示的官方课程标题的替代标题。保持空白以使用官方课程标题"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "Add Additional Signatory"
-msgstr ""
+msgstr "添加额外签名"
 
 #: cms/templates/js/certificate-editor.underscore
 msgid "(Up to 4 signatories are allowed for a certificate)"
-msgstr ""
+msgstr "（一个证书至多4个签名）"
 
 #: cms/templates/js/certificate-editor.underscore
 #: cms/templates/js/content-group-editor.underscore
@@ -227,7 +227,7 @@ msgstr "激活"
 
 #: cms/templates/js/certificate-web-preview.underscore
 msgid "Deactivate"
-msgstr ""
+msgstr "撤消激活"
 
 #: cms/templates/js/checklist.underscore
 msgid "{number}{pct_sign} of checklists completed"
@@ -270,7 +270,7 @@ msgstr "内容组 ID"
 
 #: cms/templates/js/content-group-editor.underscore
 msgid "This is the name of the group"
-msgstr "这里输入组的名字"
+msgstr "这是组的名字"
 
 #: cms/templates/js/content-group-editor.underscore
 msgid "This content group is used in one or more units."
@@ -335,7 +335,7 @@ msgstr "已公开："
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/publish-xblock.underscore
 msgid "Scheduled:"
-msgstr "已定于："
+msgstr "已安排："
 
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/publish-xblock.underscore
@@ -352,11 +352,11 @@ msgstr "截止时间："
 
 #: cms/templates/js/course-outline.underscore
 msgid "Proctored Exam"
-msgstr ""
+msgstr "监督测试"
 
 #: cms/templates/js/course-outline.underscore
 msgid "Timed and Proctored Exam"
-msgstr ""
+msgstr "计时的监督测试"
 
 #: cms/templates/js/course-outline.underscore
 #: cms/templates/js/xblock-outline.underscore
@@ -467,7 +467,7 @@ msgstr "章资源"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "path/to/introductionToCookieBaking-CH%d.pdf"
-msgstr "路径/路径/曲奇烘焙简介-第%d章.pdf"
+msgstr "路径/到/曲奇烘焙简介-第%d章.pdf"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "upload a PDF file or provide the path to a Studio asset file"
@@ -564,7 +564,7 @@ msgstr "组"
 msgid ""
 "Name of the groups that students will be assigned to, for example, Control, "
 "Video, Problems. You must have two or more groups."
-msgstr "要分配给学生的组的名称，例如：控制、视频、问题。组的数量必须为两个或更多。"
+msgstr "将学生分配到其中的组的名称，例如：控制、视频、问题。组的数量必须为两个或更多。"
 
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Add another group"
@@ -621,7 +621,7 @@ msgstr "保留部分权利"
 
 #: cms/templates/js/list.underscore
 msgid "Add your first %(item_type)s"
-msgstr "添加第一个%(item_type)s"
+msgstr "添加你的首个%(item_type)s"
 
 #: cms/templates/js/list.underscore
 msgid "New %(item_type)s"
@@ -830,17 +830,17 @@ msgstr "签发者称谓"
 msgid ""
 "The title of this signatory as it should appear on certificates.  Maximum of"
 " 106 characters."
-msgstr ""
+msgstr "应该出现在证书上的签发者的称谓。最多106个字符"
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Organization of the signatory"
-msgstr ""
+msgstr "签发组织机构"
 
 #: cms/templates/js/signatory-editor.underscore
 msgid ""
 "The organization that this signatory belongs to, as it should appear on "
 "certificates."
-msgstr ""
+msgstr "这个签发者所属的组织机构，其应该出现在证书上"
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Signature Image"
@@ -848,7 +848,7 @@ msgstr "签名图片"
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Path to Signature Image"
-msgstr ""
+msgstr "签名图片的路径"
 
 #: cms/templates/js/signatory-editor.underscore
 msgid "Image must be 450px X 150px transparent PNG"
@@ -928,29 +928,29 @@ msgid ""
 "Students see warnings when 20% and 5% of the allotted time remains. In "
 "certain cases, students can be granted allowances that give them extra time "
 "to complete the exam."
-msgstr ""
+msgstr "在只剩20%和5%的测试时间时学生会看到提醒。在某些情况下，学生可以被授予额外时间来完成测验"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "This exam is for practice only"
-msgstr ""
+msgstr "这个测验只是练习"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Learners can experience the proctoring software setup process and try some "
 "example problems. Make sure this practice exam is set up as an ungraded "
 "exam."
-msgstr ""
+msgstr "学习者可以体验监督软件的安装进程和尝试一些示例问题。确保这个练习测验设置为非评分测验"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid "This exam is proctored"
-msgstr ""
+msgstr "这个测验是被监督的"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
 "Students can choose to take this exam with or without online proctoring, but"
 " only students who choose the proctored option are eligible for credit. "
 "Proctored exams must also be timed exams."
-msgstr ""
+msgstr "学生可以选择是否在线监督下参加测验，但只有选择监督测验的学生才有资格获得学分。监督没有同样也是计时测验"
 
 #: cms/templates/js/upload-dialog.underscore
 msgid "File upload succeeded"
@@ -968,18 +968,18 @@ msgstr "认证检验点"
 
 #: cms/templates/js/verification-access-editor.underscore
 msgid "Must complete verification checkpoint"
-msgstr ""
+msgstr "必须完成认证检验点"
 
 #: cms/templates/js/verification-access-editor.underscore
 msgid "Verification checkpoint to be completed"
-msgstr ""
+msgstr "待完成的认证检验点"
 
 #: cms/templates/js/verification-access-editor.underscore
 msgid ""
 "Learners who require verification must pass the selected checkpoint to see "
 "the content in this unit. Learners who do not require verification see this "
 "content by default."
-msgstr ""
+msgstr "请求认证的学习者必须通过选择的检验点才能看到单元的内容。没有请求认证的学习者默认看到这个内容"
 
 #: cms/templates/js/xblock-string-field-editor.underscore
 #: cms/templates/js/xblock-string-field-editor.underscore
@@ -992,7 +992,7 @@ msgstr "编辑%(display_name)s(必填)"
 
 #: cms/templates/js/xblock-string-field-editor.underscore
 msgid "formLabel"
-msgstr "formLabel"
+msgstr "表格标签"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid "Add URLs for additional versions"

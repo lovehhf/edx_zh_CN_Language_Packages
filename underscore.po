@@ -859,15 +859,15 @@ msgstr "现在认证"
 
 #: lms/templates/courseware/proctored-exam-controls.underscore
 msgid "Mark Exam As Completed"
-msgstr ""
+msgstr "标记测试已完成"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "timed"
-msgstr ""
+msgstr "计时"
 
 #: lms/templates/courseware/proctored-exam-status.underscore
 msgid "End My Exam"
-msgstr ""
+msgstr "结束我的测试"
 
 #: lms/templates/discovery/course_card.underscore
 msgid "LEARN MORE"
@@ -875,7 +875,7 @@ msgstr "学习更多"
 
 #: lms/templates/discovery/course_card.underscore
 msgid "Starts"
-msgstr ""
+msgstr "开始"
 
 #: lms/templates/discovery/facet.underscore
 #: lms/templates/edxnotes/note-item.underscore
@@ -884,7 +884,7 @@ msgstr "收起"
 
 #: lms/templates/discovery/filter_bar.underscore
 msgid "Clear All"
-msgstr ""
+msgstr "全部清除"
 
 #: lms/templates/edxnotes/note-item.underscore
 msgid "Highlighted text"
@@ -904,7 +904,7 @@ msgstr "标记于："
 
 #: lms/templates/edxnotes/note-item.underscore
 msgid "Last Edited:"
-msgstr "最后修改："
+msgstr "最后编辑："
 
 #: lms/templates/edxnotes/note-item.underscore
 msgid "Tags:"
@@ -925,12 +925,12 @@ msgstr "点击以编辑"
 
 #: lms/templates/fields/field_text.underscore
 msgid "title"
-msgstr "title"
+msgstr "标题"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-course-wide.underscore
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Specify whether discussion topics are divided by cohort"
-msgstr "指定是否由群组对讨论主题进行划分。"
+msgstr "指定是否根据群组对讨论主题进行划分。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-course-wide.underscore
 msgid "Course-Wide Discussion Topics"
@@ -939,7 +939,7 @@ msgstr "全课程范围内的讨论主题"
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-course-wide.underscore
 msgid ""
 "Select the course-wide discussion topics that you want to divide by cohort."
-msgstr "选择您希望由群组划分的全课程范围内的讨论主题。"
+msgstr "选择您希望根据群组划分的全课程范围内的讨论主题。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
 msgid "Content-Specific Discussion Topics"
@@ -948,7 +948,7 @@ msgstr "特定于内容的讨论主题"
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
 msgid ""
 "Specify whether content-specific discussion topics are divided by cohort."
-msgstr "指定是否要由群组对特定于内容的讨论主题进行划分。"
+msgstr "指定是否要根据群组对特定于内容的讨论主题进行划分。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-discussions-inline.underscore
 msgid "Always cohort content-specific discussion topics"
@@ -986,13 +986,13 @@ msgstr "将学生加入到该群组中"
 msgid ""
 "Note: Students can be in only one cohort. Adding students to this group "
 "overrides any previous group assignment."
-msgstr "注意：每个学生只能加入一个群组，将学生加入该组会覆盖之前对该学生所有的群组分配。"
+msgstr "注意：每个学生只能加入一个群组，将学生加入该组会覆盖之前所有的群组分配。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "Enter email addresses and/or usernames, separated by new lines or commas, "
 "for the students you want to add. *"
-msgstr "请输入要添加的学生的电子地址和／或用户名，每行一个或用逗号隔开。*"
+msgstr "请输入要添加的学生的电子邮件地址和／或用户名，用行或逗号隔开。*"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
@@ -1007,7 +1007,7 @@ msgstr "例如：johndoe@example.com, JaneDoe, joeydoe@example.com"
 msgid ""
 "You will not receive notification for emails that bounce, so double-check "
 "your spelling."
-msgstr "您不会收到邮件未送达的通知，因此请仔细检查以确保拼写无误。"
+msgstr "您不会收到邮件退回的通知，因此请仔细检查以确保拼写无误。"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Add Students"
@@ -1201,7 +1201,7 @@ msgstr "这些设置包含了关于你账户的基本信息，你也可以在本
 
 #: lms/templates/student_account/account_settings.underscore
 msgid "section.title"
-msgstr "section.title"
+msgstr "章.标题"
 
 #: lms/templates/student_account/account_settings.underscore
 #: lms/templates/student_profile/learner_profile.underscore
@@ -1221,11 +1221,11 @@ msgstr "登录"
 
 #: lms/templates/student_account/hinted_login.underscore
 msgid "Would you like to sign in using your %(providerName)s credentials?"
-msgstr ""
+msgstr "你想用你的%(providerName)s证书登录吗？"
 
 #: lms/templates/student_account/hinted_login.underscore
 msgid "Sign in using %(providerName)s"
-msgstr ""
+msgstr "用%(providerName)s登录"
 
 #: lms/templates/student_account/hinted_login.underscore
 #: lms/templates/student_account/institution_login.underscore
@@ -1235,24 +1235,24 @@ msgstr "或者"
 
 #: lms/templates/student_account/hinted_login.underscore
 msgid "Show me other ways to sign in or register"
-msgstr ""
+msgstr "显示其他登录或注册的方法"
 
 #: lms/templates/student_account/institution_login.underscore
 msgid "Sign in with Institution/Campus Credentials"
-msgstr ""
+msgstr "用机构/学校证书登录"
 
 #: lms/templates/student_account/institution_login.underscore
 #: lms/templates/student_account/institution_register.underscore
 msgid "Choose your institution from the list below:"
-msgstr ""
+msgstr "从以下的列表中选择你的机构"
 
 #: lms/templates/student_account/institution_login.underscore
 msgid "Back to sign in"
-msgstr "返回登陆"
+msgstr "返回登录"
 
 #: lms/templates/student_account/institution_register.underscore
 msgid "Register with Institution/Campus Credentials"
-msgstr ""
+msgstr "用机构/学校证书注册"
 
 #: lms/templates/student_account/institution_register.underscore
 msgid "Register through edX"
@@ -1263,7 +1263,7 @@ msgid ""
 "You have successfully signed into %(currentProvider)s, but your "
 "%(currentProvider)s account does not have a linked %(platformName)s account."
 " To link your accounts, sign in now using your %(platformName)s password."
-msgstr ""
+msgstr "你已成功登录%(currentProvider)s，但你的%(currentProvider)s账户没有已连接的%(platformName)s账户。要连接你的账户，请现在用你的%(platformName)s密码登录"
 
 #: lms/templates/student_account/login.underscore
 msgid "Password Reset Email Sent"
@@ -1281,21 +1281,21 @@ msgstr "我们无法让您登录。"
 
 #: lms/templates/student_account/login.underscore
 msgid "An error occurred when signing you in to %(platformName)s."
-msgstr "你在%(platformName)s注册时发生错误了。"
+msgstr "你在%(platformName)s登录时发生错误了。"
 
 #: lms/templates/student_account/login.underscore
 msgid ""
 "Sign in here using your email address and password, or use one of the "
 "providers listed below."
-msgstr ""
+msgstr "使用你的电子邮件地址和密码在这里登录，或使用以下列出的某一个提供商"
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign in here using your email address and password."
-msgstr "在这里使用你的E-mail和密码登陆。"
+msgstr "在这里使用你的E-mail和密码登录。"
 
 #: lms/templates/student_account/login.underscore
 msgid "If you do not yet have an account, use the button below to register."
-msgstr ""
+msgstr "如果你还没有账户，使用下面的按钮以注册"
 
 #: lms/templates/student_account/login.underscore
 msgid "or sign in with"
@@ -1303,12 +1303,12 @@ msgstr "或者通过以下方式登录"
 
 #: lms/templates/student_account/login.underscore
 msgid "Sign in with %(providerName)s"
-msgstr ""
+msgstr "使用%(providerName)s登录"
 
 #: lms/templates/student_account/login.underscore
 #: lms/templates/student_account/register.underscore
 msgid "Use my institution/campus credentials"
-msgstr ""
+msgstr "使用我的机构/学校证书"
 
 #: lms/templates/student_account/login.underscore
 msgid "New to %(platformName)s?"
@@ -1357,7 +1357,7 @@ msgstr "使用以下方式创建账户"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create account using %(providerName)s."
-msgstr ""
+msgstr "使用%(providerName)s创建账户"
 
 #: lms/templates/student_account/register.underscore
 msgid "or create a new one here"
@@ -1441,7 +1441,7 @@ msgstr "你的验证所需"
 #: lms/templates/verify_student/make_payment_step.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Webcam"
-msgstr "摄像头"
+msgstr "网络摄像头"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
@@ -1490,7 +1490,7 @@ msgstr "你身份证件上的照片与你的面部照片相符。"
 msgid ""
 "To use the current photo, select the camera button %(icon)s. To take another"
 " photo, select the retake button %(icon)s."
-msgstr "若使用当前相片，选择相机按钮%(icon)s。若再照一张，选择重写照相按钮%(icon)s。"
+msgstr "若使用当前相片，选择相机按钮%(icon)s。若再照一张，选择重新照相按钮%(icon)s。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -1529,7 +1529,7 @@ msgid ""
 "are not saved or visible anywhere on %(platformName)s after the verification"
 " process is complete."
 msgstr ""
-"我们会采用最高级别的安全技术来加密你的照片并发送到我们的授权服务用于审核目的；一旦完成了认证过程，%(platformName)s不会继续保存这些照片和信息。"
+"我们会采用最高级别的安全技术来加密你的照片并发送到我们的授权服务用于审核；一旦完成了认证过程，%(platformName)s不会继续保存这些照片和信息，或让其在其他地方可见。"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -1719,7 +1719,7 @@ msgstr "驾照、护照或者由政府签发的带有你姓名和照片的身份
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Identity Verification In Progress"
-msgstr ""
+msgstr "身份验证正在进行"
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid ""
@@ -1727,11 +1727,11 @@ msgid ""
 "see a message on your dashboard when the verification process is complete "
 "(usually within 1-2 days). In the meantime, you can still access all "
 "available course content."
-msgstr ""
+msgstr "我们已收到你的信息，正在验证你的身份。当验证过程完成时（通常在1-2天内）你将在你的面板上看到一条信息，在些期间，你仍可以访问所有可访问的课程内容"
 
 #: lms/templates/verify_student/reverify_success_step.underscore
 msgid "Return to Your Dashboard"
-msgstr "返回你的控制面板"
+msgstr "返回你的面板"
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Review Your Photos"

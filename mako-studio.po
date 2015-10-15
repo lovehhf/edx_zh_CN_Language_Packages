@@ -91,7 +91,7 @@ msgstr "{studio_name}出现错误，页面无法加载，请稍后再试。"
 msgid ""
 "We've logged the error and our staff is currently working to resolve this "
 "error as soon as possible."
-msgstr "我们已经记录下这个错误，我们的员工正在试图尽快解决这个问题。"
+msgstr "我们已经记录下这个错误，我们的工作人员正在试图尽快解决这个问题。"
 
 #: cms/templates/500.html
 msgid "If the problem persists, please email us at {email_link}."
@@ -142,7 +142,7 @@ msgid ""
 "If you still have issues, contact {platform_name} Support. In the meantime, "
 "you can also return to {link_start}the {studio_name} homepage.{link_end}"
 msgstr ""
-"如果您仍然有问题，请联系{platform_name}支持。同时，您也可以返回到{link_start}{studio_name}主页{link_end}。"
+"如果您仍然有问题，请联系{platform_name}支持。同时，您也可以返回到{link_start}{studio_name}主页。{link_end}"
 
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 #: cms/templates/widgets/header.html

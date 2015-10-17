@@ -1027,7 +1027,7 @@ msgstr "课程设置"
 
 #: cms/templates/export.html
 msgid "Data {em_start}not exported{em_end} with your course:"
-msgstr "不随课程{em_start} 导出 {em_end} 的数据："
+msgstr "{em_start} 不随课程导出 {em_end} 的数据："
 
 #: cms/templates/export.html
 msgid "User Data"
@@ -1104,7 +1104,7 @@ msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
 "data includes the course.xml file, as well as subfolders that contain course"
 " content."
-msgstr "使用档案工具解压.tar.gz中的文件。解压后的数据包含coursex.xml，还有一些子目录，存放了课程内容。"
+msgstr "使用档案工具解压.tar.gz中的文件。解压后的数据包含course.xml，还有一些子目录，存放了课程内容。"
 
 #: cms/templates/export.html
 msgid "Learn more about exporting a course"
@@ -1262,7 +1262,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Simple Organization For Content"
-msgstr "简单地组织内容"
+msgstr "简单的内容组织"
 
 #: cms/templates/howitworks.html
 msgid ""

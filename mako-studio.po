@@ -207,7 +207,7 @@ msgstr "课程图片、课本章节、以及出现在课程讲义边栏中的文
 msgid "Using File URLs"
 msgstr "使用文件 URL"
 
-#: cms/templates/asset_index.html
+#: cms/templates/asset_index.html  
 msgid ""
 "Use the {em_start}{studio_name} URL{em_end} value to link to the file or "
 "image from a component, a course update, or a course handout."
@@ -220,7 +220,7 @@ msgid ""
 " Web URL no longer works for external access to a file."
 msgstr ""
 "请只在课程以外使用{em_start}网页 URL{em_end} 来引用文件或图片。{em_start}注意：{em_end}如果您锁定了某个文件， "
-"则无法从本站以外通过网页 URL 引用该文件。"
+"则无法从本站以外通过网页 URL 引用该文件。" 
 
 #: cms/templates/asset_index.html
 msgid ""
@@ -264,7 +264,7 @@ msgstr "此模块不可用。"
 
 #: cms/templates/certificates.html
 msgid "Working with Certificates"
-msgstr ""
+msgstr "管理证书"
 
 #: cms/templates/certificates.html
 msgid ""
@@ -276,20 +276,20 @@ msgstr "当因课程正式名称过长而不易展示在证书上时，可使用
 msgid ""
 "For verified certificates, specify between one and four signatories and "
 "upload the associated images."
-msgstr ""
+msgstr "为验证证书，请指定1~4个签名然后上传相关的图片"
 
 #: cms/templates/certificates.html
 msgid ""
 "To edit or delete a certificate before it is activated, hover over the top "
 "right corner of the form and select {em_start}Edit{em_end} or the delete "
 "icon."
-msgstr ""
+msgstr "在激活之前编辑或删除一个证书，将鼠标停留在表格的右上角并选择{em_start}编辑{em_end}或删除图标"
 
 #: cms/templates/certificates.html
 msgid ""
 "To view a sample certificate, choose a course mode and select "
 "{em_start}Preview Certificate{em_end}."
-msgstr ""
+msgstr "查看简单证书，请选择课程模式然后选择{em_start}证书预览{em_end}"
 
 #: cms/templates/certificates.html
 msgid "Issuing Certificates to Learners"
@@ -301,6 +301,8 @@ msgid ""
 "selects {em_start}Activate{em_end}. Course team members without the Admin "
 "role cannot edit or delete an activated certificate."
 msgstr ""
+"要颁发证书，具有管理员身份的课程团队成员选择{em_start}激活{em_end}。"
+"没有管理员身份的课程团队成员不能编辑或删除已激活的证书。"
 
 #: cms/templates/certificates.html
 msgid ""
@@ -308,6 +310,7 @@ msgid ""
 "learners who have already earned certificates will no longer be able to "
 "access them."
 msgstr ""
+"在课程开始之后{em_start}不要{em_end}删除证书，不然已经获得证书的学习者将不能访问它们。"
 
 #: cms/templates/certificates.html
 msgid "Learn more about certificates"
@@ -502,21 +505,21 @@ msgstr "在课程大纲中的位置"
 
 #: cms/templates/course-create-rerun.html
 msgid "Create a Course Rerun of:"
-msgstr "创建课程重启："
+msgstr "创建课程再运行："
 
 #: cms/templates/course-create-rerun.html
 msgid "Create a re-run of a course"
-msgstr "创建一次课程重启"
+msgstr "创建一次课程再运行"
 
 #: cms/templates/course-create-rerun.html
 msgid "You are creating a re-run from:"
-msgstr "您正在为以下课程创建一次重启："
+msgstr "您正在为以下课程创建再运行："
 
 #: cms/templates/course-create-rerun.html
 msgid ""
 "Provide identifying information for this re-run of the course. The original "
 "course is not affected in any way by a re-run."
-msgstr "请为该重启的课程提供识别信息，原来的课程不会受重启的影响。"
+msgstr "请为该再运行的课程提供识别信息，原来的课程不会受再运行的影响。"
 
 #: cms/templates/course-create-rerun.html
 msgid ""
@@ -526,7 +529,7 @@ msgstr "注意：机构名称、课程编号以及开课时间三者合在一起
 
 #: cms/templates/course-create-rerun.html
 msgid "Required Information to Create a re-run of a course"
-msgstr "创建一次课程重启所必需的信息"
+msgstr "创建一次课程再运行所必需的信息"
 
 #. Translators: This is an example name for a new course, seen when
 #. filling out the form to create a new course.
@@ -601,11 +604,11 @@ msgstr "将开设该新课程的学期。(该值通常与原始开课时间的�
 
 #: cms/templates/course-create-rerun.html
 msgid "Create Re-run"
-msgstr "创建重启"
+msgstr "创建再运行"
 
 #: cms/templates/course-create-rerun.html
 msgid "When will my course re-run start?"
-msgstr "我的课程何时可以重启？"
+msgstr "我的课程何时可以再运行？"
 
 #: cms/templates/course-create-rerun.html
 msgid "The new course is set to start on January 1, 2030 at midnight (UTC)."
@@ -635,7 +638,7 @@ msgstr "您是新课程的唯一课程员工。没有学生选修该课程，没
 
 #: cms/templates/course-create-rerun.html
 msgid "Learn more about Course Re-runs"
-msgstr "了解更多关于课程重启的信息"
+msgstr "了解更多关于课程再运行的信息"
 
 #: cms/templates/course_info.html cms/templates/course_info.html
 msgid "Course Updates"
@@ -650,7 +653,7 @@ msgid ""
 "Use course updates to notify students of important dates or exams, highlight"
 " particular discussions in the forums, announce schedule changes, and "
 "respond to student questions. You add or edit updates in HTML."
-msgstr "使用课程更新来通知学生重要的日期或者考试，高亮显示论坛中的特别讨论，发布进度变更，以及回复学生问题。您可以用HTML来编辑更新。"
+msgstr "使用课程更新来通知学生重要的日期或者考试，高亮显示论坛中的特别讨论，发布进度变更，以及回复学生问题。您可以用HTML来添加和编辑更新。"
 
 #: cms/templates/course_outline.html cms/templates/course_outline.html
 #: cms/templates/course_outline.html
@@ -660,7 +663,7 @@ msgstr "课程大纲"
 #: cms/templates/course_outline.html
 msgid ""
 "This course was created as a re-run. Some manual configuration is needed."
-msgstr "本课程已作为重启创建，需要进行一些必要的手动配置。"
+msgstr "本课程已作为再运行创建，需要进行一些必要的手动配置。"
 
 #: cms/templates/course_outline.html
 msgid ""
@@ -669,7 +672,8 @@ msgid ""
 "the course team; review course updates and other assets for dated material; "
 "and seed the discussions and wiki."
 msgstr ""
-"当前没有可见的课程内容，也没有学生选修。请确保已检查和重置包括课程开始日期在内的所有的日期，设置好课程团队，检查课程更新和其他资料中的过期内容，并设置好论坛和Wiki。"
+"当前没有可见的课程内容，也没有学生选修。请确保已检查和重置包括课程开始日期在内的所有的日期，"
+"设置好课程团队，检查课程更新和其他资料中的过期内容，并设置好论坛和Wiki。"
 
 #: cms/templates/course_outline.html cms/templates/index.html
 msgid "Dismiss"
@@ -856,7 +860,7 @@ msgid ""
 "You can create and edit custom pages to provide students with additional "
 "course content. For example, you can create pages for the grading policy, "
 "course slides, and a course calendar. "
-msgstr "您可以通过创建个性化页面来为学生提供额外的课程内容。例如，您可以为评分策略、课程幻灯片、课程日历等创建自定义页面。"
+msgstr "您可以通过创建和编辑定制页面来为学生提供额外的课程内容。例如，您可以为评分策略、课程幻灯片、课程日历等创建页面。"
 
 #: cms/templates/edit-tabs.html
 msgid "How do pages look to students in my course?"
@@ -866,7 +870,7 @@ msgstr "学生看到的课程页面会是什么样子？"
 msgid ""
 "Students see the default and custom pages at the top of your course and use "
 "these links to navigate."
-msgstr "学生将会看到水平列于您课程主页上方的缺省页面及自定义页面的链接，并通过这些链接来漫游整个课程。"
+msgstr "学生将会看到水平列于您课程主页上方的缺省页面及自定义页面的链接，并通过这些链接来进行导航。"
 
 #: cms/templates/edit-tabs.html
 msgid "See an example"

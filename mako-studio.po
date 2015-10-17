@@ -1325,7 +1325,7 @@ msgstr "可视化地工作并且随时预览您的学生将要看的内容。通
 
 #: cms/templates/howitworks.html
 msgid "A Broad Library of Problem Types"
-msgstr "丰富的平台库可以支持各种问题类型"
+msgstr "支持各种问题类型的丰富的平台库"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -1418,7 +1418,7 @@ msgstr "快速创建视频、文本片段、内部讨论和各种问题类型。
 
 #: cms/templates/howitworks.html
 msgid "Publishing on Date"
-msgstr "发布时间"
+msgstr "定期发布"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -1551,7 +1551,7 @@ msgid ""
 "Expanding and preparing folder/file structure (You can now leave this page "
 "safely, but avoid making drastic changes to content until this import is "
 "complete)"
-msgstr "展开预定义的目录/文件结构(您现在可以安全地离开这个页面了，但在内容导入完成之前请尽量避免不必要的修改)"
+msgstr "展开预定义的目录/文件结构(您现在可以安全地离开这个页面了，但在内容导入完成之前请尽量避免重大的修改)"
 
 #: cms/templates/import.html
 msgid "Verifying"
@@ -1812,7 +1812,7 @@ msgstr "正在创建该课程的本次运行。"
 #. so that it can be re-run.
 #: cms/templates/index.html
 msgid "Configuring as re-run"
-msgstr "配置为重启"
+msgstr "配置为再运行"
 
 #: cms/templates/index.html
 msgid ""
@@ -1828,18 +1828,18 @@ msgstr ""
 #. the process will follow this text.
 #: cms/templates/index.html
 msgid "This re-run processing status:"
-msgstr ""
+msgstr "本次再运行处理状态"
 
 #: cms/templates/index.html
 msgid "Configuration Error"
-msgstr ""
+msgstr "配置错误"
 
 #: cms/templates/index.html
 msgid ""
 "A system error occurred while your course was being processed. Please go to "
 "the original course to try the re-run again, or contact your PM for "
 "assistance."
-msgstr "在处理您的课程过程中发生了系统错误。请回到原始课程里尝试再次重启，或向您的 PM 求助。"
+msgstr "在处理您的课程过程中发生了系统错误。请回到原始课程里尝试再次再运行，或向您的 PM 求助。"
 
 #: cms/templates/index.html
 msgid "Libraries"
@@ -1847,11 +1847,11 @@ msgstr "知识库"
 
 #: cms/templates/index.html
 msgid "Re-run Course"
-msgstr "重启课程"
+msgstr "再运行课程"
 
 #: cms/templates/index.html
 msgid "Are you staff on an existing {studio_name} course?"
-msgstr "您是否是一个{studio_name}现有课程的工作人员？"
+msgstr "您是否是一个现有{studio_name}课程的工作人员吗？"
 
 #: cms/templates/index.html
 msgid ""
@@ -2063,7 +2063,7 @@ msgid ""
 "this library as the source library, and specify the number of problems to be"
 " randomly selected and displayed to each student."
 msgstr ""
-"要使用知识库，首先向课程高级设置页面中的“高级模块列表”项中添加{em_start}library_content{em_end}策略键，然后在课件中加入一个或多个“随机内容块”组件。在每个“随机内容块”组件的设置中，选择一个知识库作为源库，并指定要被随机选择并呈现给每个学生的问题的数量。"
+"要使用知识库，首先向课程高级设置页面中的“高级模块列表”项中添加{em_start}库内容{em_end}策略键，然后在课件中加入一个“随机内容块”组件。在每个“随机内容块”组件的设置中，选择一个知识库作为源库，并指定要被随机选择并呈现给每个学生的问题的数量。"
 
 #: cms/templates/library.html
 msgid "Learn more about content libraries"
@@ -2147,7 +2147,7 @@ msgstr "管理员是课程团队成员中可以添加和移除其它课程团队
 msgid ""
 "All course team members are automatically enrolled in the course and can "
 "access content in Studio, the LMS, and Insights."
-msgstr "所有的团队成员自动加入课程并且可以看到Studio,LMS,Insight的内容"
+msgstr "所有的团队成员自动加入课程并且可以看到 Studio, LMS, Insight 的内容"
 
 #: cms/templates/manage_users.html
 msgid "Transferring Ownership"
@@ -2160,7 +2160,7 @@ msgid ""
 " make another user the Admin, then ask that user to remove you from the "
 "Course Team list."
 msgstr ""
-"每门课程必须有一名管理员。如过您当前是管理员，且希望转让管理员身份，点击<strong>添加管理权限</strong>来赋予其他管理员权限，并请求他们将您从课程团队列表中删除。"
+"每门课程必须有一名管理员。如过您当前是管理员，且希望转让管理员身份，点击<strong>添加管理权限</strong>来赋予其他用户管理员权限，并请求他们将您从课程团队列表中删除。"
 
 #: cms/templates/manage_users_lib.html
 msgid "Library User Access"
@@ -2444,7 +2444,7 @@ msgstr "学生可以选课的最后一天。"
 
 #: cms/templates/settings.html
 msgid "Contact your edX Partner Manager to update these settings."
-msgstr ""
+msgstr "联系你的 edX 合伙人经理以更新这些设置"
 
 #: cms/templates/settings.html
 msgid "Enrollment End Time"
@@ -2498,7 +2498,7 @@ msgstr "课程简介"
 msgid ""
 "Appears on the course catalog page when students roll over the course name. "
 "Limit to ~150 characters"
-msgstr "将在学生浏览课程目录时出现。限制150个字符。"
+msgstr "将在学生浏览课程目录时出现，限制150个字符。"
 
 #: cms/templates/settings.html
 msgid "Course Overview"
@@ -2511,7 +2511,7 @@ msgstr "您的课程概要页面"
 #: cms/templates/settings.html
 msgid ""
 "Introductions, prerequisites, FAQs that are used on %s (formatted in HTML)"
-msgstr "介绍说明、先修条件、常见问题解答在%s (HTML格式)"
+msgstr "介绍说明、先修条件、常见问题解答，用在%s (HTML格式)"
 
 #: cms/templates/settings.html cms/templates/settings.html
 #: cms/templates/settings.html
@@ -2714,11 +2714,11 @@ msgstr "您对学生最终得分的整体评分范围"
 
 #: cms/templates/settings_graders.html
 msgid "Credit Eligibility"
-msgstr ""
+msgstr "学分合格"
 
 #: cms/templates/settings_graders.html
 msgid "Settings for course credit eligibility"
-msgstr "为课程学分合格设置"
+msgstr "为课程学分合格进行设置"
 
 #: cms/templates/settings_graders.html
 msgid "Minimum Credit-Eligible Grade:"
@@ -2778,7 +2778,7 @@ msgid ""
 "You can also create assignment types, such as homework, labs, quizzes, and "
 "exams, and specify how much of a student's grade each assignment type is "
 "worth."
-msgstr "您也可以创建作业类型，比如家庭作业、实验、测验、以及考试，并且指定每个作业是否计入最终的成绩及其评价分值。"
+msgstr "您也可以创建作业类型，比如家庭作业、实验、测验、以及考试，并且指定每个作业类型的评价分值。"
 
 #: cms/templates/studio_xblock_wrapper.html
 #: cms/templates/studio_xblock_wrapper.html
@@ -2812,7 +2812,7 @@ msgstr "新教材"
 
 #: cms/templates/textbooks.html
 msgid "Why should I break my textbook into chapters?"
-msgstr "我什么我应该将教材拆分为章节？"
+msgstr "为什么我应该将教材拆分为章节？"
 
 #: cms/templates/textbooks.html
 msgid ""
@@ -2881,7 +2881,7 @@ msgid ""
 "complete."
 msgstr ""
 "当一个文件成功上传后，就会启动自动处理程序。对某个文件的自动处理程序开始后，该文件将会在“已上传”列表中显示为{em_start}处理中{em_end}。您可以在该视频具有唯一的视频"
-" ID，并且其状态显示为{em_start}就绪{em_end}之后将该视频添加到您的课程里。外部视频站点的文件处理过程可能需要24小时。"
+" ID，并且其状态显示为{em_start}就绪{em_end}之后将该视频添加到您的课程里。外部视频站点的文件处理过程允许不超过24小时。"
 
 #: cms/templates/videos_index.html
 msgid ""
@@ -2967,7 +2967,7 @@ msgid ""
 "Learners who require verification must pass the selected checkpoint to see "
 "the content in this component. Learners who do not require verification see "
 "this content by default."
-msgstr "需要认证的学习者必须通过挑选检验点才能看到组件的内容，学习者不认证只能看到这个默认组件"
+msgstr "需要认证的学习者必须通过选定的检验点才能看到组件的内容，学习者不认证只能看到这个默认组件"
 
 #: cms/templates/emails/activation_email.txt
 msgid ""
@@ -3169,33 +3169,33 @@ msgstr "{studio_name}文档"
 
 #: cms/templates/widgets/sock.html
 msgid "Access documentation on http://docs.edx.org"
-msgstr ""
+msgstr "访问 http://docs.edx.org 上的文档"
 
 #: cms/templates/widgets/sock.html
 msgid "edX Documentation"
-msgstr ""
+msgstr "edX 文档"
 
 #: cms/templates/widgets/sock.html
 msgid ""
 "Access Course Staff Support on the Partner Portal to submit or review "
 "support tickets"
-msgstr ""
+msgstr "访问在合伙人门户网站中的课程教员支持以提交或查看"
 
 #: cms/templates/widgets/sock.html
 msgid "edX Partner Portal"
-msgstr ""
+msgstr "edX 合伙人门户网站"
 
 #: cms/templates/widgets/sock.html
 msgid "Access the Open edX Portal"
-msgstr ""
+msgstr "访问 Open edX 门户网站"
 
 #: cms/templates/widgets/sock.html
 msgid "Open edX Portal"
-msgstr ""
+msgstr "Open edX 门户网站"
 
 #: cms/templates/widgets/sock.html
 msgid "Enroll in edX101: Overview of Creating an edX Course"
-msgstr ""
+msgstr "选修 edX101：创建 edX 课程的概览"
 
 #: cms/templates/widgets/sock.html
 msgid "Enroll in edX101"
@@ -3203,15 +3203,15 @@ msgstr "选修edX101"
 
 #: cms/templates/widgets/sock.html
 msgid "Enroll in StudioX: Creating a Course with edX Studio"
-msgstr ""
+msgstr "选修 StudioX：在 edX Studio 中创建课程"
 
 #: cms/templates/widgets/sock.html
 msgid "Enroll in StudioX"
-msgstr ""
+msgstr "选修 StudioX"
 
 #: cms/templates/widgets/sock.html
 msgid "Send an email to {email}"
-msgstr ""
+msgstr "发送电子邮件到{email}"
 
 #: cms/templates/widgets/sock.html
 msgid "Contact Us"

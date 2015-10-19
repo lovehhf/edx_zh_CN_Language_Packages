@@ -1,0 +1,9 @@
+---
+metadata:
+    display_name: 课程概览
+
+data: |
+    <section class="about">
+      <h2>关于这门课程</h2>
+      <p>这是关于这门课程的描述.</p>
+    </section>

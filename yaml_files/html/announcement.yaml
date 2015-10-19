@@ -1,0 +1,17 @@
+---
+metadata:
+    display_name: 公告
+data: |
+      <p>使用你自己的文本代替这个模板.</p>
+      <p>当你添加这个组件时，确保你选择了<strong>设置</strong> 要指定一个<strong>展示名</strong>和其他适用的值.</p>
+      <h3>公告数据</h3>
+      <section class='update-description'>
+                   <section class='primary'>
+                              <p>简短的注意，话题的介绍</p>
+                              <p class='author'>老师的名字</p>
+                   </section>
+                   <h4>公告头 1</h4>
+                   <p>公告文本 1</p>
+                   <h4>公告头 2</h4>
+                   <p>公告文本 2</p>
+      </section>

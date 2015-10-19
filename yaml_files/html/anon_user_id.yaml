@@ -1,0 +1,19 @@
+---
+metadata:
+    display_name: 匿名用户ID
+data: |
+      <p>这儿是你的解释文本.</p>
+      <p><a href="https://YOUR_UNIVERSITY.qualtrics.com/SE/?SID=SV_###############&a=%%USER_ID%%" target="_blank">YOUR_LINK_TEXT</a></p>
+      
+      <!-- 你可以使用%%USER_ID%%去代替一个匿名用户ID在你的外部服务中，以便你日后能够联系他们。
+        
+        下面的例子是一个二次型模板:
+          - 使用你的ID代替"###############".
+          - 再用"YOUR_UNIVERSITY"代替你的 Qualtrics ID.
+          - 最后用你的链接文本代替"YOUR_LINK_TEXT".
+          - 如果你希望把你的调查嵌入你的课件中而不是打开一个新标签，使用下面提供的HTML代替以上的。
+            
+            <p>这儿是你的解释文本.</p>
+            <iframe src="https://YOUR_UNIVERSITY.qualtrics.com/SE/?SID=SV_###############&a=%%USER_ID%%" height="1000" width="800" />
+        
+      -->

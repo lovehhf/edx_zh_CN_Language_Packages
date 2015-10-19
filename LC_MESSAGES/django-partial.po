@@ -5506,7 +5506,7 @@ msgstr "该文件必须包含一个“username”列，或一个“email”列�
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Coupon Code"
-msgstr "优惠券编码"
+msgstr "优惠券编号"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Course Id"

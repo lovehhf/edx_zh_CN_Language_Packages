@@ -2297,7 +2297,7 @@ msgstr "语言"
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 msgid ""
 "The language that team members primarily use to communicate with each other."
-msgstr "团队成员互相通信的首选语言"
+msgstr "团队成员主要用于相互沟通的语言"
 
 #: lms/djangoapps/teams/static/teams/js/views/edit_team.js
 #: lms/static/js/student_profile/views/learner_profile_factory.js

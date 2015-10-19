@@ -85,7 +85,7 @@ msgstr "—可排序的"
 #: cms/templates/js/asset-library.underscore
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Date Added"
-msgstr "添加日期"
+msgstr "日期已添加"
 
 #: cms/templates/js/asset-library.underscore
 msgid "URL"

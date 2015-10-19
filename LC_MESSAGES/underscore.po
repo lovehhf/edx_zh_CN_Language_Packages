@@ -1813,3 +1813,47 @@ msgstr "重新拍照"
 #: lms/templates/verify_student/webcam_photo.underscore
 msgid "Take Photo"
 msgstr "拍照"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Male"
+msgstr "男"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Female"
+msgstr "女"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Other"
+msgstr "其他"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Doctorate"
+msgstr "博士"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Master's or professional degree"
+msgstr "硕士"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Bachelor's degree"
+msgstr "学士"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Associate degree"
+msgstr "准学士"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Secondary/high school"
+msgstr "高中"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Junior secondary/junior high/middle school"
+msgstr "初中"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "Elementary/primary school"
+msgstr "小学"
+
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
+msgid "None"
+msgstr "无"

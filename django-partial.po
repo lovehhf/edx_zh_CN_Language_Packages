@@ -4637,7 +4637,7 @@ msgid ""
 "<a href='{tos_url}'>{platform_name} Honor Code</a>.  Some certificates "
 "require completing additional steps, such as <a href='{verified_cert_url}'> "
 "verifying your identity</a>."
-msgstr "{platform_name}承认的成就通过证书，颁发给参加{platform_name}各种活动的学生  "
+msgstr "{platform_name}承认的成就通过证书，颁发给参加{platform_name}各种活动的学生，完成<a href='{tos_url}'>{platform_name}荣誉代码</a>.一些证书需要完成额外的步骤，比如<a href='{verified_cert_url}'>验证"
 
 #: lms/djangoapps/certificates/views/webview.py
 msgid "How {platform_name} Validates Student Certificates"

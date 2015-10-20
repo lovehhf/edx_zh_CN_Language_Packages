@@ -7291,3 +7291,7 @@ msgstr "想要修改你的账户设置？"
 #: lms/templates/dashboard.html
 msgid "Click the arrow next to your username above."
 msgstr "点击页面上方你的用户名旁边的剪头。"
+
+#: lms/templates/navigation-edx.html lms/templates/navigation.html
+msgid "My Profile"
+msgstr "我的账户设置"

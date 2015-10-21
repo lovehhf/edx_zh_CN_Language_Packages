@@ -1,32 +1,24 @@
 ---
 metadata:
-    display_name: Custom Javascript Display and Grading
+    display_name: 自定义Javascript展示与评分
     markdown: !!null
 data: |
       <problem>
       <p>
-      In these problems (also called custom JavaScript problems or JS Input
-      problems), you add a problem or tool that uses JavaScript in Studio.
-      Studio embeds the problem in an IFrame so that your students can
-      interact with it in the LMS. You can grade your students' work using
-      JavaScript and some basic Python, and the grading is integrated into the
-      edX grading system.
+      自定义JavaScript显示和评分问题(也叫*自定义JavaScript问题* or JS输入问题)允许你创建一个自定义问题或工具使用JavaScript然后把这个问题或工具直接添加到Studio.当你创建一个JS输入问题时, Studio会把这个问题嵌入内联框架(IFrame)以便你的学生可以在LMS里用它进行互动.你可以使用JavaScript和一些基础的Python对你学生的工作进行评分,并且这个分数会整合到edX评分系统中去.
       </p>
       <p>
-      The JS Input problem that you create must use HTML, JavaScript, and cascading
-      style sheets (CSS). You can use any application creation tool, such as the
-      Google Web Toolkit (GWT), to create your JS Input problem.
+      你必须使用HTML，JavaScript和CSS创建JS输入问题.你可以使用任何应用app创作工具,比如Google Web Toolkit (GWT),去创建你的JS输入问题.
       </p>
       <p>      
-      For more information, see 
+      更多相关信息，请查看：
       <a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/custom_javascript.html" target="_blank">
       Custom JavaScript Problem</a> in <i>Building and Running an edX Course</i>.
       </p>
-      <p>JavaScript developers should also see <a href="http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/extending_platform/javascript.html" target="_blank">
+      <p>JavaScript开发人员应该看到<a href="http://edx.readthedocs.org/projects/edx-developer-guide/en/latest/extending_platform/javascript.html" target="_blank">
       Custom JavaScript Applications</a> in the <i>EdX Developer's Guide</i>.</p>
-      <p>When you add the problem, be sure to select <strong>Settings</strong> 
-      to specify a <strong>Display Name</strong> and other values that apply.</p>
-      <p>You can use the following example problem as a model.</p>
+      <p>当您添加问题时,一定要选择 <strong>设置</strong>指定一个<strong>展示名</strong>和其他相应的设置.</p>
+      <p>您可以使用下面的示例问题模型。</p>
 
       <script type="loncapa/python">
       <![CDATA[

@@ -1,6 +1,6 @@
 ---
 metadata:
-    display_name: Problem Written in LaTeX
+    display_name: 使用 LaTeX 中写问题
     source_code: |
         % Nearly any kind of edX problem can be authored using LaTeX as
         % the source language.  Write LaTeX as usual, including equations. The

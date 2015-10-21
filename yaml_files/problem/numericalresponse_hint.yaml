@@ -1,54 +1,54 @@
 ---
 metadata:
-    display_name: Numerical Input with Hints and Feedback
+    display_name: 带有提示和反馈的数值输入问题
     markdown: |
         
-        You can provide feedback for correct answers in numerical input problems. You cannot provide feedback for incorrect answers.
+        你可以提供反馈数值输入问题的正确答案。你不能提供反馈的错误答案。
 
-        Use feedback for the correct answer to reinforce the process for arriving at the numerical value.
+        使用反馈正确答案加强到达数值的过程。
 
-        You can also add hints for learners.
+        您还可以添加对学习者的提示。
 
-        Be sure to select Settings to specify a Display Name and other values that apply.
+        一定要选择设置指定显示名称和其他适用的值。
 
-        Use the following example problem as a model.
+        使用下面的示例问题作为一个模型。
 
-        >>What is the arithmetic mean for the following set of numbers? (1, 5, 6, 3, 5)<<
+        >>(1, 5, 6, 3, 5)的算术平均值以下组是什么数字?? <<
 
-        = 4 {{The mean for this set of numbers is 20 / 5, which equals 4.}}
+        = 4 {{这题的意思是 20 / 5, 等于 4.}}
 
-        ||The mean is calculated by summing the set of numbers and dividing by n.||
-        ||n is the count of items in the set.||
+        ||此题意思是,各个数字之和除以n. ||
+        ||n 是各个数之和。||
 
         [explanation]
-        The mean is calculated by summing the set of numbers and dividing by n. In this case: (1 + 5 + 6 + 3 + 5) / 5 = 20 / 5 = 4.
+        此题意思是,各个数字之和除以n. 也就是: (1 + 5 + 6 + 3 + 5) / 5 = 20 / 5 = 4.
         [explanation]
 
 tab: hint
 data: |
     <problem>
     
-    <p>You can provide feedback for correct answers in numerical input problems. You cannot provide feedback for incorrect answers.</p>
+    <p>你可以提供反馈数值输入问题的正确答案。你不能提供反馈的错误答案。</p>
 
-    <p>Use feedback for the correct answer to reinforce the process for arriving at the numerical value.</p>
+    <p>使用反馈正确答案加强到达数值的过程。</p>
 
-    <p>Use the following example problem as a model.</p>
+    <p>您还可以添加对学习者的提示。</p>
 
-    <p>What is the arithmetic mean for the following set of numbers? (1, 5, 6, 3, 5)</p>
+    <p>(1, 5, 6, 3, 5)的算术平均值以下组是什么数字?? </p>
     <numericalresponse answer="4">
       <formulaequationinput label="What is the arithmetic mean for the following set of numbers? (1, 5, 6, 3, 5)" />
-      <correcthint>The mean for this set of numbers is 20 / 5, which equals 4.</correcthint>
+      <correcthint>此题意思是,各个数字之和除以n. 也就是: (1 + 5 + 6 + 3 + 5) / 5 = 20 / 5 = 4.</correcthint>
     </numericalresponse>
 
     <solution>
       <div class="detailed-solution">
-        <p>Explanation</p>
-        <p>The mean is calculated by summing the set of numbers and dividing by n. In this case: (1 + 5 + 6 + 3 + 5) / 5 = 20 / 5 = 4.</p>
+        <p>解释</p>
+        <p>此题意思是,各个数字之和除以n. 也就是: (1 + 5 + 6 + 3 + 5) / 5 = 20 / 5 = 4.</p>
       </div>
     </solution>
 
     <demandhint>
-      <hint>The mean is calculated by summing the set of numbers and dividing by n.</hint>
-      <hint>n is the count of items in the set.</hint>
+      <hint>此题意思是,各个数字之和除以n. </hint>
+      <hint>n 是各个数之和。</hint>
     </demandhint>
     </problem>

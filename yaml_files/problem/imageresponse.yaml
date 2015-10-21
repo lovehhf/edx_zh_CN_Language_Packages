@@ -1,24 +1,18 @@
 ---
 metadata:
-    display_name: Image Mapped Input
+    display_name: 图像映射输入
     markdown: !!null
 data: |
   <problem>
   <p>
-  In an image mapped input problem, also known as a "pointing on a picture"
-  problem, students click inside a defined region in an image. You define this
-  region by including coordinates in the body of the problem. You can define
-  one rectangular region, multiple rectangular regions, or one non-rectangular
-  region. For more information, see 
-  <a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/image_mapped_input.html" target="_blank">Image Mapped Input
-  Problem</a> in <i>Building and Running an edx Course</i>.
+  在一个图像映射输入问题中，又称图片点击问题，学生在一个图像预定义的区域里点击。你通过在问题本体里面包含坐标来定义这个区域。
+  更多相关信息，请查看<a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/image_mapped_input.html" target="_blank">Image Mapped Input
+  Problem</a> 在 <i>Building and Running an edx Course</i>中.
   </p>
-  <p>When you add the problem, be sure to select <strong>Settings</strong> 
-  to specify a <strong>Display Name</strong> and other values that apply.</p>
-  <p>You can use the following example problem as a model.</p>
+  <p>当您添加问题时,一定要选择 <strong>设置</strong>指定一个<strong>展示名</strong>和其他相应的设置.</p>
+  <p>您可以使用下面的示例问题模型。</p>
   
-  <p>What country is home to the Great Pyramid of Giza as well as the cities
-  of Cairo and Memphis? Click the country on the map below.</p>
+  <p>哪个国家是吉萨大金字塔以及开罗和孟菲斯的城市?点击下面的国家在地图上。</p>
     <imageresponse>
       <imageinput src="https://studio.edx.org/c4x/edX/DemoX/asset/Africa.png"
       width="600" height="638" rectangle="(338,98)-(412,168)" alt="Map of

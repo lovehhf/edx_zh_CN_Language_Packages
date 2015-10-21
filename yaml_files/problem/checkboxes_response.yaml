@@ -15,34 +15,30 @@ metadata:
        [x] 韩国
        [ ] 澳大利亚
 
-       注意:请确保
-         Make sure you select all of the correct options—there may be more than one!
+       注意:正确答案可能不止一个!
 
-       [explanation]
-       Urdu, Marathi, and French are all Indo-European languages, while Finnish and Hungarian are in the Uralic family.
-       [explanation]
+       [explanation]地理常识问题[explanation]
 
 data: |
       <problem>
-        <p>Checkbox problems allow learners to select multiple options. Learners can see all the options along with the problem text.</p>
-        <p>When you add the component, be sure to select <strong>Settings</strong>
-        to specify a <strong>Display Name</strong> and other values that apply.</p>
-        <p>You can use the following example problem as a model.</p>
-          <p>The following languages are in the Indo-European family:</p>
+        <p>多项选择的问题让学习者选择多个选项。学习者可以看到所有的选项以及文本的问题。</p>
+        <p>当你添加组件时,选择<strong>设置</strong>指定一个<strong>展示名</strong>并且其他对应的值</p>
+        <p>您可以使用下面的示例问题作为一个模型</p>
+          <p>以下哪个国家是亚洲国家:</p>
           <choiceresponse>
             <checkboxgroup direction="vertical">
-              <choice correct="true" name="urdu">Urdu</choice>
-              <choice correct="false" name="finnish">Finnish</choice>
-              <choice correct="true" name="marathi">Marathi</choice>
-              <choice correct="true" name="french">French</choice>
-              <choice correct="false" name="hungarian">Hungarian</choice>
+              <choice correct="true" name="urdu">中国</choice>
+              <choice correct="false" name="finnish">美国</choice>
+              <choice correct="true" name="marathi">日本</choice>
+              <choice correct="true" name="french">韩国</choice>
+              <choice correct="false" name="hungarian">澳大利亚</choice>
             </checkboxgroup>
           </choiceresponse>
-        <p><strong>Note</strong>: Make sure you select all of the correct options—there may be more than one!</p>
+        <p><strong>注意：</strong>:正确答案可能不止一个!</p>
         <solution>
          <div class="detailed-solution">
              <p>Explanation</p>
-             <p>Urdu, Marathi, and French are all Indo-European languages, while Finnish and Hungarian are in the Uralic family.</p>
+             <p>地理常识问题</p>
           </div>
         </solution>
       </problem>

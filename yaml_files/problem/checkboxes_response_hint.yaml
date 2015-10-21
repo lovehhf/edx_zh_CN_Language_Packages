@@ -1,69 +1,69 @@
 ---
 metadata:
-    display_name: Checkboxes with Hints and Feedback
+    display_name: 带有提示反馈的多选问题
     markdown: |
-      
-      You can provide feedback for each option in a checkbox problem, with distinct feedback depending on whether or not the learner selects that option.
 
-      You can also provide compound feedback for a specific combination of answers. For example, if you have three possible answers in the problem, you can configure specific feedback for when a learner selects each combination of possible answers.
+      你可以为每个选项的复选框提供反馈的问题,与不同的反馈根据学习者是否选择该选项。
 
-      You can also add hints for learners.
+      你也可以提供复合反馈答案的特定组合。例如,如果您有三个可能的答案的问题,您可以配置的具体反馈当学习者选择每个可能的答案。
 
-      Be sure to select Settings to specify a Display Name and other values that apply.
+      您还可以添加对学习者的提示。
 
-      Use the following example problem as a model.
+      一定要选择设置指定显示名称和其他适用的值。
 
-      >>Which of the following is a fruit? Check all that apply.<<
+      使用下面的示例问题作为一个模型。
 
-      [x] apple  {{ selected: You are correct that an apple is a fruit because it is the fertilized ovary that comes from an apple tree and contains seeds. }, { unselected: Remember that an apple is also a fruit.}}
-      [x] pumpkin {{ selected: You are correct that a pumpkin is a fruit because it is the fertilized ovary of a squash plant and contains seeds. }, { unselected: Remember that a pumpkin is also a fruit.}}
-      [ ] potato   {{ U: You are correct that a potato is a vegetable because it is an edible part of a plant in tuber form.}, { S: A potato is a vegetable, not a fruit, because it does not come from a flower and does not contain seeds.}}
-      [x] tomato  {{ S: You are correct that a tomato is a fruit because it is the fertilized ovary of a tomato plant and contains seeds. }, { U: Many people mistakenly think a tomato is a vegetable. However, because a tomato is the fertilized ovary of a tomato plant and contains seeds, it is a fruit.}}
+      >>下面哪个选项是水果?请检查所有的选项.<<
+
+      [x] 苹果  {{ selected: 你是正确的,苹果是一种水果,因为它是来自一棵苹果树的受精子房和包含种子。}, { unselected: 记住,苹果也是一种水果。}}
+      [x] 南瓜 {{ selected: 你是正确的,南瓜是一个水果,因为它是南瓜植物的受精子房,包含种子。}, { unselected: 记住,一个南瓜也是一种水果。}}
+      [ ] 土豆   {{ U: 你是正确的,土豆是一种蔬菜,因为它是一种可食用的植物块茎形成的一部分。}, { S: 土豆是一种蔬菜,而不是一个水果,因为它不来自一朵花,不包含种子。}}
+      [x] 番茄  {{ S: 你是正确的,西红柿是一种水果,因为它是一个番茄植物的受精子房,包含种子。}, { U: 许多人错误地认为番茄是一种蔬菜。然而,因为番茄是番茄植物的受精子房,包含种子,它是一种水果。}}
 
 
-      {{ ((A B D)) An apple, pumpkin, and tomato are all fruits as they all are fertilized ovaries of a plant and contain seeds. }}
-      {{ ((A B C D)) You are correct that an apple, pumpkin, and tomato are all fruits as they all are fertilized ovaries of a plant and contain seeds. However, a potato is not a fruit as it is an edible part of a plant in tuber form and is a vegetable.  }}
+      {{ ((A B D)) 苹果,南瓜,西红柿都是水果,因为它们都是植物的受精卵巢,包含种子。 }}
+      {{ ((A B C D))你是正确的,一个苹果,南瓜,西红柿都是水果,因为它们都是受精卵巢的植物和种子。然而,土豆不是一种水果,它是一种可食用的植物块茎形成的一部分,是一种蔬菜。}}
 
-      ||A fruit is the fertilized ovary from a flower.||
-      ||A fruit contains seeds of the plant.||
+      ||水果是受精子房从一朵花.||
+      ||水果包含植物的种子。||
 
 tab: hint
 data: |
       <problem>
-      
-      <p>You can provide feedback for each option in a checkbox problem, with distinct feedback depending on whether or not the learner selects that option.</p>
 
-      <p>You can also provide compound feedback for a specific combination of answers. For example, if you have three possible answers in the problem, you can configure specific feedback for when a learner selects each combination of possible answers.</p>
+      <p>你可以为每个选项的复选框提供反馈的问题,与不同的反馈根据学习者是否选择该选项。</p>
 
-      <p>You can also add hints for learners.</p>
+      <p>你也可以提供复合反馈答案的特定组合。例如,如果您有三个可能的答案的问题,您可以配置的具体反馈当学习者选择每个可能的答案。</p>
 
-      <p>Use the following example problem as a model.</p>
-      
-      <p>Which of the following is a fruit? Check all that apply.</p>
+      <p>您还可以添加对学习者的提示。</p>
+
+      <p>使用下面的示例问题作为一个模型。</p>
+
+      <p>下面哪个选项是水果?请检查所有的选项.</p>
       <choiceresponse>
         <checkboxgroup direction="vertical">
-          <choice correct="true">apple
-            <choicehint selected="true">You are correct that an apple is a fruit because it is the fertilized ovary that comes from an apple tree and contains seeds.</choicehint>
-            <choicehint selected="false">Remember that an apple is also a fruit.</choicehint>
+          <choice correct="true">苹果
+            <choicehint selected="true"> 你是正确的,苹果是一种水果,因为它是来自一棵苹果树的受精子房和包含种子。</choicehint>
+            <choicehint selected="false">记住,苹果也是一种水果。</choicehint>
           </choice>
-          <choice correct="true">pumpkin
-            <choicehint selected="true">You are correct that a pumpkin is a fruit because it is the fertilized ovary of a squash plant and contains seeds.</choicehint>
-            <choicehint selected="false">Remember that a pumpkin is also a fruit.</choicehint>
+          <choice correct="true">南瓜
+            <choicehint selected="true">你是正确的,南瓜是一个水果,因为它是南瓜植物的受精子房,包含种子。</choicehint>
+            <choicehint selected="false">记住,一个南瓜也是一种水果。</choicehint>
           </choice>
-          <choice correct="false">potato
-            <choicehint selected="true">A potato is a vegetable, not a fruit, because it does not come from a flower and does not contain seeds.</choicehint>              
-            <choicehint selected="false">You are correct that a potato is a vegetable because it is an edible part of a plant in tuber form.</choicehint>
+          <choice correct="false">土豆
+            <choicehint selected="true">你是正确的,土豆是一种蔬菜,因为它是一种可食用的植物块茎形成的一部分。</choicehint>
+            <choicehint selected="false">土豆是一种蔬菜,而不是一个水果,因为它不来自一朵花,不包含种子。</choicehint>
           </choice>
-          <choice correct="true">tomato
-            <choicehint selected="true">You are correct that a tomato is a fruit because it is the fertilized ovary of a tomato plant and contains seeds.</choicehint>
-            <choicehint selected="false">Many people mistakenly think a tomato is a vegetable. However, because a tomato is the fertilized ovary of a tomato plant and contains seeds, it a fruit.</choicehint>
+          <choice correct="true">番茄
+            <choicehint selected="true">你是正确的,西红柿是一种水果,因为它是一个番茄植物的受精子房,包含种子。</choicehint>
+            <choicehint selected="false">许多人错误地认为番茄是一种蔬菜。然而,因为番茄是番茄植物的受精子房,包含种子,它是一种水果。</choicehint>
           </choice>
-          <compoundhint value="A B D">An apple, pumpkin, and tomato are all fruits as they all are fertilized ovaries of a plant and contain seeds.</compoundhint>
-          <compoundhint value="A B C D">You are correct that an apple, pumpkin, and tomato are all fruits as they all are fertilized ovaries of a plant and contain seeds. However, a potato is not a fruit as it is an edible part of a plant in tuber form and is classified as a vegetable.</compoundhint>
+          <compoundhint value="A B D">苹果,南瓜,西红柿都是水果,因为它们都是植物的受精卵巢,包含种子。 </compoundhint>
+          <compoundhint value="A B C D">你是正确的,一个苹果,南瓜,西红柿都是水果,因为它们都是受精卵巢的植物和种子。然而,土豆不是一种水果,它是一种可食用的植物块茎形成的一部分,是一种蔬菜。</compoundhint>
         </checkboxgroup>
       </choiceresponse>
       <demandhint>
-        <hint>A fruit is the fertilized ovary from a flower.</hint>
-        <hint>A fruit contains seeds of the plant.</hint>
+        <hint>水果是受精子房从一朵花.</hint>
+        <hint>水果包含植物的种子。</hint>
       </demandhint>
       </problem>

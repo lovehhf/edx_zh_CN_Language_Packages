@@ -1,43 +1,38 @@
 ---
 metadata:
-    display_name: Text Input
+    display_name: 文本输入
     markdown: |
-        In text input problems, also known as "fill-in-the-blank" problems, learners enter text into a response field. The text can include letters and characters such as punctuation marks. The text that the learner enters must match your specified answer text exactly. You can specify more than one correct answer. Learners must enter a response that matches one of the correct answers exactly.
-        
-        When you add the problem, be sure to select Settings to specify a Display Name and other values that apply.
+        在文本输入问题中，学习者要输入文本到回答指定区域内.这个回答可以是数字，字母，和特殊字符(比如标点符号). 因为学习者输入的文本必须和教师给的答案精确匹配,包括大小写和标点符号,所以我们建议你指定不止一个正确答案允许大小写不同和排版排版.
 
-        You can use the following example problem as a model.
+        当你添加这个问题时，请确保设置并指定了一个展示名称和其他的需要用到的值.
 
-        >>What was the first post-secondary school in China to allow both male and female students?<<
+        你可以选择一下的例子作为模型.
 
-        = Nanjing Higher Normal Institute
-        or= National Central University
-        or= Nanjing University
+        >>下面哪所是中国第一所同时招收男性和女性学生的高等学校?<<
+
+        = 南京高等师范学院
+        or= 国立中央大学
+        or= 南京大学
 
         [explanation]
-        Nanjing Higher Normal Institute first admitted female students in 1920.
+        南京高等师范学院在1920年首次承认女学生。
         [explanation]
 
 data: |
     <problem>
-    <p>In text input problems, also known as "fill-in-the-blank" problems, 
-    learners enter text into a response field. The text that the learner enters 
-    must match your specified answer text exactly. You can specify more than 
-    one correct answer. Learners must enter a response that matches one of the 
-    correct answers exactly.</p>
-    <p>When you add the problem, be sure to select <strong>Settings</strong> 
-    to specify a <strong>Display Name</strong> and other values that apply.</p>
-    <p> You can use the following example problem as a model.</p>
+    <p>在文本输入问题,也被称为"填空" 问题, 学习者在响应输入文本字段。学习者输入的文本必须匹配你的指定文本准确回答。您可以指定多个正确答案。学习者必须输入响应相匹配的一个完全正确的答案。</p>
+    <p>当您添加问题时,一定要选择 <strong>设置</strong>指定一个<strong>展示名</strong>和其他相应的设置.</p>
+    <p>您可以使用下面的示例问题模型。</p>
       <p>What was the first post-secondary school in China to allow both male and female students?</p>
-      <stringresponse answer="Nanjing Higher Normal Institute" type="ci" >
-        <additional_answer>National Central University</additional_answer>
-        <additional_answer>Nanjing University</additional_answer>
+      <stringresponse answer="南京高等师范学院" type="ci" >
+        <additional_answer>国立中央大学</additional_answer>
+        <additional_answer>南京大学</additional_answer>
         <textline label="What was the first post-secondary school in China to allow both male and female students?" size="40"/>
       </stringresponse>
     <solution>
       <div class="detailed-solution">
         <p>Explanation</p>
-        <p>Nanjing Higher Normal Institute first admitted female students in 1920.</p>
+        <p>南京高等师范学院在1920年首次承认女学生。</p>
       </div>
     </solution>
     </problem>

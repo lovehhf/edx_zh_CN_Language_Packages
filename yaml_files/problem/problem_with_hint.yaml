@@ -1,15 +1,14 @@
 ---
 metadata:
-    display_name: Problem with Adaptive Hint
+    display_name: 带自适应提示的问题
     markdown: !!null
 data: |
     <problem>
       <text>
         <p>
-          <h4>Problem With Adaptive Hint</h4>
+          <h4>带自适应提示的问题</h4>
         </p>
-        <p>
-    This problem demonstrates a question with hints, based on using the <tt class="tt">hintfn</tt> method. </p>
+        <p>这个问题演示了一个问题,基于使用<tt class="tt"> hintfn </tt>方法。 </p>
         <script type="text/python" system_path="python_lib">
     def test_str(expect, ans):
       print expect, ans
@@ -37,7 +36,7 @@ data: |
         new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
         <label>
-    What is the best programming language that exists today? You may enter your answer in upper or lower case, with or without quotes.
+           现在最好的编程语言是什么?你可以输入你的答案大写或小写,有或没有引号。
           <customresponse cfn="test_str" expect="python">
             <textline correct_answer="python"/>
             <hintgroup hintfn="hint_fn"/>

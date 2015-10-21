@@ -1,53 +1,39 @@
 ---
 metadata:
-    display_name: Multiple Choice
+    display_name: 单选问题
     markdown: |
-       Multiple choice problems allow learners to select only one option. Learners can see all the options along with the problem text.
+       单项选择问题让学习者选择只有一个选项。学习者可以看到所有的选项以及文本的问题。
 
-       When you add the problem, be sure to select Settings to specify a Display Name and other values that apply.
+       当您添加问题时,一定要选择设置指定一个展示名和其他相应的设置.
 
-       You can use the following example problem as a model.
+       您可以使用下面的示例问题模型。
 
-       >>Which of the following countries has the largest population?<<
-       ( ) Brazil {{ timely feedback -- explain why an almost correct answer is wrong }}
-       ( ) Germany
-       (x) Indonesia
-       ( ) Russia
+       >>1+1=?<<
+       ( ) 1
+       (x) 2
+       ( ) 3
+       ( ) 4
 
-       [explanation]
-       According to September 2014 estimates:
-       The population of Indonesia is approximately 250 million.
-       The population of Brazil  is approximately 200 million.
-       The population of Russia is approximately 146 million.
-       The population of Germany is approximately 81 million.
-       [explanation]
+       [explanation]1+1=2[explanation]
 
 data: |
    <problem>
-   <p>Multiple choice problems allow learners to select only one option.
-       Learners can see all the options along with the problem text.</p>
-   <p>When you add the problem, be sure to select <strong>Settings</strong> 
-   to specify a <strong>Display Name</strong> and other values that apply.</p>
-   <p>You can use the following example problem as a model.</p>
-      <p>Which of the following countries has the largest population?</p>
+   <p>单项选择问题让学习者选择只有一个选项。学习者可以看到所有的选项以及文本的问题。</p>
+   <p>当您添加问题时,一定要选择 <strong>设置</strong>指定一个<strong>展示名</strong>和其他相应的设置.</p>
+   <p>您可以使用下面的示例问题模型。</p>
+      <p>1+1=?</p>
       <multiplechoiceresponse>
        <choicegroup type="MultipleChoice">
-          <choice correct="false" name="brazil">Brazil
-            <choicehint>timely feedback -- explain why an almost correct answer is wrong</choicehint>
-          </choice>
-          <choice correct="false" name="germany">Germany</choice>
-          <choice correct="true" name="indonesia">Indonesia</choice>
-          <choice correct="false" name="russia">Russia</choice>
+          <choice correct="false" name="1">1</choice>
+          <choice correct="true" name="2">2</choice>
+          <choice correct="false" name="3">3</choice>
+          <choice correct="false" name="4">4</choice>
        </choicegroup>
       </multiplechoiceresponse>
     <solution>
       <div class="detailed-solution">
         <p>Explanation</p>
-        <p>According to September 2014 estimates:</p>
-        <p>The population of Indonesia is approximately 250 million.</p>
-        <p>The population of Brazil  is approximately 200 million.</p>
-        <p>The population of Russia is approximately 146 million.</p>
-        <p>The population of Germany is approximately 81 million.</p>
+        <p>1+2=2</p>
       </div>
     </solution>
     </problem>

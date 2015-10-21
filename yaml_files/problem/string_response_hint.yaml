@@ -1,54 +1,53 @@
 ---
 metadata:
-    display_name: Text Input with Hints and Feedback
+    display_name: 带提示和回馈的文本回答问题
     markdown: | 
 
-        You can provide feedback for the correct answer in text input problems, as well as for specific incorrect answers.
+        你可以提供反馈在文本输入正确答案的问题,以及针对特定错误的答案。
 
-        Use feedback on expected incorrect answers to address common misconceptions and to provide guidance on how to arrive at the correct answer.
+        使用反馈将不正确的答案来解决常见的误解,并提供指导如何到达正确的答案。
 
-        Be sure to select Settings to specify a Display Name and other values that apply.
+        当你添加这个问题时，请确保设置并指定了一个展示名称和其他的需要用到的值.
 
-        Use the following example problem as a model.
+        你可以选择一下的例子作为模型.
 
-        >>Which U.S. state has the largest land area?<<
+        >>美国最大土地面积的州是哪个?<<
 
-        =Alaska {{Alaska is 576,400 square miles, more than double the land area
-        of the second largest state, Texas.}}
+        =阿拉斯加 {{阿拉斯加是576400平方英里,超过两倍的土地面积第二大的州,德克萨斯州。}}
 
-        not=Texas {{While many people think Texas is the largest state, it is actually the second largest, with 261,797 square miles.}}
+        not=德克萨斯州 {{虽然很多人认为德州是最大的州,它实际上是第二大,261797平方英里。}}
 
-        not=California {{California is the third largest state, with 155,959 square miles.}}
+        not=加利福尼亚 {{加州是第三大国家,155959平方英里。}}
 
-        ||Consider the square miles, not population.||
-        ||Consider all 50 states, not just the continental United States.||
+        ||考虑平方英里,而不是人口||
+        ||考虑所有50个州,而不仅仅是美国大陆。||
 
 tab: hint
 data: |
   <problem>
 
-    <p>You can provide feedback for the correct answer in text input problems, as well as for specific incorrect answers.</p>
+    <p>你可以提供反馈在文本输入正确答案的问题,以及针对特定错误的答案。</p>
 
-    <p>Use feedback on expected incorrect answers to address common misconceptions and to provide guidance on how to arrive at the correct answer.</p>
+    <p>使用反馈将不正确的答案来解决常见的误解,并提供指导如何到达正确的答案。</p>
 
-    <p>Use the following example problem as a model.</p>
+    <p>你可以选择一下的例子作为模型.</p>
  
-    <p>Which U.S. state has the largest land area?</p>
+    <p>>美国最大土地面积的州是哪个?</p>
 
-    <stringresponse answer="Alaska" type="ci" >
+    <stringresponse answer="阿拉斯加" type="ci" >
 
-    <correcthint>Alaska is 576,400 square miles, more than double the land area of the second largest state, Texas.</correcthint>
+    <correcthint>阿拉斯加是576400平方英里,超过两倍的土地面积第二大的州,德克萨斯州。</correcthint>
 
-    <stringequalhint answer="Texas">While many people think Texas is the largest state, it is actually the second largest, with 261,797 square miles.</stringequalhint>
+    <stringequalhint answer="德克萨斯州">虽然很多人认为德州是最大的州,它实际上是第二大,261797平方英里。</stringequalhint>
 
-    <stringequalhint answer="California">California is the third largest state, with 155,959 square miles.</stringequalhint>
+    <stringequalhint answer="加利福尼亚">加州是第三大国家,155959平方英里。</stringequalhint>
 
     <textline label="Which U.S. state has the largest land area?" size="20"/>
     </stringresponse>
 
     <demandhint>
-      <hint>Consider the square miles, not population.</hint>
-      <hint>Consider all 50 states, not just the continental United States.</hint>
+      <hint>考虑平方英里,而不是人口</hint>
+      <hint>考虑所有50个州,而不仅仅是美国大陆。</hint>
     </demandhint>
 
   </problem>

@@ -1,34 +1,24 @@
 ---
 metadata:
-    display_name: Math Expression Input
+    display_name: 数学表达式输入问题
     markdown: !!null
 data: |
   <problem>
   <p>
-  In math expression input problems, learners enter text that represents a
-  mathematical expression into a field, and text is converted to a symbolic
-  expression that appears below that field. You can refer learners to 
-  <a href="http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/SFD_mathformatting.html" target="_blank">
-  Entering Mathematical and Scientific Expressions</a> in the <i>edX Guide for
-  Students</i> for information about how to enter text into the field.
+  在数学表达式输入问题中,学习者输入代表数学表达式的文本.这个文本会在输入框下方被转化成符号表达式。 
+  更多相关信息，请查看：<a href="http://edx.readthedocs.org/projects/edx-guide-for-students/en/latest/SFD_mathformatting.html" target="_blank">
+  Entering Mathematical and Scientific Expressions</a> in the <i>edX Guide for Students</i>
   </p>
   <p>
-  Math expression problems can include unknown variables and relatively
-  complicated symbolic expressions. The grader uses a numerical sampling to
-  determine whether the student’s response matches your math expression, to a
-  specified numerical tolerance. You must specify the allowed variables in the
-  expression as well as the range of values for each variable.
+  数学表达式问题可以包括未知的变量和相对复杂的符号表达式。年级学生使用数字采样来确定学生的反应是否匹配你的数学表达式,指定数值的宽容。您必须指定允许变量表达式,以及为每个变量值的范围。
   </p>
   <p>
-  To create these problems, you use MathJax to change your plain text into
-  "beautiful math." For more information about how to use MathJax in Studio,
-  see <a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/mathjax.html" target="_blank">
-  A Brief Introduction to MathJax in Studio</a> in <i>Building and Running an edx
-  Course</i>.  
+  要创建这些问题,您可以使用MathJax改变你的纯文本为“美化数学表达式。”关于如何使用MathJax工作室的更多信息,
+  请查看 <a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/mathjax.html" target="_blank">
+  A Brief Introduction to MathJax in Studio</a> 在 <i>Building and Running an edx Course</i>.  
   </p>
-  <p>When you add the problem, be sure to select <strong>Settings</strong> 
-  to specify a <strong>Display Name</strong> and other values that apply.</p>
-  <p>You can use the following example problems as models.</p>
+  <p>当您添加问题时,一定要选择 <strong>设置</strong>指定一个<strong>展示名</strong>和其他相应的设置.</p>
+  <p>您可以使用下面的示例问题模型。</p>
   
   <p>Write an expression for the product of \( R_1\), \( R_2\), and
   the inverse of \( R_3\) .</p>

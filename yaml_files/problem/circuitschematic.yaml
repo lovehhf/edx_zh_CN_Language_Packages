@@ -1,26 +1,19 @@
 ---
 metadata:
-    display_name: Circuit Schematic Builder
+    display_name: 电路原理图生成器
     markdown: !!null
 data: |
       <problem>
+        <p>电路原理图生成器允许学生创建虚拟电路的电路原理图问题安排元素如电压源、电容器、电阻器,mosfet交互式网格。系统评估DC,AC或电路的瞬态分析。</p>
         <p>
-        Circuit schematic problems allow students to create virtual circuits by 
-        arranging elements such as voltage sources, capacitors, resistors, and 
-        MOSFETs on an interactive grid. The system evaluates a DC, AC, or 
-        transient analysis of the circuit.
+        需要更多相关信息，请查看<a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/circuit_schematic_builder.html" target="_blank">
+        Circuit Schematic Builder Problem</a> 在 <i>Building and Running an edX Course</i>.
         </p>
         <p>
-        For more information, see 
-        <a href="http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/exercises_tools/circuit_schematic_builder.html" target="_blank">
-        Circuit Schematic Builder Problem</a> in <i>Building and Running an edX Course</i>.
+        当您添加问题时,一定要选择 <strong>设置</strong>指定一个<strong>展示名</strong>和其他相应的设置.
         </p>
-        <p>
-        When you add the problem, be sure to select <strong>Settings</strong> 
-        to specify a <strong>Display Name</strong> and other values that apply.
-        </p>
-        <p>You can use the following example problems as models.</p>
-        <p>Make a voltage divider that splits the provided voltage evenly.</p>
+        <p>您可以使用下面的示例问题模型。</p>
+        <p>做一个分压器,分裂所提供的电压均匀。</p>
         <schematicresponse>
         <center>
           <schematic height="500" width="600" parts="g,r" analyses="dc"
@@ -32,7 +25,7 @@ data: |
         if response[0] == 'dc':
             for node in response[1:]:
                 dc_value = node['output']
-    
+
       if dc_value == .5:
         correct = ['correct']
       else:
@@ -61,21 +54,16 @@ data: |
         correct = ['incorrect']
       </answer>
       </schematicresponse>
-    
+
       <solution>
           <div class="detailed-solution">
               <p>Explanation</p>
               <p>
-              You can form a voltage divider that evenly divides the input
-              voltage with two identically valued resistors, with the sampled
-              voltage taken in between the two. 
+              可以形成一个分压器,均匀地将输入电压有两个相同值电阻,采样电压在两者之间。
               </p>
               <p><img src="/static/images/voltage_divider.png" alt=""/></p>
               <p>
-              You can form a simple high-pass filter without any further
-              constraints by simply putting a resistor in series with a
-              capacitor. The actual values of the components do not really
-              matter in this problem.
+              可以形成一个简单的高通滤波器没有任何furtherconstraints只需把一个电阻与电容串联。组件的实际值不太在意这个问题。
               </p>
               <p><img src="/static/images/high_pass_filter.png" alt=""/></p>
           </div>

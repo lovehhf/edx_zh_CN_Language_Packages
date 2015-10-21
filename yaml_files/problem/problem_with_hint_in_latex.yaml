@@ -1,6 +1,6 @@
 ---
 metadata:
-    display_name: Problem with Adaptive Hint in Latex
+    display_name: Latex中带自适应提示的问题
     source_code: |
         \subsection{Problem With Adaptive Hint}
 
@@ -12,8 +12,7 @@ metadata:
         % soure language for the problem.  The problem can also be coded
         % directly in XML.
 
-        This problem demonstrates a question with hints, based on using the
-        {\tt hintfn} method.
+        这个问题演示了一个问题,基于使用{\tt hintfn} method.
 
         \begin{edXscript}
         def test_str(expect, ans):
@@ -42,8 +41,7 @@ metadata:
             new_cmap.set_hint_and_mode(aid,hint,'always')
         \end{edXscript}
 
-        What is the best programming language that exists today?   You may
-        enter your answer in upper or lower case, with or without quotes.
+        现在最好的编程语言是什么?你可以输入你的答案大写或小写,有或没有引号。
 
         \edXabox{type="custom" cfn='test_str' expect='python' hintfn='hint_fn'}
     markdown: !!null
@@ -82,7 +80,7 @@ data: |
         new_cmap.set_hint_and_mode(aid,hint,'always')
     </script>
         <label>
-    What is the best programming language that exists today? You may enter your answer in upper or lower case, with or without quotes.
+         现在最好的编程语言是什么?你可以输入你的答案大写或小写,有或没有引号。
           <customresponse cfn="test_str" expect="python">
             <textline correct_answer="python"/>
             <hintgroup hintfn="hint_fn"/>

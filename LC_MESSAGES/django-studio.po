@@ -473,3 +473,23 @@ msgstr "关于本用户的可选备注（例如，课程创建被拒绝的原因
 #: cms/djangoapps/models/settings/course_metadata.py
 msgid "Incorrect format for field '{name}'. {detailed_message}"
 msgstr "“{name}”字段的格式不正确。{detailed_message}"
+
+#: common/lib/xmodule/xmodule/modulestore/inheritance.py
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid ""
+"Enter the API key provided by MathWorks for accessing the MATLAB Hosted Service. "
+"This key is granted for exclusive use in this course for the specified duration. "
+"Do not share the API key with other courses. Notify MathWorks immediately "
+"if you believe the key is exposed or compromised. To obtain a key for your course, "
+"or to report an issue, please contact moocsupport@mathworks.com"
+msgstr ""
+"请输入由 MathWorks 提供的、用于访问 MATLAB 宿主服务的 API Key 。请保证该 API Key "
+"在指定的一段时间内由本课程独占使用，不要与其他课程共享该 API Key 。如果您确认 API Key 泄露或受损，请立刻通知 MathWorks "
+"。要为您的课程获取 API Key 或报告问题，请联系 moocsupport@mathworks.com"
+
+#: common/lib/xmodule/xmodule/capa_base.py
+msgid ""
+"Defines how often inputs are randomized when a student loads the problem. "
+"This setting only applies to problems that can have randomly generated "
+"numeric values. A default value can be set in Advanced Settings."
+msgstr "定义频率输入是随机的,当一个学生加载问题。这个设置只适用于可以随机生成的数字值的问题。高级设置可以设置默认值。"

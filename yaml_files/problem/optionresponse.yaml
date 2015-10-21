@@ -1,35 +1,34 @@
 ---
 metadata:
-    display_name: Dropdown
+    display_name: 下拉问题
     markdown: |
-         Dropdown problems allow learners to select only one option from a list of options.
+         下拉问题让学习者从选项列表中选择只有一个选项。
 
-         When you add the problem, be sure to select Settings to specify a Display Name and other values that apply.
+         当你添加的问题时,一定要选择设置指定显示名称和其他适用的值。
 
-         You can use the following example problem as a model.
+         你可以使用下面的示例问题作为一个模型。
 
-          >>Which of the following countries celebrates its independence on August 15?<<
+          >>下面哪个国家在8月15日庆祝其独立?<<
 
-          [[(India), Spain, China, Bermuda]]
+          [[(印度), 西班牙, 中国, 百慕大]]
 
           [explanation]
-          India became an independent nation on August 15, 1947.
+          1947年8月15日,印度成为了一个独立的国家。
           [explanation]
 data: |
   <problem>
-    <p>Dropdown problems allow learners to select only one option from a list of options.</p>
-    <p>When you add the problem, be sure to select <strong>Settings</strong> 
-    to specify a <strong>Display Name</strong> and other values that apply.</p>
-    <p>You can use the following example problem as a model.</p>
-      <p>Which of the following countries celebrates its independence on August 15?</p>
+    <p>下拉问题让学习者从选项列表中选择只有一个选项。</p>
+    <p>当你添加的问题时,一定要选择设置指定显示名称和其他适用的值。</p>
+    <p>你可以使用下面的示例问题作为一个模型。</p>
+      <p>下面哪个国家在8月15日庆祝其独立?</p>
       <br/>
       <optionresponse>
-        <optioninput options="('India','Spain','China','Bermuda')" correct="India"></optioninput>
+        <optioninput options="(印度, 西班牙, 中国, 百慕大)" correct="印度"></optioninput>
       </optionresponse>
     <solution>
       <div class="detailed-solution">
-        <p>Explanation</p>
-        <p>India became an independent nation on August 15, 1947.</p>
+        <p>解释</p>
+        <p>1947年8月15日,印度成为了一个独立的国家。</p>
       </div>
     </solution>
   </problem>

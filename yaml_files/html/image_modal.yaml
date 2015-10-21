@@ -1,24 +1,24 @@
 ---
 metadata:
-    display_name: Full Screen Image Tool
+    display_name: 图像全屏工具
 data: |
-        <h2>Full Screen Image Tool</h2>
-        <p>Use the Full Screen Image tool to allow learners to open and zoom in on a larger version of an image in your course.</p>
-        <p>With the Full Screen Image tool, learners can see the image's details as well as its context within the unit.</p>
-        <p>To enable users to view the larger image, you wrap the smaller image in a link to the larger version of the image.</p>
-        <p>The following HTML code shows the format required to use the Full Screen Image tool. For the example in this template, you must replace the values in <i>italics</i>.</p>
+        <h2>图像全屏工具</h2>
+        <p>使用图像全屏工具允许学习者开放和放大图像的放大你的课程。</p>
+        <p>用全屏图像工具,学习者可以看到图像的细节以及它的上下文内的单位。</p>
+        <p>使用户能够查看大图,你包装的小图像的链接图片的放大图。</p>
+        <p>下面的HTML代码显示了使用全屏图像工具所需的格式。对于这个模板中的示例,您必须替换 <i>italics</i>的值.</p>
         <pre>
         &lt;a href="<i>Path to full screen image</i>" class="modal-content"&gt;
           &lt;img alt="<i>Text for screen readers</i>" 
           src="<i>Path to image to include in unit page</i>"/&gt;
         &lt;/a&gt;
         </pre>
-        <p>You can modify the example below for your own use.</p>
+        <p>您可以修改下面的例子供自己使用。</p>
         <ol>
-        <li>Replace the value of the link's <strong>href</strong> attribute with the path to the full size image. Do not change the value of the class attribute.</li>
-        <li>Replace the value of the image's <strong>src</strong> attribute with the path to the image that will appear in the unit before a learner opens it in full screen mode.</li>
-        <li>Replace the value of the image's <strong>alt</strong> attribute with text that both describes the image and the action or destination of clicking on the image. You <strong>must</strong> include alt text to provide an accessible label.</li>
+        <li>使用全屏尺寸图像的路径代替链接的 <strong>href</strong>属性值.不改变类属性的值。</li>
+        <li>使用图像的路径,替换图像的<strong>src</strong>的属性值，将出现在前单位学习者在全屏模式打开它。</li>
+        <li>用图像的路径,替换图像的<strong>alt</strong>的属性值，将出现在前单位学习者在全屏模式打开它。</li>
         </ol>
-        <p><strong>Note</strong>: Test viewing the image in full screen mode in the LMS; you cannot view it in full screen from within Studio.</p>
+        <p><strong>Note</strong>: 需要在LMS中全屏模式查看图像;你不能在Studio中查看全屏图像 。
 
         <a href="http://static.class.stanford.edu/stanford-hills-big.jpg" class="modal-content"><img alt="An image of the Stanford Hills. Select the image to open it in full screen mode." src="http://static.class.stanford.edu/stanford-hills-small.jpg" /></a>

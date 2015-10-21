@@ -4,29 +4,29 @@ metadata:
 data: |
       <h2>IFrame 工具</h2>
       <p>使用IFrame工具嵌入一个来自任何网站或课程内容的练习或工具. 比如,这个工具允许学习者试验一个三角形的形状如何影响来源于三角形的一条线.</p>
-      <p>Exercises in an IFrame are not graded. To embed graded exercises, use a Custom JavaScript Problem.</p>
-      <p>The following code is the HTML format required to use the IFrame tool. For the IFrame in this template, you must replace the values in <i>italics</i>.</p>
+      <p>实验在IFrame不评分。可以使用一个自定义的的JavaScript嵌入评分问题。</p>
+      <p>下面的代码是使用IFrame工具所需的HTML格式。IFrame的这个模板,你必须替换的值<i>italics</i>.</p>
         <pre>
         &lt;iframe title="<i>The required title of the tool</i>" 
           src="<i>The URL of the tool, starting with https://</i>"&gt;
            <i>Message displayed when the browser does not support IFrames.</i>
         &lt;/iframe&gt;
         </pre>
-      <p>The Iframe below includes the width, height, marginwidth, marginheight, frameborder, and scrolling attributes. These attributes are optional. You can remove these attributes or replace their values.</p>
-      <p>Modify this template as needed.</p>
-      <p>To modify the IFrame, you must edit the HTML source code. When editing this template, click <strong>HTML</strong> in the toolbar.</p>
-      <p>Then modify the example below for your own use.
+      <p>下面的Iframe包括宽度、高度,marginwidth marginheight,帧边缘,滚动属性。这些属性是可选的。您可以删除这些属性或替换它们的值。</p>
+      <p>根据需要修改这个模板。</p>
+      <p>修改IFrame,您必须编辑HTML源代码。当编辑该模板,点击<strong>HTML</strong> 在工具栏中.</p>
+      <p>然后修改下面的例子供自己使用。
       <ol>
-      <li>Replace the value of the <strong>src</strong> attribute of the IFrame with the URL of the tool that you want in your course.
-      <p><strong>Note</strong>: The URL must start with <strong>https</strong> instead of http, to ensure that the tool appears in all browsers that support IFrames.</p></li>
-      <li>Replace the value of the <strong>title</strong> attribute with the title of the tool. You <strong>must</strong> include the title to provide an accessible label.</li>
-      <li>Replace other IFrame attributes as needed. See <a href="http://www.w3.org/wiki/HTML/Elements/iframe" target="_blank">the IFrame specification</a> for more information.</li>
-      <li>Optionally, replace the text between the opening and closing <strong>iframe</strong> tags. 
-          <pre>Your browser does not support IFrames.</pre>
-          <p>A learner sees this text if the browser does not support IFrames.</p>
+      <li>用 <strong>src</strong> 的值替换IFrame工具属性的URL在你想要的课程中
+      <p><strong>Note</strong>: 这个 URL 必须以 <strong>https</strong> 代替http,确保工具支持IFrames的出现在所有的浏览器。</p></li>
+      <li>用你的<strong>title</strong>替换IFrame工具属性的值. 你 <strong>必须</strong> 确保标题提供一个可访问的标签。.</li>
+      <li>根据需要更换其他IFrame属性。 请查看 <a href="http://www.w3.org/wiki/HTML/Elements/iframe" target="_blank">the IFrame specification</a>获取更多信息</li>
+      <li>可选择的,替换<strong>iframe</strong>打开和关闭之间的标签. 
+          <pre>您的浏览器不支持IFrames。</pre>
+          <p>学习者看到这段文字,如果浏览器不支持IFrames。</p>
       </li>
       </ol>
-      <p>The sample IFrame follows. Modify its attributes as described above.</p>
+      <p>示例IFrame。如上所述修改其属性。</p>
       <iframe title="Euler Line Demo" src="https://studio.edx.org/c4x/edX/DemoX/asset/eulerLineDemo.html" width="402" height="402" marginwidth="0" marginheight="0" frameborder="0" scrolling="no">
-      Your browser does not support IFrames.
+      您的浏览器不支持IFrames。.
       </iframe>

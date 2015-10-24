@@ -3755,18 +3755,7 @@ msgstr ""
 msgid "Matlab API key"
 msgstr "Matlab API 密钥"
 
-#: common/lib/xmodule/xmodule/modulestore/inheritance.py
-msgid ""
-"Enter the API key provided by MathWorks for accessing the MATLAB Hosted "
-"Service. This key is granted for exclusive use in this course for the "
-"specified duration. Do not share the API key with other courses. Notify "
-"MathWorks immediately if you believe the key is exposed or compromised. To "
-"obtain a key for your course, or to report an issue, please contact "
-"moocsupport@mathworks.com"
-msgstr ""
-"请输入由 MathWorks 提供的、用于访问 MATLAB 宿主服务的 API Key 。请保证该 API Key "
-"在指定的一段时间内由本课程独占使用，不要与其他课程共享该 API Key 。如果您确认 API Key 泄露或受损，请立刻通知 MathWorks "
-"。要为您的课程获取 API Key 或报告问题，请联系 moocsupport@mathworks.com"
+
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Group Configurations"

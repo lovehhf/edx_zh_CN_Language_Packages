@@ -122,6 +122,11 @@ msgstr "正在加载"
 msgid "close"
 msgstr "关闭"
 
+#: lms/templates/courseware/courseware.html
+msgid "Explore courses from {platform_name}."
+msgstr "查看来自{platform_name}的课程"
+
+
 #: cms/templates/base.html lms/templates/main.html
 msgid "Skip to main content"
 msgstr "跳至主要内容"
@@ -7299,3 +7304,4 @@ msgstr "我的账户设置"
 #: lms/templates/courseware/courses.html
 msgid "Explore courses from {platform_name}."
 msgstr "在{platform_name}查找课程"
+

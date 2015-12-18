@@ -488,8 +488,8 @@ msgstr "女"
 #. Translators: 'Other' refers to the student's gender
 #. Translators: 'Other' refers to the student's level of education
 #: common/djangoapps/student/models.py common/djangoapps/student/models.py
-msgid "Other"
-msgstr "其他"
+msgid "Other/Prefer Not to Say"
+msgstr "保密"
 
 #: common/djangoapps/student/models.py
 msgid "Doctorate"
@@ -505,7 +505,7 @@ msgstr "学士"
 
 #: common/djangoapps/student/models.py
 msgid "Associate degree"
-msgstr "肄业证书"
+msgstr "准学士"
 
 #: common/djangoapps/student/models.py
 msgid "Secondary/high school"
@@ -518,6 +518,14 @@ msgstr "初中"
 #: common/djangoapps/student/models.py
 msgid "Elementary/primary school"
 msgstr "小学"
+
+#: common/djangoapps/student/models.py
+msgid "No Formal Education"
+msgstr "没有接受正规教育"
+
+#: common/djangoapps/student/models.py
+msgid "Other Education"
+msgstr "其他教育"
 
 #. Translators: 'None' refers to the student's level of education
 #: common/djangoapps/student/models.py

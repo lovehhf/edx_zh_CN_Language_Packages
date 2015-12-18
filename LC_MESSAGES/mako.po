@@ -7286,8 +7286,8 @@ msgid "Add article"
 msgstr "添加文章"
 
 #: lms/templates/navigation.html
-msgid "Register Now"
-msgstr "现在注册"
+msgid "Register"
+msgstr "注册"
 
 #: lms/templates/dashboard.html
 msgid "Want to change your account settings?"
@@ -7300,8 +7300,3 @@ msgstr "点击页面上方你的用户名旁边的剪头。"
 #: lms/templates/navigation-edx.html lms/templates/navigation.html
 msgid "My Profile"
 msgstr "我的账户设置"
-
-#: lms/templates/courseware/courses.html
-msgid "Explore courses from {platform_name}."
-msgstr "在{platform_name}查找课程"
-

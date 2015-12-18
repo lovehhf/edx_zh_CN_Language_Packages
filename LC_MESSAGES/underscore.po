@@ -1814,46 +1814,46 @@ msgstr "重新拍照"
 msgid "Take Photo"
 msgstr "拍照"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Male"
 msgstr "男"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Female"
 msgstr "女"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Other"
 msgstr "其他"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Doctorate"
 msgstr "博士"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Master's or professional degree"
 msgstr "硕士"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Bachelor's degree"
 msgstr "学士"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Associate degree"
 msgstr "准学士"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Secondary/high school"
 msgstr "高中"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Junior secondary/junior high/middle school"
 msgstr "初中"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "Elementary/primary school"
 msgstr "小学"
 
-#: lms/templates/student_account/form_field.underscore
+#: /edx/app/edxapp/edx-platform/lms/templates/student_account/form_field.underscore
 msgid "None"
 msgstr "无"

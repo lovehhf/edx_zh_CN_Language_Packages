@@ -779,7 +779,7 @@ msgstr "该账户尚未激活，激活邮件已经重新发送至{email_address}
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "LONG_DATE_FORMAT"
-msgstr "%Y年%m月%d日"
+msgstr "%Y年%m月"
 
 #. Translators: the translation for "DATE_TIME_FORMAT" must be a format
 #. string for formatting dates with times.  For example, the American
@@ -787,7 +787,7 @@ msgstr "%Y年%m月%d日"
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "DATE_TIME_FORMAT"
-msgstr "%Y年%m月%d日 %H:%M"
+msgstr "%Y年%m月 %H:%M"
 
 #. Translators: the translation for "SHORT_DATE_FORMAT" must be a
 #. format string for formatting dates in a brief form.  For example,
@@ -795,7 +795,7 @@ msgstr "%Y年%m月%d日 %H:%M"
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
 msgid "SHORT_DATE_FORMAT"
-msgstr "%Y/%m/%d"
+msgstr "%Y/%m"
 
 #. Translators: the translation for "TIME_FORMAT" must be a format
 #. string for formatting times.  For example, the American English

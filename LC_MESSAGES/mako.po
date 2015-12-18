@@ -7286,8 +7286,8 @@ msgid "Add article"
 msgstr "添加文章"
 
 #: lms/templates/navigation.html
-msgid "Register"
-msgstr "注册"
+msgid "Register Now"
+msgstr "现在注册"
 
 #: lms/templates/dashboard.html
 msgid "Want to change your account settings?"

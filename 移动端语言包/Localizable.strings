@@ -1,0 +1,553 @@
+/* 
+  Localizable.strings
+  edXVideoLocker
+
+  Created by Nirbhay Agarwal on 07/07/14.
+  Copyright (c) 2014-2015 edX. All rights reserved.
+*/
+
+// Please keep in alphabetical order
+
+/* Alert dialog confirmation button when user chooses to download a large video */
+"ACCEPT_LARGE_VIDEO_DOWNLOAD"="下载";
+/* Label for check box when it's checked. */
+"ACCESSIBILITY_CHECKBOX_CHECKED" = "勾选";
+/* Label for check box when it's checked. */
+"ACCESSIBILITY_CHECKBOX_UNCHECKED" = "取消勾选";
+/* Label for action hint on check box when it's checked. */
+"ACCESSIBILITY_CHECKBOX_HINT_CHECKED" = "点击取消勾选。";
+/* Label for action hint on check box when it's checked. */
+"ACCESSIBILITY_CHECKBOX_HINT_UNCHECKED" = "点击勾选.";
+/* Call to action for FIND A MOBILE-FRIENDLY COURSE */
+"ACCESSIBILITY_OPENS_MOBILE_FRIENDLY_COURSES"="在手机浏览器中打开对移动端友好的课程";
+/* Text spoken for Navigation Button on Course List Screen */
+"ACCESSIBILITY_NAVIGATION" = "导航栏";
+/* Call to action for Course content on Home Screen */
+"ACCESSIBILITY_SHOWS_COURSE_CONTENT" = "显示课程内容.";
+/* Acessibility label for the download progress button. {percent_complete} is an already localized numeric percentage like "44%" */
+"ACCESSIBILITY_DOWNLOAD_PROGRESS_BUTTON##{one}" = "下载进度: {percent_complete}";
+/* Acessibility label for the download progress button. {percent_complete} is an already localized numeric percentage like "44%" */
+"ACCESSIBILITY_DOWNLOAD_PROGRESS_BUTTON##{other}" = "下载进度: {percent_complete}";
+/* Acessibility hint for the download progress button. */
+"ACCESSIBILITY_DOWNLOAD_PROGRESS_BUTTON_HINT" = "查看当前下载";
+/* Accessibility hint for video download list row cells. {video_name} is the name of video being downloaded. {percent_complete} is an already localized numeric percentage like "44%". */
+"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{one}" = "正在下载 {video_name}.完成了 {percent_complete} % .";
+/* Accessibility hint for video download list row cells. {video_name} is the name of video being downloaded. {percent_complete} is an already localized numeric percentage like "44%". */
+"ACCESSIBILITY_DOWNLOAD_VIEW_CELL##{other}" = "正在下载 {video_name}.完成了 {percent_complete} %.";
+/* Accessibility hint for number of downloadable videos */
+"ACCESSIBILITY_DOWNLOADABLE_VIDEOS##{one}" = "下载 {video_count} 视频.";
+/* Accessibility hint for number of downloadable videos */
+"ACCESSIBILITY_DOWNLOADABLE_VIDEOS##{other}" = "下载 {video_count} 视频.";
+/* Accessibility label for fullscreen button on video player */
+"ACCESSIBILITY_FULLSCREEN" = "全屏";
+/* Accessibility label for HTML Icon in the Courseware screens */
+"ACCESSIBILITY_HTML" = "HTML";
+/* Accessibility label for open on web button */
+"ACCESSIBILITY_OPEN_ON_WEB" = "在 Safari 中打开";
+/* Call to action for FIND A MOBILE-FRIENDLY COURSE */
+"ACCESSIBILITY_OPENS_MOBILE_FRIENDLY_COURSES"="在手机浏览器中打开对移动端友好的课程.";
+/* Accessibility label for Pause Button in the Video Player */
+"ACCESSIBILITY_PAUSE" = "暂停";
+/* Accessibility label for Play Button in the Video Player */
+"ACCESSIBILITY_PLAY" = "播放";
+/* Accessibility lable for the avatar image */
+"ACCESSIBILITY_USER_AVATAR" = "你的头像";
+/* Accessibility label for Problem Icon in the Courseware screens */
+"ACCESSIBILITY_PROBLEM" = "问题";
+/* Accessibility label for Rewind Button in the Video Player */
+"ACCESSIBILITY_REWIND" = "回放";
+/* Call to action for Rewind Button in the Video Player */
+"ACCESSIBILITY_REWIND_HINT" = "回放30秒.";
+/* Accessibility label for Seek bar in the Video Player */
+"ACCESSIBILITY_SEEK_BAR" = "进度条";
+/* Accessibility label for Select Button on My Videos List Screen */
+"ACCESSIBILITY_SELECT" = "选择";
+/* Accessibility label for Select All Button on My Videos List Screen */
+"ACCESSIBILITY_SELECT_ALL" = "全选";
+/* Accessibility label for Settings Button in the Video Player */
+"ACCESSIBILITY_SETTINGS" = "设置";
+/* Accessibility label for Unknown Icon in the Courseware screens */
+"ACCESSIBILITY_UNKNOWN" = "未知";
+/* Accessibility label for Video Icon in the Courseware screens */
+"ACCESSIBILITY_VIDEO" = "视频";
+/* Add a comment button title and place holder used in discussion comment text view */
+"ADD_A_COMMENT"="新增评论";
+/* Add a response button title used in discussion's responses screen */
+"ADD_A_RESPONSE"="新增回复";
+/* Add comment button title used in discussion's Add a comment */
+"ADD_COMMENT"="新增评论";
+/* Add post button title used in discussion's Create a new post */
+"ADD_POST"="新增帖子";
+/* Add response button title used in discussion's Add a response */
+"ADD_RESPONSE"="新增回复";
+/* Add your post button title used in discussion's add a post textview */
+"ADD_YOUR_POST"="新增你的回复";
+/* Alert dialog button allowing user to chosing to allow downloads on cellular */
+"ALLOW"="允许";
+/* Filtering option to show all discussion posts */
+"ALL_POSTS"="所有帖子";
+/* Tab allowing the user to see all videos */
+"ALL_VIDEOS"="所有视频";
+/* Message shown when there are no announcements for a course */
+"ANNOUNCEMENT_UNAVAILABLE"="此课程暂时没有公告.";
+/* Label indicating the response answer in Discussion Add comment screen */
+"ANSWER"="答案";
+/* Navigation title for a Question Post which has endorsed answers */
+"ANSWERED_QUESTION"="课程答案";
+/* Prefix used with Staff of Community TA on the posts screen */
+"BY_AUTHOR" = "By {author_name}";
+/* Prefix used with Staff of Community TA on the posts screen */
+"BY_AUTHOR_LOWER_CASE" = "by {author_name}";
+/* Course completion title */
+"CERTIFICATES.COURSE_COMPLETION_TITLE"="祝贺!";
+/* Course completion subtitle */
+"CERTIFICATES.COURSE_COMPLETION_SUBTITLE"="你通过了此门课程.";
+/* Get certificate button text. */
+/* Title of course announcements section */
+"COURSE_ANNOUNCEMENTS"="公告";
+/* Title of course handouts section */
+"COURSE_HANDOUTS"="讲义";
+/* Button text for cancelling any action */
+"CANCEL"="取消";
+/* Alert explaining charges will apply since the "Wi-fi only" switch was turned off */
+"CELLULAR_DOWNLOAD_ENABLED_MESSAGE"="当Wi-Fi不可用时，允许你的设备使用移动流量下载视频。这可能需要支付一定的流量。";
+/* Title of alert explaining charges will apply since the "Wi-fi only" switch was turned off */
+"CELLULAR_DOWNLOAD_ENABLED_TITLE"="允许通过流量";
+/* Error message shown when there is a problem loading a video */
+"CHECK_CONNECTION"="加载视频 出现问题.\n请检查你的网络连接.";
+/* Generic action button label when the user chooses a thing */
+ "CHOOSE" = "选择";
+/* Title of dropdown from which the user can select topics on New Post Screen */
+"CHOOSE_A_TOPIC" = "选择一个话题...";
+/* Prompt text shown after user chooses to begin registering with an external service like Facebook or Google. {service} will be replaced with a service name like Google or Facebook. */
+"COMPLETE_REGISTRATION_INFO" = "你刚刚成功登陆了 {service}. 在开始 {platform_name} 学习的时候，我们需要你更多的信息.";
+/* Prompt text shown after user chooses to begin registering with an external service like Facebook or Google */
+"COMPLETE_REGISTRATION_PROMPT" = "完成注册";
+/* Title of alert when confirming deletion of a video */
+"CONFIRM_DELETE_TITLE"="确定删除";
+/* Text of alert when confirming video deletion */
+"CONFIRM_DELETE_MESSAGE##{one}"="你确定要删除这门课程吗?";
+/* Text of alert when confirming video deletion */
+"CONFIRM_DELETE_MESSAGE##{other}"="你确定要删除这些课程吗?";
+/* Text of push notification announcing a new course announcement */
+"COURSE_ANNOUNCEMENT_NOTIFICATION_BODY"="新公告: {course_name}";
+/* Alert dialog button text */
+"CLOSE"="关闭";
+/* Discussion response comment - {count} is a number of comments */
+"COMMENT##{one}"="{count} 条评论";
+/* Discussion response comment - {count} is a number of comments */
+"COMMENT##{other}"="{count} 条评论";
+/* Discussion comments */
+"COMMENTS"="评论";
+/* Text displayed when comments are disabled for a Response */
+"COMMENTS_CLOSED" = "这条回复关闭评论";
+/* Discussion comment (Posts screen) - {count} is a number of comments */
+"COMMENTS_TO_RESPONSE##{one}"="{count} 条评论";
+/* Discussion comment (Posts screen) - {count} is a number of comments */
+"COMMENTS_TO_RESPONSE##{other}"="{count} 条评论";
+/* Label for posts pinned by Community TA(s)" */
+"COMMUNITY_TA"="COMMUNITY TA";
+/* Label indicating the amount of time a course will take */
+"COURSE_DETAIL.EFFORT"="成就:";
+/* Label indicating when a course ends. */
+"COURSE_DETAIL.END_DATE"="结束时间:";
+/* Button title allowing user to enroll in a course */
+"COURSE_DETAIL.ENROLL_NOW" = "现在选修";
+/* Button title allowing user to view a course from the course's catalog detail page */
+"COURSE_DETAIL.VIEW_COURSE" = "查看课程";
+/* Back bar button title of course */
+"COURSE"="课程";
+/* Title of tab showing course content */
+"COURSEWARE_TAB_TITLE"="课件";
+/* Message shown when there is no course content */
+"COURSEWARE_UNAVAILABLE"="目前没有课件可用.";
+/* Message shown when attempting to display content not available on the app */
+"COURSE_CONTENT_UNKNOWN" = "这个交互式组件暂时不能在手机上使用. \n\n 浏览本课程的其他部分或在网站查看。";
+/* Title text for the Announcements section within the course dashboard */
+"COURSE_DASHBOARD_ANNOUNCEMENTS"="公告";
+/* Text describing the Announcements section within the course dashboard */
+"COURSE_DASHBOARD_ANNOUNCEMENTS_DETAIL"="同步到最新消息";
+/* Title text for the Courseware section of the course dashboard */
+"COURSE_DASHBOARD_COURSEWARE"="课件";
+/* Text describing the Courseware section within the course dashboard */
+"COURSE_DASHBOARD_COURSE_DETAIL"="访问视频和作业";
+/* Title text for the Discussions section of the course dashboard */
+"COURSE_DASHBOARD_DISCUSSION"="讨论区";
+/* Text describing the Discussions section within the course dashboard */
+"COURSE_DASHBOARD_DISCUSSION_DETAIL"="加入谈话";
+/* Title text for the Handouts section of the course dashboard  */
+"COURSE_DASHBOARD_HANDOUTS"="讲义";
+/* Text describing the Handouts section within the course dashboard */
+"COURSE_DASHBOARD_HANDOUTS_DETAIL"="发现重要的课程信息";
+/* Label indicated that a course has ended */
+"COURSE_ENDED"="Ended - {end_date}";
+/* Label indicating that a course will end */
+"COURSE_ENDING"="Ending - {end_date}";
+/* Title of tab showing general course information */
+"COURSE_INFO_TAB_TITLE"="课程信息";
+/* Option to show all different types of course content. Constrasts with 'Show Videos Only'. */
+"COURSE_MODE_FULL"="显示所有课程";
+/* Option to show only video course content. Constrasts with 'Show All Course Content'. */
+"COURSE_MODE_VIDEO"="只显示视频";
+/* Label to describe the button that allows choosing between Video only mode and All Course Content mode */
+"COURSE_MODE_PICKER_DESCRIPTION" = "模式选择器";
+/* Text displayed when Can't find one of your courses is tapped on My Courses screen */
+"COURSE_NOT_LISTED" = "我们正努力让我们所有的课程适合移动设备。如果你没有找到合适的,稍后再回来。我们每一天都会添加很多的课程!";
+/* Message shown on a course when it hasn't started yet.*/
+"COURSE_NOT_STARTED"="此课程现在还没有开始.";
+/* Message shown on a course when it hasn't started yet. {date} will be a localized date string */
+"COURSE_WILL_START_AT"="此课程现在还没有开始. 请 {date} 再来查看你的视频.";
+/* Create a new post button title used in discussions' posts screen */
+"CREATE_A_NEW_POST"="发布新帖子";
+/* Support message email title */
+"CUSTOMER_FEEDBACK" = "客户反馈";
+/* Button text to initiate or confirm deletion */
+"DELETE"="删除";
+/* Discussion used in the segmented control Creating a new post */
+"DISCUSSION"="讨论";
+/* Title of button to allow user to follow a discussion post */
+"DISCUSSION_FOLLOW"="关注";
+/* Title of action to report a discussion post/response/comment to the course staff */
+"DISCUSSION_REPORT"="报告";
+/* Title of the navigation bar when entering the course discussion */
+"DISCUSSION_TOPICS"="话题";
+/* Title of button to allow user to unfollow a discussion post */
+"DISCUSSION_UNFOLLOW"="取消关注";
+/* Title of action to unreport a discussion post/response/comment to the course staff */
+"DISCUSSION_UNREPORT"="不搞搞";
+/* Alert dialog button for allowing/disallowing downloads on cellular data */
+"DO_NOT_ALLOW"="不允许";
+/* Description about for button to download videos. For example, "Download 1 video" */
+"DOWNLOAD_MANY_VIDEOS##{one}" = "下载 {video_count} 个视频";
+/* Description about for button to download videos. For example, "Download 3 videos" */
+"DOWNLOAD_MANY_VIDEOS##{other}" = "下载 {video_count} 个视频";
+/* Button text for confirming download */
+"DOWNLOAD" = "下载";
+/* Label indicating that a video or videos have been downloaded */
+"DOWNLOADED" = "已下载";
+/* Description about downloaded videos. For example, "Downloaded 1 video" */
+"DOWNLOADED_MANY_VIDEOS##{one}" = "下载 {video_count} 个视频";
+/* Description about downloaded videos. For example, "Downloaded 3 videos" */
+"DOWNLOADED_MANY_VIDEOS##{other}" = "下载 {video_count} 个视频";
+/* Label indicating that a video or videos are downloading */
+"DOWNLOADING" = "正在下载";
+/* Title of video downloads screen */
+"DOWNLOADS"="下载";
+/* Overlay message after user chooses to download a video */
+"DOWNLOADING_1_VIDEO"="正在下载 1 个视频.";
+/* Title for Edit button on My Videos Screen */
+"EDIT" = "编辑";
+/* Alert message shown when user tries to send an email, but email isn't setup */
+"EMAIL_ACCOUNT_NOT_SET_UP_MESSAGE"="似乎你的邮件客户端没有启动.";
+/* Alert dialog title shown when user tries to send an email, but email isn't setup */
+"EMAIL_ACCOUNT_NOT_SET_UP_TITLE"="不能发送邮件";
+/* Placeholder text for email address entry field */
+"EMAIL_ADDRESS_PROMPT"="E-mail 地址";
+/* Text displayed when no results are found in the search */
+"EMPTY_RESULTSET" = "没有 \"{query_string}\" 的搜索结果.请换个搜索词或者选择或选择一个类别浏览讨论.";
+/* Prompt indicating user needs to enter an email address */
+"ENTER_EMAIL"="请输入您的用户名或邮箱并重试.";
+/* Prompt indicating user needs to enter a password */
+"ENTER_PASSWORD"="请输入你的密码并重试.";
+/* Text used when the post is visible to everyone */
+"EVERYONE"="每个人";
+/* Message when user attempts to register an account using an external service like Facebook or Google, but they already have an account linked to that service */
+"EXTERNAL_REGISTRATION_BECAME_LOGIN" = "你已经设置了一个 {platform_name} 账户和你的 {service} 账户. 你已经登陆了这个账户.";
+/* Facebook login method */
+"FACEBOOK"="Facebook";
+/* Overlay message shown when facebook login fails because the user's account isn't linked */
+"FAILED_TO_LOAD_TOPICS"="加载话题失败.";
+/* Title of find courses screen */
+"FIND_COURSES"="发现";
+/* Overlay message shown when enrolling in a course fails because the user is already in the course */
+"FIND_COURSES_ALREADY_ENROLLED_MESSAGE"="你已经选修了这门课程";
+/* Overlay message shown when enrolling in a course fails */
+"FIND_COURSES_ENROLLMENT_ERROR_DESCRIPTION"="创建新课程选修时出现错误";
+/* Title of overlay message shown when enrolling in a course fails */
+"FIND_COURSES_ENROLLMENT_ERROR_TITLE"="选修错误";
+/* Title of overlay message shown when enrolling in a course succeeds */
+"FIND_COURSES_ENROLLMENT_SUCCESSFUL_MESSAGE"="你现在选修了这门课程";
+/* Title of overlay message shown when enrolling in a course succeeds */
+"FIND_COURSES_OFFLINE_MESSAGE"="你现在处于离线模式.\n要查找课程,请先连接上互联网";
+/* Title of overlay message shown when sign in fails */
+"FLOATING_ERROR_LOGIN_TITLE"="登陆错误";
+/* Title of overlay message shown when reset password fails */
+"FLOATING_ERROR_TITLE"="重置密码错误";
+/* Adds a `:` after a label, used in form. Eg. "{First Name}: Bob" */
+"FORM_LABEL"="{label}:";
+/* Google login method */
+"GOOGLE"="Google";
+/* Overlay message shown when third party login fails because the user's account isn't linked. {service} is a third party login service like "Facebook". {platform_name} is the name of the service like "edX". {destination_name} is the name of service's web destination like "edx.org" */
+"SERVICE_ACCOUNT_NOT_ASSOCIATED_MESSAGE"="确保你的 {service} 账户和你的 {platform_name} 账户 {destination_name} 关联了";
+/* Title of overlay message shown when login through an external service fails because the user's account isn't linked. For example, "Google account not associated with edX account" */
+"SERVICE_ACCOUNT_NOT_ASSOCIATED_TITLE"="{service} 账户没有关联 {platform_name} 账户";
+/* Indicator for course content that is marked as having a graded component */
+"GRADED" = "评分";
+/* Warning shown to indicate that the user is in a section of graded content. */
+"GRADED_CONTENT_WARNING" = "我们建议您在您的web浏览器中完成这样的评分部分,直到他们完全支持在移动端";
+/* Message shown when there are no handouts for a course */
+"HANDOUTS_UNAVAILABLE"="这门课程目前没有讲义。";
+/* Overlay error shown when logging in with an invalid email address */
+"INVALID_EMAIL_MESSAGE"="请确保你的 e-mail 地址格式正确并重试.";
+/* Overlay error shown when logging in with an invalid username or password */
+"INVALID_USERNAME_PASSWORD"=请确保你的姓名或者e-mail正确并重试.";
+/* Alert dialog text asking whether it's okay to download large videos */
+"LARGE_DOWNLOAD_MESSAGE"="你选择的视频大小超过 1 GB.你确定要下载这个视频吗?";
+/* Alert dialog title when asking whether it's okay to download large videos */
+"LARGE_DOWNLOAD_TITLE"="大的下载";
+/* Title for Course Item that was last accessed */
+"LAST_ACCESSED" = "上次登录";
+/* Button title to begin login */
+"LOGIN_SIGN_IN_TO_PLATFORM"="登陆到 {platform_name}";
+/* Prompt leading user to create account screen */
+"LOGIN_SPLASH_SIGN_UP"="登陆并开始学习";
+/* Prompt leading user to sign in screen */
+"LOGIN_SPLASH_SIGN_IN"="账号已存在，请登录";
+/* Button title to log out the current user */
+"LOGOUT"="登出";
+/* Option to sort discussion post list by most activity */
+"MOST_ACTIVITY"="最多活动";
+/* Option to sort discussion post list by most votes */
+"MOST_VOTES"="最多得票";
+/* Screen title showing a user's courses */
+"MY_COURSES"="我的课程";
+/* Screen title showing a user's settings */
+"MY_SETTINGS"="我的设置";
+/* Screen title showing a user's downloaded videos */
+"MY_VIDEOS" = "我的视频";
+/* Alert dialog okay button */
+"OK"="OK";
+/* Button title allowing user to open current page in their web browser */
+"OPEN_IN_BROWSER"="在浏览器中打开";
+/* Button title allowing user to open current page in their web browser */
+"OPEN_IN_BROWSER_TITLE"="仅显示视频";
+/* Button label to bring up course finder */
+"OR_SIGN_IN_WITH"="登陆其他课程";
+/* Login screen password field placeholder text */
+"PASSWORD_PLACEHOLDER" = "密码";
+/* Alert dialog button shown when finishing a video to ask if user should continue by watching the next video */
+"PLAYBACK_COMPLETE_CONTINUE"="继续";
+/* Alert dialog button shown when finishing a video to ask if user should continue by watching the next video (negative option) */
+"PLAYBACK_COMPLETE_CONTINUE_CANCEL"="No";
+/* Alert dialog content when finishing a video to ask if user should continue by watching the next video */
+"PLAYBACK_COMPLETE_MESSAGE"="是否观看下一个视频";
+/* Alert dialog title when finishing a video to ask if user should continue by watching the next video */
+"PLAYBACK_COMPLETE_TITLE"="您已经观看完了本视频";
+/* Post screen title in creating a new post */
+"POST" = "新建帖子";
+/* Title for Row on Discussion screen which opens the posts followed by the user */
+"POSTS_IM_FOLLOWING" = "我关注的帖子";
+/* Navigation item title for post and responses */
+"DISCUSSION_POST" = "讨论帖子";
+/* Post discussion button title in Create a new post */
+"POST_DISCUSSION"="发起讨论";
+/* Post question button title in Create a new post */
+"POST_QUESTION"="提出问题";
+/* Button title for moving to the previous block in the course */
+"PREVIOUS" = "后退";
+/* Button title for moving to the next unit in the course */
+"PREVIOUS_UNIT" = "上一单元";
+/* A10y hint for the change picture button. */
+"PROFILE.CHANGE_PICTURE_ACCESSIBILITY_HINT" = "上传新的资料图片";
+/* Change picture button text on edit profile screen. */
+"PROFILE.CHANGE_PICTURE_BUTTON" = "修改";
+/* Text for use a photo already in library for user profile photo alert */
+"PROFILE.CHOOSE_EXISTING" = "选择图片";
+/* Instruction title text on the photo crop view. */
+"PROFILE.CROP_AND_RESIZE_PICTURE" = "裁剪和调整";
+/* 'Current Language' label on top row of edit language in user's profile */
+"PROFILE.CURRENT_LANGUAGE_LABEL" = "当前语言:";
+/* 'Current Location' label on top row of edit country in user's profile */
+"PROFILE.CURRENT_LOCATION_LABEL" = "当前位置:";
+/* Profile edit view title */
+"PROFILE.EDIT_TITLE" = "编辑资料";
+/* Accessibility label for edit profile button */
+"PROFILE.EDIT_ACCESSIBILITY" = "编辑资料";
+/* Accessibility hint for country field in user profile */
+"PROFILE.COUNTRY_ACCESSIBILITY_HINT" = "您的国家";
+/* Accessibility hint for language field in user profile */
+"PROFILE.LANGUAGE_ACCESSIBILITY_HINT" = "您的首选语言";
+/* Shown when viewing someone else's limied profile. */
+"PROFILE.LEARNER_HAS_LIMITED_PROFILE" = "这个 {platform_name} 学生目前公开了有限的资料";
+/* User has not filled in an "about me" on their profile */
+"PROFILE.NO_BIO" = "不提供 \"关于我\" 的信息";
+/* Option to allow for nil setting of a particular field */
+"PROFILE.NO_FIELD" = "无 {field_name}";
+/* Text in the picture taker alert to delete the existing image */
+"PROFILE.REMOVE_IMAGE" = "删除";
+/* Profile screen text indicating that the user is currently only displaying a limited profile */
+"PROFILE.SHOWING_LIMITED" = "您目前公开了有限的资料";
+/* Text for take picture for user profile photo alert */
+"PROFILE.TAKE_PICTURE" = "拍摄照片";
+/* Descriptive text for why a limited profile is shown for users under 13, first line */
+"PROFILE.AGE_LIMIT" = "您必须年满13周岁并提供一份完整的个人的信息";
+/* Descriptive text for why a limited profile is shown for users under 13, rest of message */
+"PROFILE.UNDER_13_LINE_2" = "如果你超过13岁, 请在你的资料中写明你的出生年月";
+/* Error retrieving a profile */
+"PROFILE.UNABLE_TO_GET" = "无法加载资料";
+/* Error message when removing profile picture */
+"PROFILE.UNABLE_TO_REMOVE_PHOTO" = "无法删除您的图片";
+/* Error saving user profile, for field `field_name` */
+"PROFILE.UNABLE_TO_SEND" = "无法更新您的 {field_name}.";
+/* Error message when setting a new profile picture */
+"PROFILE.UNABLE_TO_SET_PHOTO" = "无法更新您的图片";
+/* Question used in the segmented control Creating a new post */
+"QUESTION"="问题";
+/* Option to sort discussion post list by recent activity */
+"RECENT_ACTIVITY" = "近期活动";
+/* Section title to display recently downloaded videos */
+"RECENT_VIDEOS"="近期视频";
+/* Create account agreement. Followed by agreement name like "End User License Agreement */
+"REDIRECT_TEXT" = "要登陆这个应用程序，您需要同意";
+/* Label before Sort and Filter buttons on Posts Screen ( The Colon(:) is part of the string) */
+"REFINE" = "搜索:";
+/* Button title when responses are closed for a thread */
+"RESPONSES_CLOSED"="这个帖子不允许回复";
+/* Title of registration agreement */
+"REGISTRATION_AGREEMENT_BUTTON_TITLE"="{platform_name} 服务条款和荣誉守则";
+/* Create account agreement. Followed by list of agreement names like "End User License Agreement" */
+"REGISTRATION_AGREEMENT_MESSAGE"="要创建 {platform_name} 账号, 您需要同意 ";
+/* Button text allowing user create an account */
+"REGISTRATION_CREATE_MY_ACCOUNT"="创建我的账户";
+/* Text shown while waiting for registration request */
+"REGISTRATION_CREATING_ACCOUNT"="正在创建...";
+/* Error prompt shown during registration to indicate an empty field. {field_name} is the name of a registration field like 'password' */
+"REGISTRATION_FIELD_EMPTY_ERROR"="请输入您的 {field_name}.";
+/* Error prompt shown during registration to indicate a field missing a selection. {field_name} is the name of a registration field like 'year of birth' */
+"REGISTRATION_FIELD_EMPTY_SELECT_ERROR"="请选择您的 {field_name}.";
+/* Error prompt shown during registration when a field entry is too long. {field_name} is the name of a registration field like 'password'. {count} is a number of characters */
+"REGISTRATION_FIELD_MAX_LENGTH_ERROR##{one}"="{field_name} 长度不能超过 {count} 个字";
+/* Error prompt shown during registration when a field entry is too long. {field_name} is the name of a registration field like 'password'. {count} is a number of characters */
+"REGISTRATION_FIELD_MAX_LENGTH_ERROR##{other}"="{field_name} 不能超过 {count} 个字";
+/* Error prompt shown during registration when a field entry is too short.  {field_name} is the name of a registration field like 'password'. {count} is a number of characters */
+"REGISTRATION_FIELD_MIN_LENGTH_ERROR##{one}"="{field_name} 必须至少有 {count} 个字";
+/* Error prompt shown during registration when a field entry is too short.  {field_name} is the name of a registration field like 'password'. {count} is a number of characters */
+"REGISTRATION_FIELD_MIN_LENGTH_ERROR##{other}"="{field_name} 必须至少有 {count} 个字.";
+/* Button text allowing user to hide visible optional registration fields */
+"REGISTRATION_HIDE_OPTIONAL_FIELDS"="隐藏可选字段";
+/* Button text allowing user to show hidden optional registration fields */
+"REGISTRATION_SHOW_OPTIONAL_FIELDS"="显示可选字段";
+/* Heading on registration screen allowing users to sign up using external services like Facebook and Google. Will be followed by text "or sign up with an email". */
+"REGISTRATION_SIGN_UP_PROMPT"="使用其他账号注册";
+/* Heading on registration screen allowing users to sign up using external services like Facebook and Google. Will be preceded by text "Sign up with" */
+"REGISTRATION_SIGN_UP_ALTERNATE_PROMPT"="使用电子邮箱注册";
+/* Registration screen title */
+"REGISTRATION_SIGN_UP_FOR_PLATFORM"="注册 {platform_name}";
+/* Alert dialog title prompting user to enter an email address to reset their password */
+"RESET_PASSWORD_TITLE"="重置密码";
+/* Alert dialog content prompting user to enter an email address to reset their password */
+"RESET_PASSWORD_POPUP_TEXT"="请输入您帐户的电子邮件地址，我们会向您发送指令重置您的密码。";
+/* Alert dialog title confirming to the user that a reset password was sent to them */
+"RESET_PASSWORD_CONFIRMATION_TITLE"="重置密码的邮件已发送";
+/* Alert dialog content confirming to the user that a reset password was sent to them */
+"RESET_PASSWORD_CONFIRMATION_MESSAGE"="我们已传送与密码重置说明的邮件到您的电子邮件地址。如果你没有看到它在接下来的几分钟里，一定要检查您的垃圾邮件文件夹。";
+/* Button that allows user to retry an operation that did not succeed */
+"RETRY" = "重试";
+/* Response back title in adding a new response */
+"ADD_A_RESPONSE"="添加回复";
+/* Discussion response - {count} is a number of responses */
+"RESPONSE##{one}"="{count} 回复";
+/* Discussion response - {count} is a number of responses */
+"RESPONSE##{other}"="{count} 回复";
+/* Discussion topics search placeholder */
+"SEARCH_ALL_POSTS"="搜索所有帖子";
+/* Discussion search results  */
+"SEARCH_RESULTS"="搜索结果";
+/* Text shown below the video, in portrait mode */
+"ROTATE_DEVICE"="旋转您的设备来全屏看此视频";
+/*if filter applied then append this string to error message*/
+"REMOVE_FILTER" = "尝试删除您的帖子过滤器";
+/* Label shown when user attempts to view a course section that hasn't been synced  */
+"SECTION_UNAVAILABLE_OFFLINE"="当前章节不支持离线模式\n如果你已经下载了其他章节的内容，转到该部分查看内容。";
+/* Screen title showing a user's settings */
+"SETTINGS"="设置";
+/* Text for a Twitter or Facebook post to a course about page */
+"SHARE_A_COURSE"="我正在上 {platform_name} 课程! 去一探究竟吧:";
+/* Button initiating login process after user enters credentials like username and password */
+"SIGN_IN_BUTTON_TEXT"="登陆";
+/* Message shown while user waits for response to a sign in request */
+"SIGN_IN_BUTTON_TEXT_ON_SIGN_IN"="登陆中...";
+/* Indicates a date in the near future */
+"SOON"="马上";
+/* Label for date when course starts */
+"STARTING"="起始 - {start_date}";
+/* Label for posts pinned by Staff */
+"STAFF"="员工";
+/* Button allowing user to submit feedback about the app via email */
+
+/* Button initiating login process after user enters credentials like username and password */
+"SIGN_IN_BUTTON_TEXT"="登陆";
+/* Message shown while user waits for response to a sign in request */
+"SIGN_IN_BUTTON_TEXT_ON_SIGN_IN"="登陆中...";
+/* Indicates a date in the near future */
+"SOON"="马上";
+/* Label for date when course starts */
+"STARTING"="起始 - {start_date}";
+/* Label for posts pinned by Staff */
+"STAFF"="员工";
+/* Button allowing user to submit feedback about the app via email */
+
+/* Text that indicates the visibility of the post */
+"POST_VISIBILITY"="这个帖子仅对 {cohort} 可见";
+/* Text that indicates the visibility of the post to everyone */
+"POST_VISIBILITY_EVERYONE" = "这个帖子任何人均可查看";
+/* Alert dialog title shown when network request takes too long to complete */
+"TIMEOUT_ALERT_TITLE"="时间到";
+/* Alert dialog content shown when network request takes too long to complete */
+"TIMEOUT_CHECK_INTERNET_CONNECTION"="请检查您的网络连接\n加载此页面所用的时间比预期的要长。";
+/* Title as place holder in Create a new post */
+"TITLE"="标题";
+/* Topic as button title in Create a new post */
+"TOPIC"="主题: {topic}";
+/* Back bar button topics */
+"TOPICS"="主题";
+/* Button text allowing user to reset their password */
+"TROUBLE_IN_LOGIN_BUTTON"="忘记密码?";
+/* Error shown when video download fails */
+"UNABLE_TO_DOWNLOAD"="不可下载" ;
+/* Error shown when the course content could not for an unknown reason. */
+"UNABLE_TO_LOAD_COURSE_CONTENT"="无法加载课程内容\n稍后请重试";
+/* Filtering option to show unanswered discussion posts */
+"UNANSWERED"="未回答";
+/* Navigation title for a Question Post which has no endorsed answers */
+"UNANSWERED_QUESTION" = "未回答的问题";
+/* Filtering option to show unread discussion posts*/
+"UNREAD"="未读";
+/* Placeholder title for course content with no title */
+"UNTITLED"="无标题";
+/* Hint text for login field */
+"USERNAME_PLACEHOLDER" = "用户名或电子邮箱";
+/* Error shown when video download fails */
+"VIDEO_CONTENT_NOT_AVAILABLE"="该视频目前不可用。 请稍后重试";
+/* Floating overlay text shown after deleting a video. {count} is a number of videos */
+"VIDEOS_DELETED##{one}" = "{count} 视频被删除";
+/* Floating overlay text shown after deleting a video. {count} is a number of videos */
+"VIDEOS_DELETED##{other}" = "{count} 视频被删除";
+/* Floating overlay text shown after video download begins. {count} is a number of videos  */
+"VIDEOS_DOWNLOADING##{one}" = "正在下载 {count} 个视频";
+/* Floating overlay text shown after video download begins. {count} is a number of videos  */
+"VIDEOS_DOWNLOADING##{other}" = "正在下载 {count} 个视频";
+/* Message shown to indicate a number of already downloaded videos. {count} is a number of videos  */
+"VIDEOS_DOWNLOADED##{one}" = "已下载 {count} 个视频";
+/* Message shown to indicate a number of already downloaded videos. {count} is a number of videos  */
+"VIDEOS_DOWNLOADED##{other}" = "已下载 {count} 个视频";
+/* Floating overlay text shown while videos download */
+"VIDEO_DOWNLOADS_IN_PROGRESS" = "视频下载中";
+/* Message shown instead of a video when attempting to watch a video that is only availabe on the web */
+"VIDEO_ONLY_ON_WEB" = "此页面目前仅在网页上显示。 点击在浏览器查看";
+/* Alert dialog content shown when user attempts to view a video that hasn't been synced  */
+"VIDEO_NOT_AVAILABLE"="本视频不能在离线模式下观看\n请选择已下载到您设备上的视频";
+/* Shows in the video setting sub-table which item is selected" */
+"VIDEO_SETTING_SELECTED" = "✓ %@";
+/* Button text for showing an associated item */
+"VIEW" = "查看";
+/* Button linking to course announcements */
+"VIEW_HANDOUTS" = "查看课程讲义";
+/* Discussion vote - {count} is a number of votes */
+"VOTE##{one}"="{count} 票";
+/* Discussion vote - {count} is a number of votes */
+"VOTE##{other}"="{count} 票";
+/* Overlay shown after a network request has started, telling the user to wait for the response */
+"WAITING_FOR_RESPONSE"="请等待...";
+/* Alert dialog button title to confirm an action */
+"YES"="确认";
